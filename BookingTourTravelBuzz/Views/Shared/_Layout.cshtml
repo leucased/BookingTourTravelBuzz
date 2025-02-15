@@ -1,0 +1,81 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - BookingTourTravelBuzz</title>
+    <link href="https://fonts.googleapis.com/css2?family=Nico+Moji&display=swap" rel="stylesheet">
+
+    <script type="importmap"></script>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/BookingTourTravelBuzz.styles.css" asp-append-version="true" />
+</head>
+<body>
+    <header style ="position: relative;">
+            <div style="position: relative; width: 100%; height: 46px; background: #1C2B38; display: flex; align-items: center; padding: 0 20px;">
+                <span style="font-family: 'Mulish'; font-style: normal; font-weight: 600; font-size: 20px; color: #FFFFFF; margin-right: 40px;">
+                    info@travelbuzz.com
+                </span>
+                <span style="font-family: 'Mulish'; font-style: normal; font-weight: 600; font-size: 20px; color: #FFFFFF;">
+                    Hotline: 1900 0502
+                </span>
+            </div>
+
+        <nav class="navbar navbar-expand-sm navbar-toggleable-sm border-bottom box-shadow mb-3"
+             style="height: 75px; position: absolute; width: 100%; left: 50%; transform: translateX(-50%);
+    top: 46px;">
+
+            <div class="container-fluid d-flex justify-content-between align-items-center">
+                <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Home"
+                   style="font-family: 'Bahnschrift', sans-serif; font-weight: 400; font-size: 40px;
+           line-height: 30px; color: white;">
+                    TRAVELBUZZ
+                </a>
+                <div class="collapse navbar-collapse d-sm-inline-flex justify-content-end">
+                    <ul class="navbar-nav d-flex gap-3">
+                        <li class="nav-item">
+                            <a class="nav-link" asp-area="" asp-controller="Home" asp-action="Home" style="color: white;">Trang chủ</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" asp-area="" asp-controller="Tour" asp-action="Domestic" style="color: white;">Tour trong nước</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" asp-area="" asp-controller="Tour" asp-action="International" style="color: white;">Tour nước ngoài</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" asp-area="" asp-controller="Home" asp-action="About" style="color: white;">Về chúng tôi</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" asp-area="" asp-controller="Home" asp-action="Contact"
+                               style="color: white; margin-right: 20px;">Liên hệ</a>
+                        </li>
+                    </ul>
+                </div>
+                <button class="btn" asp-area="" asp-controller="Account" asp-action="Login"
+                        style="background-color: yellow; color: black; font-weight: 800; font-size: 16px;">
+                    Đăng nhập
+                </button>
+            </div>
+        </nav>
+
+
+
+    </header>
+    <div class="container">
+        <main role="main" class="pb-3">
+            @RenderBody()
+        </main>
+    </div>
+
+    <footer class="border-top footer text-muted">
+        <div class="container">
+            &copy; 2025 - BookingTourTravelBuzz - <a asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
+        </div>
+    </footer>
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+    @await RenderSectionAsync("Scripts", required: false)
+</body>
+</html>
