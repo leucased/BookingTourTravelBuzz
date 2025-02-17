@@ -4,17 +4,145 @@
 
 <div class="banner"></div>
 
-<p> hello world</p>
+<!-- Hộp tìm kiếm -->
+<div class="search-box d-flex align-items-center p-3">
+    <!-- Điểm khởi hành -->
+    <div class="search-item">
+        <p class="search-value">Điểm khởi hành</p>
+        <p class="search-label">Chọn địa điểm bắt đầu</p>
+    </div>
+
+    <div class="divider"></div>
+
+    <!-- Số lượng người tham gia -->
+    <div class="search-item">
+        <p class="search-value">Số lượng người tham gia</p>
+        <p class="search-label">Số người trên chuyến đi</p>
+    </div>
+
+    <div class="divider"></div>
+
+    <!-- Ngày đi -->
+    <div class="search-item">
+        <p class="search-value">Ngày đi</p>
+        <p class="search-label">Chọn ngày khởi hành</p>
+    </div>
+
+    <!-- Nút tìm kiếm -->
+    <button class="search-button">Tìm kiếm</button>
+</div>
+
+<div class="section-popular">
+    <h2 class="section-title">Những địa điểm nổi tiếng trong nước</h2>
+    <p class="section-description">
+        Việt Nam sở hữu vô số điểm đến tuyệt vời, từ thiên nhiên kỳ vĩ đến văn hóa đặc sắc.
+        Dù bạn tìm kiếm sự thư giãn hay những trải nghiệm mới lạ, luôn có một hành trình dành cho bạn!
+    </p>
+</div>
+
 
 <style>
     .banner {
         position: absolute;
         left: 0;
         top: 45px;
-        width: 100vw;
+        width: 100%;
         height: 100vh;
         background: url('/img/Muine1.png') center top / cover no-repeat;
         z-index: -1;
     }
+
+    /* Hộp tìm kiếm */
+    .search-box {
+        position: absolute;
+        top: 90vh; /* Điều chỉnh vị trí gần bên dưới ảnh */
+        left: 50%;
+        transform: translateX(-50%);
+        width: 1000px;
+        height: 90px;
+        background: #FFFFFF;
+        box-shadow: 0px 10px 30px rgba(123, 188, 176, 0.5);
+        border-radius: 10px;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    /* Các phần tử con */
+    .search-item {
+        flex: 1;
+        text-align: center;
+        margin-top: 10px;
+    }
+
+    .search-value {
+        /* font-family: 'Mulish', sans-serif; */
+        font-weight: 800;
+        font-size: 15px;
+        color: #7BBCB0;
+    }
+
+    .search-label {
+        /* font-family: 'Mulish', sans-serif; */
+        font-style: italic;
+        font-weight: 600;
+        font-size: 14px;
+        color: #778088;
+        margin-top: -5px;
+    }
+
+    /* Đường kẻ phân cách */
+    .divider {
+        width: 3px;
+        height: 40px;
+        background: #E8EAEB;
+    }
+
+    /* Nút tìm kiếm */
+    .search-button {
+        background: #FFD700;
+        color: black;
+        font-weight: bold;
+        border: none;
+        border-radius: 10px;
+        padding: 10px 25px;
+        margin-right: 15px;
+        box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+        transition: all 0.3s ease;
+    }
+
+        .search-button:hover {
+            background: #FFC107;
+            transform: scale(1.05);
+        }
+
+    /* Phần tiêu đề */
+    .section-popular {
+        position: relative;
+        width: 100%;
+        text-align: center;
+        margin-top: 110vh; /* Điều chỉnh khoảng cách từ phần trên */
+    }
+
+    .section-title {
+        font-family: 'Vollkorn', serif;
+        font-weight: 700;
+        font-size: 48px;
+        line-height: 67px;
+        color: #1C2B38;
+        text-shadow: 0px 5px 13px rgba(255, 255, 255, 0.4);
+    }
+
+    .section-description {
+        font-family: 'Mulish', sans-serif;
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 25px;
+        color: #778088;
+        max-width: 696px;
+        margin: 20px auto; /* Canh giữa */
+    }
 </style>
+
+
+
 
