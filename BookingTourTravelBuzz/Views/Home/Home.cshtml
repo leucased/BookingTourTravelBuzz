@@ -1,47 +1,56 @@
 ﻿@{
     ViewData["Title"] = "Trang chủ";
 }
+<body>
+    <div class="banner"></div>
 
-<div class="banner"></div>
+    <!-- Hộp tìm kiếm -->
+    <div class="search-box d-flex align-items-center p-3">
+        <!-- Điểm khởi hành -->
+        <div class="search-item">
+            <p class="search-value">Điểm khởi hành</p>
+            <p class="search-label">Chọn địa điểm bắt đầu</p>
+        </div>
 
-<!-- Hộp tìm kiếm -->
-<div class="search-box d-flex align-items-center p-3">
-    <!-- Điểm khởi hành -->
-    <div class="search-item">
-        <p class="search-value">Điểm khởi hành</p>
-        <p class="search-label">Chọn địa điểm bắt đầu</p>
+        <div class="divider"></div>
+
+        <!-- Số lượng người tham gia -->
+        <div class="search-item">
+            <p class="search-value">Số lượng người tham gia</p>
+            <p class="search-label">Số người trên chuyến đi</p>
+        </div>
+
+        <div class="divider"></div>
+
+        <!-- Ngày đi -->
+        <div class="search-item">
+            <p class="search-value">Ngày đi</p>
+            <p class="search-label">Chọn ngày khởi hành</p>
+        </div>
+
+        <!-- Nút tìm kiếm -->
+        <button class="search-button">Tìm kiếm</button>
     </div>
 
-    <div class="divider"></div>
-
-    <!-- Số lượng người tham gia -->
-    <div class="search-item">
-        <p class="search-value">Số lượng người tham gia</p>
-        <p class="search-label">Số người trên chuyến đi</p>
+    <div class="section-popular">
+        <h2 class="section-title">Những địa điểm nổi tiếng trong nước</h2>
+        <p class="section-description">
+            Việt Nam sở hữu vô số điểm đến tuyệt vời, từ thiên nhiên kỳ vĩ đến văn hóa đặc sắc.
+            Dù bạn tìm kiếm sự thư giãn hay những trải nghiệm mới lạ, luôn có một hành trình dành cho bạn!
+        </p>
     </div>
+    <div class="containerempty"></div>
+</body>
 
-    <div class="divider"></div>
-
-    <!-- Ngày đi -->
-    <div class="search-item">
-        <p class="search-value">Ngày đi</p>
-        <p class="search-label">Chọn ngày khởi hành</p>
-    </div>
-
-    <!-- Nút tìm kiếm -->
-    <button class="search-button">Tìm kiếm</button>
-</div>
-
-<div class="section-popular">
-    <h2 class="section-title">Những địa điểm nổi tiếng trong nước</h2>
-    <p class="section-description">
-        Việt Nam sở hữu vô số điểm đến tuyệt vời, từ thiên nhiên kỳ vĩ đến văn hóa đặc sắc.
-        Dù bạn tìm kiếm sự thư giãn hay những trải nghiệm mới lạ, luôn có một hành trình dành cho bạn!
-    </p>
-</div>
 
 
 <style>
+    .containerempty{
+        height: 500px;
+    }
+    .body{
+        padding-bottom: 500px;
+    }
     .banner {
         position: absolute;
         left: 0;

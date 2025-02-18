@@ -64,9 +64,10 @@
               "RelativeDocumentMoniker": "BookingTourTravelBuzz\\Views\\Home\\Home.cshtml",
               "ToolTip": "I:\\FinalTerm\\BookingTourTravelBuzz\\BookingTourTravelBuzz\\Views\\Home\\Home.cshtml",
               "RelativeToolTip": "BookingTourTravelBuzz\\Views\\Home\\Home.cshtml",
-              "ViewState": "AgIAAFkAAAAAAAAAAAAuwE0AAAAwAAAAAAAAAA==",
+              "ViewState": "AgIAABkAAAAAAAAAAAAuwDAAAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-02-14T06:05:24.88Z"
+              "WhenOpened": "2025-02-14T06:05:24.88Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -76,7 +77,7 @@
               "RelativeDocumentMoniker": "BookingTourTravelBuzz\\Views\\Shared\\_Layout.cshtml",
               "ToolTip": "I:\\FinalTerm\\BookingTourTravelBuzz\\BookingTourTravelBuzz\\Views\\Shared\\_Layout.cshtml",
               "RelativeToolTip": "BookingTourTravelBuzz\\Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAADcAAAAkAAAAAAAAAA==",
+              "ViewState": "AgIAAHkAAAAAAAAAAAAuwIgAAAAeAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-02-12T03:03:43.309Z",
               "EditorCaption": ""
