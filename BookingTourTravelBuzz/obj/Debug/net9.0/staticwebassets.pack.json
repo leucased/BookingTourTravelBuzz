@@ -13,8 +13,36 @@
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
+      "Id": "I:\\FinalTerm\\BookingTourTravelBuzz\\BookingTourTravelBuzz\\wwwroot\\img\\DaLat1.jpg",
+      "PackagePath": "staticwebassets\\img\\DaLat1.jpg"
+    },
+    {
+      "Id": "I:\\FinalTerm\\BookingTourTravelBuzz\\BookingTourTravelBuzz\\wwwroot\\img\\DaNang1.jpg",
+      "PackagePath": "staticwebassets\\img\\DaNang1.jpg"
+    },
+    {
+      "Id": "I:\\FinalTerm\\BookingTourTravelBuzz\\BookingTourTravelBuzz\\wwwroot\\img\\Halong2.jpg",
+      "PackagePath": "staticwebassets\\img\\Halong2.jpg"
+    },
+    {
       "Id": "I:\\FinalTerm\\BookingTourTravelBuzz\\BookingTourTravelBuzz\\wwwroot\\img\\Muine1.png",
       "PackagePath": "staticwebassets\\img\\Muine1.png"
+    },
+    {
+      "Id": "I:\\FinalTerm\\BookingTourTravelBuzz\\BookingTourTravelBuzz\\wwwroot\\img\\PhuQuoc.jpg",
+      "PackagePath": "staticwebassets\\img\\PhuQuoc.jpg"
+    },
+    {
+      "Id": "I:\\FinalTerm\\BookingTourTravelBuzz\\BookingTourTravelBuzz\\wwwroot\\img\\mim1.jpg",
+      "PackagePath": "staticwebassets\\img\\mim1.jpg"
+    },
+    {
+      "Id": "I:\\FinalTerm\\BookingTourTravelBuzz\\BookingTourTravelBuzz\\wwwroot\\img\\mim2.jpg",
+      "PackagePath": "staticwebassets\\img\\mim2.jpg"
+    },
+    {
+      "Id": "I:\\FinalTerm\\BookingTourTravelBuzz\\BookingTourTravelBuzz\\wwwroot\\img\\mim3.jpg",
+      "PackagePath": "staticwebassets\\img\\mim3.jpg"
     },
     {
       "Id": "I:\\FinalTerm\\BookingTourTravelBuzz\\BookingTourTravelBuzz\\wwwroot\\js\\site.js",

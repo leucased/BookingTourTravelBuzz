@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "sWR6C8bLx9ndYyMx1JXCE+0joWO8ZwH+ovSnAKonYrE=",
+  "Hash": "+sxAR/ZCOH92tbz+Rwt4StVLbeU9j3eNQaYhMWQmDkU=",
   "Source": "BookingTourTravelBuzz",
   "BasePath": "_content/BookingTourTravelBuzz",
   "Mode": "Default",
@@ -521,12 +521,12 @@
       "OriginalItemSpec": "I:\\FinalTerm\\BookingTourTravelBuzz\\BookingTourTravelBuzz\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
     },
     {
-      "Identity": "I:\\FinalTerm\\BookingTourTravelBuzz\\BookingTourTravelBuzz\\obj\\Debug\\net9.0\\compressed\\de4bbf9nkg-xtxxf3hu2r.gz",
+      "Identity": "I:\\FinalTerm\\BookingTourTravelBuzz\\BookingTourTravelBuzz\\obj\\Debug\\net9.0\\compressed\\de4bbf9nkg-rba11jz2sw.gz",
       "SourceId": "BookingTourTravelBuzz",
       "SourceType": "Discovered",
       "ContentRoot": "I:\\FinalTerm\\BookingTourTravelBuzz\\BookingTourTravelBuzz\\obj\\Debug\\net9.0\\compressed\\",
       "BasePath": "_content/BookingTourTravelBuzz",
-      "RelativePath": "js/site#[.{fingerprint=xtxxf3hu2r}]?.js.gz",
+      "RelativePath": "js/site#[.{fingerprint=rba11jz2sw}]?.js.gz",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Alternative",
@@ -535,8 +535,8 @@
       "RelatedAsset": "I:\\FinalTerm\\BookingTourTravelBuzz\\BookingTourTravelBuzz\\wwwroot\\js\\site.js",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "fpxp8wntf7",
-      "Integrity": "465WqepNnI4ENLgQJFXrL2gtI20GCfeLK3JAtugOzpA=",
+      "Fingerprint": "8zkysda29l",
+      "Integrity": "tK4QCYfZJCNScv+YBxK0xwSusUq7hcdiH5+KGEzwunw=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "I:\\FinalTerm\\BookingTourTravelBuzz\\BookingTourTravelBuzz\\wwwroot\\js\\site.js"
@@ -962,12 +962,12 @@
       "OriginalItemSpec": "I:\\FinalTerm\\BookingTourTravelBuzz\\BookingTourTravelBuzz\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
     },
     {
-      "Identity": "I:\\FinalTerm\\BookingTourTravelBuzz\\BookingTourTravelBuzz\\obj\\Debug\\net9.0\\compressed\\o19v0u3eyg-b9sayid5wm.gz",
+      "Identity": "I:\\FinalTerm\\BookingTourTravelBuzz\\BookingTourTravelBuzz\\obj\\Debug\\net9.0\\compressed\\o19v0u3eyg-19159umxig.gz",
       "SourceId": "BookingTourTravelBuzz",
       "SourceType": "Discovered",
       "ContentRoot": "I:\\FinalTerm\\BookingTourTravelBuzz\\BookingTourTravelBuzz\\obj\\Debug\\net9.0\\compressed\\",
       "BasePath": "_content/BookingTourTravelBuzz",
-      "RelativePath": "css/site#[.{fingerprint=b9sayid5wm}]?.css.gz",
+      "RelativePath": "css/site#[.{fingerprint=19159umxig}]?.css.gz",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Alternative",
@@ -976,8 +976,8 @@
       "RelatedAsset": "I:\\FinalTerm\\BookingTourTravelBuzz\\BookingTourTravelBuzz\\wwwroot\\css\\site.css",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "wf4wcyqcqt",
-      "Integrity": "fNKkLSNFLZMVTc2zVrpMXQqOwPU3sU4GWcfEbCR2V1I=",
+      "Fingerprint": "xqvifzudhq",
+      "Integrity": "OWxIUh4EMH0g6XlrtHP5woJ0RgXAdL/qEDFYYoV/B3U=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "I:\\FinalTerm\\BookingTourTravelBuzz\\BookingTourTravelBuzz\\wwwroot\\css\\site.css"
@@ -1417,8 +1417,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "b9sayid5wm",
-      "Integrity": "j6fhJSuuyLpOSLuPJU0TsDV0iNjor5S3rDnvxJrt4bg=",
+      "Fingerprint": "19159umxig",
+      "Integrity": "lRZ9czWEhOoOReMKko+VH+FGNyiUfKYSlkXRdqt/+5w=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\site.css"
@@ -1445,6 +1445,132 @@
       "OriginalItemSpec": "wwwroot\\favicon.ico"
     },
     {
+      "Identity": "I:\\FinalTerm\\BookingTourTravelBuzz\\BookingTourTravelBuzz\\wwwroot\\img\\DaLat1.jpg",
+      "SourceId": "BookingTourTravelBuzz",
+      "SourceType": "Discovered",
+      "ContentRoot": "I:\\FinalTerm\\BookingTourTravelBuzz\\BookingTourTravelBuzz\\wwwroot\\",
+      "BasePath": "_content/BookingTourTravelBuzz",
+      "RelativePath": "img/DaLat1#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "ocy0kve7yh",
+      "Integrity": "6L0HYDL5xM53/F4l6XmkJvEymwKrvYtnxAWFzgxzMOg=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\DaLat1.jpg"
+    },
+    {
+      "Identity": "I:\\FinalTerm\\BookingTourTravelBuzz\\BookingTourTravelBuzz\\wwwroot\\img\\DaNang1.jpg",
+      "SourceId": "BookingTourTravelBuzz",
+      "SourceType": "Discovered",
+      "ContentRoot": "I:\\FinalTerm\\BookingTourTravelBuzz\\BookingTourTravelBuzz\\wwwroot\\",
+      "BasePath": "_content/BookingTourTravelBuzz",
+      "RelativePath": "img/DaNang1#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "1vko9tyr4s",
+      "Integrity": "nZyh5HS+ppkt/wcLlfIjrz6ayQ1cmXcGt5CVBZANYqs=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\DaNang1.jpg"
+    },
+    {
+      "Identity": "I:\\FinalTerm\\BookingTourTravelBuzz\\BookingTourTravelBuzz\\wwwroot\\img\\Halong2.jpg",
+      "SourceId": "BookingTourTravelBuzz",
+      "SourceType": "Discovered",
+      "ContentRoot": "I:\\FinalTerm\\BookingTourTravelBuzz\\BookingTourTravelBuzz\\wwwroot\\",
+      "BasePath": "_content/BookingTourTravelBuzz",
+      "RelativePath": "img/Halong2#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "hmy2uihsp1",
+      "Integrity": "N25xlXj3ROW02FEWvmCSvPbxCPC3RM4KLZ0yWY7L0Vs=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\Halong2.jpg"
+    },
+    {
+      "Identity": "I:\\FinalTerm\\BookingTourTravelBuzz\\BookingTourTravelBuzz\\wwwroot\\img\\mim1.jpg",
+      "SourceId": "BookingTourTravelBuzz",
+      "SourceType": "Discovered",
+      "ContentRoot": "I:\\FinalTerm\\BookingTourTravelBuzz\\BookingTourTravelBuzz\\wwwroot\\",
+      "BasePath": "_content/BookingTourTravelBuzz",
+      "RelativePath": "img/mim1#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "pqn827mb5b",
+      "Integrity": "MQiN9DJNOCF1jRW/3lycZEnTmlwsuh6DNU19gBu///Y=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\mim1.jpg"
+    },
+    {
+      "Identity": "I:\\FinalTerm\\BookingTourTravelBuzz\\BookingTourTravelBuzz\\wwwroot\\img\\mim2.jpg",
+      "SourceId": "BookingTourTravelBuzz",
+      "SourceType": "Discovered",
+      "ContentRoot": "I:\\FinalTerm\\BookingTourTravelBuzz\\BookingTourTravelBuzz\\wwwroot\\",
+      "BasePath": "_content/BookingTourTravelBuzz",
+      "RelativePath": "img/mim2#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "o8byt10j26",
+      "Integrity": "mPEMMSliPP+8suXYFpSB0dUc/hMhL0kxB5q9VcGMNVQ=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\mim2.jpg"
+    },
+    {
+      "Identity": "I:\\FinalTerm\\BookingTourTravelBuzz\\BookingTourTravelBuzz\\wwwroot\\img\\mim3.jpg",
+      "SourceId": "BookingTourTravelBuzz",
+      "SourceType": "Discovered",
+      "ContentRoot": "I:\\FinalTerm\\BookingTourTravelBuzz\\BookingTourTravelBuzz\\wwwroot\\",
+      "BasePath": "_content/BookingTourTravelBuzz",
+      "RelativePath": "img/mim3#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "ktn4oqkn1p",
+      "Integrity": "aO7WEQtv0JrfkRHd8JYqfTbp0dVhtGE/QZAOSs2XR2M=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\mim3.jpg"
+    },
+    {
       "Identity": "I:\\FinalTerm\\BookingTourTravelBuzz\\BookingTourTravelBuzz\\wwwroot\\img\\Muine1.png",
       "SourceId": "BookingTourTravelBuzz",
       "SourceType": "Discovered",
@@ -1466,6 +1592,27 @@
       "OriginalItemSpec": "wwwroot\\img\\Muine1.png"
     },
     {
+      "Identity": "I:\\FinalTerm\\BookingTourTravelBuzz\\BookingTourTravelBuzz\\wwwroot\\img\\PhuQuoc.jpg",
+      "SourceId": "BookingTourTravelBuzz",
+      "SourceType": "Discovered",
+      "ContentRoot": "I:\\FinalTerm\\BookingTourTravelBuzz\\BookingTourTravelBuzz\\wwwroot\\",
+      "BasePath": "_content/BookingTourTravelBuzz",
+      "RelativePath": "img/PhuQuoc#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "hjw40dvmu3",
+      "Integrity": "Q77rPRoaymTlwLEd2Wo096Upx2My+oJG9XesieneyXI=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\PhuQuoc.jpg"
+    },
+    {
       "Identity": "I:\\FinalTerm\\BookingTourTravelBuzz\\BookingTourTravelBuzz\\wwwroot\\js\\site.js",
       "SourceId": "BookingTourTravelBuzz",
       "SourceType": "Discovered",
@@ -1480,8 +1627,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "xtxxf3hu2r",
-      "Integrity": "hRQyftXiu1lLX2P9Ly9xa4gHJgLeR1uGN5qegUobtGo=",
+      "Fingerprint": "rba11jz2sw",
+      "Integrity": "eZhjRhVH9B+n48y6tGO7jUoOeH0GLAmXhrdPSRO6gWk=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\js\\site.js"
@@ -3345,13 +3492,13 @@
       ]
     },
     {
-      "Route": "css/site.b9sayid5wm.css",
-      "AssetFile": "I:\\FinalTerm\\BookingTourTravelBuzz\\BookingTourTravelBuzz\\obj\\Debug\\net9.0\\compressed\\o19v0u3eyg-b9sayid5wm.gz",
+      "Route": "css/site.19159umxig.css",
+      "AssetFile": "I:\\FinalTerm\\BookingTourTravelBuzz\\BookingTourTravelBuzz\\obj\\Debug\\net9.0\\compressed\\o19v0u3eyg-19159umxig.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.003125000000"
+          "Quality": "0.001052631579"
         }
       ],
       "ResponseHeaders": [
@@ -3361,15 +3508,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "319"
+          "Value": "949"
         },
         {
           "Name": "ETag",
-          "Value": "\"fNKkLSNFLZMVTc2zVrpMXQqOwPU3sU4GWcfEbCR2V1I=\""
+          "Value": "\"OWxIUh4EMH0g6XlrtHP5woJ0RgXAdL/qEDFYYoV/B3U=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 12 Feb 2025 01:53:22 GMT"
+          "Value": "Fri, 21 Feb 2025 09:00:37 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3389,13 +3536,13 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"j6fhJSuuyLpOSLuPJU0TsDV0iNjor5S3rDnvxJrt4bg=\""
+          "Value": "W/\"lRZ9czWEhOoOReMKko+VH+FGNyiUfKYSlkXRdqt/+5w=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "b9sayid5wm"
+          "Value": "19159umxig"
         },
         {
           "Name": "label",
@@ -3403,12 +3550,12 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-j6fhJSuuyLpOSLuPJU0TsDV0iNjor5S3rDnvxJrt4bg="
+          "Value": "sha256-lRZ9czWEhOoOReMKko+VH+FGNyiUfKYSlkXRdqt/+5w="
         }
       ]
     },
     {
-      "Route": "css/site.b9sayid5wm.css",
+      "Route": "css/site.19159umxig.css",
       "AssetFile": "I:\\FinalTerm\\BookingTourTravelBuzz\\BookingTourTravelBuzz\\wwwroot\\css\\site.css",
       "Selectors": [],
       "ResponseHeaders": [
@@ -3418,7 +3565,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "667"
+          "Value": "2230"
         },
         {
           "Name": "Content-Type",
@@ -3426,11 +3573,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"j6fhJSuuyLpOSLuPJU0TsDV0iNjor5S3rDnvxJrt4bg=\""
+          "Value": "\"lRZ9czWEhOoOReMKko+VH+FGNyiUfKYSlkXRdqt/+5w=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 12 Feb 2025 01:53:22 GMT"
+          "Value": "Fri, 21 Feb 2025 09:00:37 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3440,7 +3587,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "b9sayid5wm"
+          "Value": "19159umxig"
         },
         {
           "Name": "label",
@@ -3448,13 +3595,13 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-j6fhJSuuyLpOSLuPJU0TsDV0iNjor5S3rDnvxJrt4bg="
+          "Value": "sha256-lRZ9czWEhOoOReMKko+VH+FGNyiUfKYSlkXRdqt/+5w="
         }
       ]
     },
     {
-      "Route": "css/site.b9sayid5wm.css.gz",
-      "AssetFile": "I:\\FinalTerm\\BookingTourTravelBuzz\\BookingTourTravelBuzz\\obj\\Debug\\net9.0\\compressed\\o19v0u3eyg-b9sayid5wm.gz",
+      "Route": "css/site.19159umxig.css.gz",
+      "AssetFile": "I:\\FinalTerm\\BookingTourTravelBuzz\\BookingTourTravelBuzz\\obj\\Debug\\net9.0\\compressed\\o19v0u3eyg-19159umxig.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3463,7 +3610,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "319"
+          "Value": "949"
         },
         {
           "Name": "Content-Type",
@@ -3471,11 +3618,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"fNKkLSNFLZMVTc2zVrpMXQqOwPU3sU4GWcfEbCR2V1I=\""
+          "Value": "\"OWxIUh4EMH0g6XlrtHP5woJ0RgXAdL/qEDFYYoV/B3U=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 12 Feb 2025 01:53:22 GMT"
+          "Value": "Fri, 21 Feb 2025 09:00:37 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3493,7 +3640,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "b9sayid5wm"
+          "Value": "19159umxig"
         },
         {
           "Name": "label",
@@ -3501,18 +3648,18 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-fNKkLSNFLZMVTc2zVrpMXQqOwPU3sU4GWcfEbCR2V1I="
+          "Value": "sha256-OWxIUh4EMH0g6XlrtHP5woJ0RgXAdL/qEDFYYoV/B3U="
         }
       ]
     },
     {
       "Route": "css/site.css",
-      "AssetFile": "I:\\FinalTerm\\BookingTourTravelBuzz\\BookingTourTravelBuzz\\obj\\Debug\\net9.0\\compressed\\o19v0u3eyg-b9sayid5wm.gz",
+      "AssetFile": "I:\\FinalTerm\\BookingTourTravelBuzz\\BookingTourTravelBuzz\\obj\\Debug\\net9.0\\compressed\\o19v0u3eyg-19159umxig.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.003125000000"
+          "Quality": "0.001052631579"
         }
       ],
       "ResponseHeaders": [
@@ -3522,15 +3669,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "319"
+          "Value": "949"
         },
         {
           "Name": "ETag",
-          "Value": "\"fNKkLSNFLZMVTc2zVrpMXQqOwPU3sU4GWcfEbCR2V1I=\""
+          "Value": "\"OWxIUh4EMH0g6XlrtHP5woJ0RgXAdL/qEDFYYoV/B3U=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 12 Feb 2025 01:53:22 GMT"
+          "Value": "Fri, 21 Feb 2025 09:00:37 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3550,13 +3697,13 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"j6fhJSuuyLpOSLuPJU0TsDV0iNjor5S3rDnvxJrt4bg=\""
+          "Value": "W/\"lRZ9czWEhOoOReMKko+VH+FGNyiUfKYSlkXRdqt/+5w=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-j6fhJSuuyLpOSLuPJU0TsDV0iNjor5S3rDnvxJrt4bg="
+          "Value": "sha256-lRZ9czWEhOoOReMKko+VH+FGNyiUfKYSlkXRdqt/+5w="
         }
       ]
     },
@@ -3571,7 +3718,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "667"
+          "Value": "2230"
         },
         {
           "Name": "Content-Type",
@@ -3579,11 +3726,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"j6fhJSuuyLpOSLuPJU0TsDV0iNjor5S3rDnvxJrt4bg=\""
+          "Value": "\"lRZ9czWEhOoOReMKko+VH+FGNyiUfKYSlkXRdqt/+5w=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 12 Feb 2025 01:53:22 GMT"
+          "Value": "Fri, 21 Feb 2025 09:00:37 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3593,13 +3740,13 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-j6fhJSuuyLpOSLuPJU0TsDV0iNjor5S3rDnvxJrt4bg="
+          "Value": "sha256-lRZ9czWEhOoOReMKko+VH+FGNyiUfKYSlkXRdqt/+5w="
         }
       ]
     },
     {
       "Route": "css/site.css.gz",
-      "AssetFile": "I:\\FinalTerm\\BookingTourTravelBuzz\\BookingTourTravelBuzz\\obj\\Debug\\net9.0\\compressed\\o19v0u3eyg-b9sayid5wm.gz",
+      "AssetFile": "I:\\FinalTerm\\BookingTourTravelBuzz\\BookingTourTravelBuzz\\obj\\Debug\\net9.0\\compressed\\o19v0u3eyg-19159umxig.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3608,7 +3755,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "319"
+          "Value": "949"
         },
         {
           "Name": "Content-Type",
@@ -3616,11 +3763,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"fNKkLSNFLZMVTc2zVrpMXQqOwPU3sU4GWcfEbCR2V1I=\""
+          "Value": "\"OWxIUh4EMH0g6XlrtHP5woJ0RgXAdL/qEDFYYoV/B3U=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 12 Feb 2025 01:53:22 GMT"
+          "Value": "Fri, 21 Feb 2025 09:00:37 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3638,7 +3785,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-fNKkLSNFLZMVTc2zVrpMXQqOwPU3sU4GWcfEbCR2V1I="
+          "Value": "sha256-OWxIUh4EMH0g6XlrtHP5woJ0RgXAdL/qEDFYYoV/B3U="
         }
       ]
     },
@@ -3941,6 +4088,498 @@
       ]
     },
     {
+      "Route": "img/DaLat1.jpg",
+      "AssetFile": "I:\\FinalTerm\\BookingTourTravelBuzz\\BookingTourTravelBuzz\\wwwroot\\img\\DaLat1.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "181849"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"6L0HYDL5xM53/F4l6XmkJvEymwKrvYtnxAWFzgxzMOg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 19 Feb 2025 04:26:19 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-6L0HYDL5xM53/F4l6XmkJvEymwKrvYtnxAWFzgxzMOg="
+        }
+      ]
+    },
+    {
+      "Route": "img/DaLat1.ocy0kve7yh.jpg",
+      "AssetFile": "I:\\FinalTerm\\BookingTourTravelBuzz\\BookingTourTravelBuzz\\wwwroot\\img\\DaLat1.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "181849"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"6L0HYDL5xM53/F4l6XmkJvEymwKrvYtnxAWFzgxzMOg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 19 Feb 2025 04:26:19 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "ocy0kve7yh"
+        },
+        {
+          "Name": "label",
+          "Value": "img/DaLat1.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-6L0HYDL5xM53/F4l6XmkJvEymwKrvYtnxAWFzgxzMOg="
+        }
+      ]
+    },
+    {
+      "Route": "img/DaNang1.1vko9tyr4s.jpg",
+      "AssetFile": "I:\\FinalTerm\\BookingTourTravelBuzz\\BookingTourTravelBuzz\\wwwroot\\img\\DaNang1.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1252609"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"nZyh5HS+ppkt/wcLlfIjrz6ayQ1cmXcGt5CVBZANYqs=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 18 Feb 2025 07:01:36 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "1vko9tyr4s"
+        },
+        {
+          "Name": "label",
+          "Value": "img/DaNang1.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-nZyh5HS+ppkt/wcLlfIjrz6ayQ1cmXcGt5CVBZANYqs="
+        }
+      ]
+    },
+    {
+      "Route": "img/DaNang1.jpg",
+      "AssetFile": "I:\\FinalTerm\\BookingTourTravelBuzz\\BookingTourTravelBuzz\\wwwroot\\img\\DaNang1.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1252609"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"nZyh5HS+ppkt/wcLlfIjrz6ayQ1cmXcGt5CVBZANYqs=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 18 Feb 2025 07:01:36 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-nZyh5HS+ppkt/wcLlfIjrz6ayQ1cmXcGt5CVBZANYqs="
+        }
+      ]
+    },
+    {
+      "Route": "img/Halong2.hmy2uihsp1.jpg",
+      "AssetFile": "I:\\FinalTerm\\BookingTourTravelBuzz\\BookingTourTravelBuzz\\wwwroot\\img\\Halong2.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "930150"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"N25xlXj3ROW02FEWvmCSvPbxCPC3RM4KLZ0yWY7L0Vs=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 18 Feb 2025 07:02:40 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "hmy2uihsp1"
+        },
+        {
+          "Name": "label",
+          "Value": "img/Halong2.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-N25xlXj3ROW02FEWvmCSvPbxCPC3RM4KLZ0yWY7L0Vs="
+        }
+      ]
+    },
+    {
+      "Route": "img/Halong2.jpg",
+      "AssetFile": "I:\\FinalTerm\\BookingTourTravelBuzz\\BookingTourTravelBuzz\\wwwroot\\img\\Halong2.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "930150"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"N25xlXj3ROW02FEWvmCSvPbxCPC3RM4KLZ0yWY7L0Vs=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 18 Feb 2025 07:02:40 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-N25xlXj3ROW02FEWvmCSvPbxCPC3RM4KLZ0yWY7L0Vs="
+        }
+      ]
+    },
+    {
+      "Route": "img/mim1.jpg",
+      "AssetFile": "I:\\FinalTerm\\BookingTourTravelBuzz\\BookingTourTravelBuzz\\wwwroot\\img\\mim1.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "29092"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"MQiN9DJNOCF1jRW/3lycZEnTmlwsuh6DNU19gBu///Y=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 21 Feb 2025 08:18:36 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-MQiN9DJNOCF1jRW/3lycZEnTmlwsuh6DNU19gBu///Y="
+        }
+      ]
+    },
+    {
+      "Route": "img/mim1.pqn827mb5b.jpg",
+      "AssetFile": "I:\\FinalTerm\\BookingTourTravelBuzz\\BookingTourTravelBuzz\\wwwroot\\img\\mim1.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "29092"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"MQiN9DJNOCF1jRW/3lycZEnTmlwsuh6DNU19gBu///Y=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 21 Feb 2025 08:18:36 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "pqn827mb5b"
+        },
+        {
+          "Name": "label",
+          "Value": "img/mim1.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-MQiN9DJNOCF1jRW/3lycZEnTmlwsuh6DNU19gBu///Y="
+        }
+      ]
+    },
+    {
+      "Route": "img/mim2.jpg",
+      "AssetFile": "I:\\FinalTerm\\BookingTourTravelBuzz\\BookingTourTravelBuzz\\wwwroot\\img\\mim2.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "37834"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"mPEMMSliPP+8suXYFpSB0dUc/hMhL0kxB5q9VcGMNVQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 21 Feb 2025 08:19:03 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-mPEMMSliPP+8suXYFpSB0dUc/hMhL0kxB5q9VcGMNVQ="
+        }
+      ]
+    },
+    {
+      "Route": "img/mim2.o8byt10j26.jpg",
+      "AssetFile": "I:\\FinalTerm\\BookingTourTravelBuzz\\BookingTourTravelBuzz\\wwwroot\\img\\mim2.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "37834"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"mPEMMSliPP+8suXYFpSB0dUc/hMhL0kxB5q9VcGMNVQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 21 Feb 2025 08:19:03 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "o8byt10j26"
+        },
+        {
+          "Name": "label",
+          "Value": "img/mim2.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-mPEMMSliPP+8suXYFpSB0dUc/hMhL0kxB5q9VcGMNVQ="
+        }
+      ]
+    },
+    {
+      "Route": "img/mim3.jpg",
+      "AssetFile": "I:\\FinalTerm\\BookingTourTravelBuzz\\BookingTourTravelBuzz\\wwwroot\\img\\mim3.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "26017"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"aO7WEQtv0JrfkRHd8JYqfTbp0dVhtGE/QZAOSs2XR2M=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 21 Feb 2025 08:18:50 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-aO7WEQtv0JrfkRHd8JYqfTbp0dVhtGE/QZAOSs2XR2M="
+        }
+      ]
+    },
+    {
+      "Route": "img/mim3.ktn4oqkn1p.jpg",
+      "AssetFile": "I:\\FinalTerm\\BookingTourTravelBuzz\\BookingTourTravelBuzz\\wwwroot\\img\\mim3.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "26017"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"aO7WEQtv0JrfkRHd8JYqfTbp0dVhtGE/QZAOSs2XR2M=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 21 Feb 2025 08:18:50 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "ktn4oqkn1p"
+        },
+        {
+          "Name": "label",
+          "Value": "img/mim3.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-aO7WEQtv0JrfkRHd8JYqfTbp0dVhtGE/QZAOSs2XR2M="
+        }
+      ]
+    },
+    {
       "Route": "img/Muine1.7npj31o6rk.png",
       "AssetFile": "I:\\FinalTerm\\BookingTourTravelBuzz\\BookingTourTravelBuzz\\wwwroot\\img\\Muine1.png",
       "Selectors": [],
@@ -4023,13 +4662,95 @@
       ]
     },
     {
+      "Route": "img/PhuQuoc.hjw40dvmu3.jpg",
+      "AssetFile": "I:\\FinalTerm\\BookingTourTravelBuzz\\BookingTourTravelBuzz\\wwwroot\\img\\PhuQuoc.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "838624"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Q77rPRoaymTlwLEd2Wo096Upx2My+oJG9XesieneyXI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 18 Feb 2025 07:02:00 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "hjw40dvmu3"
+        },
+        {
+          "Name": "label",
+          "Value": "img/PhuQuoc.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-Q77rPRoaymTlwLEd2Wo096Upx2My+oJG9XesieneyXI="
+        }
+      ]
+    },
+    {
+      "Route": "img/PhuQuoc.jpg",
+      "AssetFile": "I:\\FinalTerm\\BookingTourTravelBuzz\\BookingTourTravelBuzz\\wwwroot\\img\\PhuQuoc.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "838624"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Q77rPRoaymTlwLEd2Wo096Upx2My+oJG9XesieneyXI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 18 Feb 2025 07:02:00 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-Q77rPRoaymTlwLEd2Wo096Upx2My+oJG9XesieneyXI="
+        }
+      ]
+    },
+    {
       "Route": "js/site.js",
-      "AssetFile": "I:\\FinalTerm\\BookingTourTravelBuzz\\BookingTourTravelBuzz\\obj\\Debug\\net9.0\\compressed\\de4bbf9nkg-xtxxf3hu2r.gz",
+      "AssetFile": "I:\\FinalTerm\\BookingTourTravelBuzz\\BookingTourTravelBuzz\\obj\\Debug\\net9.0\\compressed\\de4bbf9nkg-rba11jz2sw.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.005235602094"
+          "Quality": "0.001481481481"
         }
       ],
       "ResponseHeaders": [
@@ -4039,15 +4760,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "190"
+          "Value": "674"
         },
         {
           "Name": "ETag",
-          "Value": "\"465WqepNnI4ENLgQJFXrL2gtI20GCfeLK3JAtugOzpA=\""
+          "Value": "\"tK4QCYfZJCNScv+YBxK0xwSusUq7hcdiH5+KGEzwunw=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 12 Feb 2025 01:53:22 GMT"
+          "Value": "Fri, 21 Feb 2025 08:08:44 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -4067,13 +4788,13 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"hRQyftXiu1lLX2P9Ly9xa4gHJgLeR1uGN5qegUobtGo=\""
+          "Value": "W/\"eZhjRhVH9B+n48y6tGO7jUoOeH0GLAmXhrdPSRO6gWk=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-hRQyftXiu1lLX2P9Ly9xa4gHJgLeR1uGN5qegUobtGo="
+          "Value": "sha256-eZhjRhVH9B+n48y6tGO7jUoOeH0GLAmXhrdPSRO6gWk="
         }
       ]
     },
@@ -4088,7 +4809,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "231"
+          "Value": "1432"
         },
         {
           "Name": "Content-Type",
@@ -4096,11 +4817,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"hRQyftXiu1lLX2P9Ly9xa4gHJgLeR1uGN5qegUobtGo=\""
+          "Value": "\"eZhjRhVH9B+n48y6tGO7jUoOeH0GLAmXhrdPSRO6gWk=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 12 Feb 2025 01:53:22 GMT"
+          "Value": "Fri, 21 Feb 2025 08:08:44 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -4110,13 +4831,13 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-hRQyftXiu1lLX2P9Ly9xa4gHJgLeR1uGN5qegUobtGo="
+          "Value": "sha256-eZhjRhVH9B+n48y6tGO7jUoOeH0GLAmXhrdPSRO6gWk="
         }
       ]
     },
     {
       "Route": "js/site.js.gz",
-      "AssetFile": "I:\\FinalTerm\\BookingTourTravelBuzz\\BookingTourTravelBuzz\\obj\\Debug\\net9.0\\compressed\\de4bbf9nkg-xtxxf3hu2r.gz",
+      "AssetFile": "I:\\FinalTerm\\BookingTourTravelBuzz\\BookingTourTravelBuzz\\obj\\Debug\\net9.0\\compressed\\de4bbf9nkg-rba11jz2sw.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4125,7 +4846,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "190"
+          "Value": "674"
         },
         {
           "Name": "Content-Type",
@@ -4133,11 +4854,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"465WqepNnI4ENLgQJFXrL2gtI20GCfeLK3JAtugOzpA=\""
+          "Value": "\"tK4QCYfZJCNScv+YBxK0xwSusUq7hcdiH5+KGEzwunw=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 12 Feb 2025 01:53:22 GMT"
+          "Value": "Fri, 21 Feb 2025 08:08:44 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -4155,18 +4876,18 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-465WqepNnI4ENLgQJFXrL2gtI20GCfeLK3JAtugOzpA="
+          "Value": "sha256-tK4QCYfZJCNScv+YBxK0xwSusUq7hcdiH5+KGEzwunw="
         }
       ]
     },
     {
-      "Route": "js/site.xtxxf3hu2r.js",
-      "AssetFile": "I:\\FinalTerm\\BookingTourTravelBuzz\\BookingTourTravelBuzz\\obj\\Debug\\net9.0\\compressed\\de4bbf9nkg-xtxxf3hu2r.gz",
+      "Route": "js/site.rba11jz2sw.js",
+      "AssetFile": "I:\\FinalTerm\\BookingTourTravelBuzz\\BookingTourTravelBuzz\\obj\\Debug\\net9.0\\compressed\\de4bbf9nkg-rba11jz2sw.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.005235602094"
+          "Quality": "0.001481481481"
         }
       ],
       "ResponseHeaders": [
@@ -4176,15 +4897,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "190"
+          "Value": "674"
         },
         {
           "Name": "ETag",
-          "Value": "\"465WqepNnI4ENLgQJFXrL2gtI20GCfeLK3JAtugOzpA=\""
+          "Value": "\"tK4QCYfZJCNScv+YBxK0xwSusUq7hcdiH5+KGEzwunw=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 12 Feb 2025 01:53:22 GMT"
+          "Value": "Fri, 21 Feb 2025 08:08:44 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -4204,13 +4925,13 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"hRQyftXiu1lLX2P9Ly9xa4gHJgLeR1uGN5qegUobtGo=\""
+          "Value": "W/\"eZhjRhVH9B+n48y6tGO7jUoOeH0GLAmXhrdPSRO6gWk=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "xtxxf3hu2r"
+          "Value": "rba11jz2sw"
         },
         {
           "Name": "label",
@@ -4218,12 +4939,12 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-hRQyftXiu1lLX2P9Ly9xa4gHJgLeR1uGN5qegUobtGo="
+          "Value": "sha256-eZhjRhVH9B+n48y6tGO7jUoOeH0GLAmXhrdPSRO6gWk="
         }
       ]
     },
     {
-      "Route": "js/site.xtxxf3hu2r.js",
+      "Route": "js/site.rba11jz2sw.js",
       "AssetFile": "I:\\FinalTerm\\BookingTourTravelBuzz\\BookingTourTravelBuzz\\wwwroot\\js\\site.js",
       "Selectors": [],
       "ResponseHeaders": [
@@ -4233,7 +4954,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "231"
+          "Value": "1432"
         },
         {
           "Name": "Content-Type",
@@ -4241,11 +4962,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"hRQyftXiu1lLX2P9Ly9xa4gHJgLeR1uGN5qegUobtGo=\""
+          "Value": "\"eZhjRhVH9B+n48y6tGO7jUoOeH0GLAmXhrdPSRO6gWk=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 12 Feb 2025 01:53:22 GMT"
+          "Value": "Fri, 21 Feb 2025 08:08:44 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -4255,7 +4976,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "xtxxf3hu2r"
+          "Value": "rba11jz2sw"
         },
         {
           "Name": "label",
@@ -4263,13 +4984,13 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-hRQyftXiu1lLX2P9Ly9xa4gHJgLeR1uGN5qegUobtGo="
+          "Value": "sha256-eZhjRhVH9B+n48y6tGO7jUoOeH0GLAmXhrdPSRO6gWk="
         }
       ]
     },
     {
-      "Route": "js/site.xtxxf3hu2r.js.gz",
-      "AssetFile": "I:\\FinalTerm\\BookingTourTravelBuzz\\BookingTourTravelBuzz\\obj\\Debug\\net9.0\\compressed\\de4bbf9nkg-xtxxf3hu2r.gz",
+      "Route": "js/site.rba11jz2sw.js.gz",
+      "AssetFile": "I:\\FinalTerm\\BookingTourTravelBuzz\\BookingTourTravelBuzz\\obj\\Debug\\net9.0\\compressed\\de4bbf9nkg-rba11jz2sw.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4278,7 +4999,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "190"
+          "Value": "674"
         },
         {
           "Name": "Content-Type",
@@ -4286,11 +5007,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"465WqepNnI4ENLgQJFXrL2gtI20GCfeLK3JAtugOzpA=\""
+          "Value": "\"tK4QCYfZJCNScv+YBxK0xwSusUq7hcdiH5+KGEzwunw=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 12 Feb 2025 01:53:22 GMT"
+          "Value": "Fri, 21 Feb 2025 08:08:44 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -4308,7 +5029,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "xtxxf3hu2r"
+          "Value": "rba11jz2sw"
         },
         {
           "Name": "label",
@@ -4316,7 +5037,7 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-465WqepNnI4ENLgQJFXrL2gtI20GCfeLK3JAtugOzpA="
+          "Value": "sha256-tK4QCYfZJCNScv+YBxK0xwSusUq7hcdiH5+KGEzwunw="
         }
       ]
     },

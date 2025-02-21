@@ -1,7 +1,14 @@
 ﻿@{
     ViewData["Title"] = "Trang chủ";
 }
+<link rel="stylesheet" href="/css/site.css" asp-append-version="true" />
+<script src="/js/site.js" asp-append-version="true"></script>
+
+
 <body>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
     <div class="banner"></div>
 
     <!-- Hộp tìm kiếm -->
@@ -32,6 +39,34 @@
         <button class="search-button">Tìm kiếm</button>
     </div>
 
+    <div class="section-popular1">
+        <h2 class="section-title1">Các chương trình du lịch độc đáo</h2>
+        <div id="carouselExampleIndicators" class="carousel slide">
+            @* <ol class="carousel-indicators">
+                <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+            </ol> *@
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="/img/mim1.jpg" class="d-block w-100" alt="Ảnh 1">
+                </div>
+                <div class="carousel-item">
+                    <img src="/img/mim2.jpg" class="d-block w-100" alt="Ảnh 2">
+                </div>
+                <div class="carousel-item">
+                    <img src="/img/mim3.jpg" class="d-block w-100" alt="Ảnh 3">
+                </div>
+            </div>
+            <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon"></span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                <span class="carousel-control-next-icon"></span>
+            </a>
+        </div>
+    </div>
+
     <div class="section-popular">
         <h2 class="section-title">Những địa điểm nổi tiếng trong nước</h2>
         <p class="section-description">
@@ -39,6 +74,28 @@
             Dù bạn tìm kiếm sự thư giãn hay những trải nghiệm mới lạ, luôn có một hành trình dành cho bạn!
         </p>
     </div>
+    <div class="container">
+        <!-- Button -->
+        <div class="button-container" style="display: flex; justify-content: center; gap: 25px; margin-bottom: 20px;">
+            <button class="btn custom-nut active" onclick="changeImage('/img/PhuQuoc.jpg', 'Phú Quốc', this)">Phú Quốc</button>
+            <button class="btn custom-nut" onclick="changeImage('/img/Halong2.jpg', 'Hạ Long', this)">Hạ Long</button>
+            <button class="btn custom-nut" onclick="changeImage('/img/DaNang1.jpg', 'Đà Nẵng', this)">Đà Nẵng</button>
+            <button class="btn custom-nut" onclick="changeImage('/img/DaLat1.jpg', 'Đà Lạt', this)">Đà Lạt</button>
+        </div>
+
+        <!-- Hình ảnh hiển thị -->
+        <div class="image-container" style="display: flex; justify-content: center; align-items: center; margin: auto; max width: 600px; width: 70%;">
+            <img class="img-fluid" id="displayedImage" src="/img/PhuQuoc.jpg" alt="Image Display">
+        </div>
+        <!-- Div hiển thị thông tin -->
+        <div id="infoBox" class="info-container">
+            <h2 id="tourTitle">Phú Quốc</h2>
+            <p id="tourDescription">Mô tả tour Phú Quốc. Một địa điểm tuyệt vời với biển xanh và nắng vàng.</p>
+            <p><strong>Thời gian:</strong> <span id="tourDuration">3 ngày 2 đêm</span></p>
+            <button class="btn btn-primary">Đặt ngay</button>
+        </div>
+    </div>
+    
     <div class="containerempty"></div>
 </body>
 
@@ -124,17 +181,18 @@
             transform: scale(1.05);
         }
 
+    
+
     /* Phần tiêu đề */
     .section-popular {
         position: relative;
         width: 100%;
         text-align: center;
-        margin-top: 110vh; /* Điều chỉnh khoảng cách từ phần trên */
+        /* margin-top: 110vh; /* Điều chỉnh khoảng cách từ phần trên */ */
     }
 
     .section-title {
-        font-family: 'Vollkorn', serif;
-        font-weight: 700;
+        font-weight: 500;
         font-size: 48px;
         line-height: 67px;
         color: #1C2B38;
@@ -149,9 +207,41 @@
         color: #778088;
         max-width: 696px;
         margin: 20px auto; /* Canh giữa */
+        .button-container
+
+    {
+        display: flex;
+        justify-content: center;
+        gap: 15px;
+        margin-bottom: 20px;
+    }
+
+    .container {
+        align-items: center;
+        height: auto; /* Chiếm toàn bộ chiều cao màn hình */
+        width: 600px;
+    }
+
+    /* Chứa các button */
+    .button-container {
+        display: flex;
+        justify-content:space-evenly;
+        align-items: center;
+        gap: 25px;
+        margin-bottom: 20px; /* Tạo khoảng cách giữa button và ảnh */
+        width: 100%;
+    }
+
+    /* Style cho button */
+    .custom-nut {
+        border: 2px solid #7BBCB0; /* Viền luôn là 7BBCB0 */
+        color: #7BBCB0;
+        background-color: transparent;
+        border-radius: 50px;
+        padding: 10px 25px;
+        cursor: pointer;
+        transition: all 0.3s ease;
+        font-size: 16px;
+        font-weight: bold;
     }
 </style>
-
-
-
-

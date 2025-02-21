@@ -1,4 +1,4 @@
-html {
+﻿html {
   font-size: 14px;
 }
 
@@ -29,3 +29,63 @@ body {
 .form-floating > .form-control-plaintext:focus::placeholder, .form-floating > .form-control:focus::placeholder {
   text-align: start;
 }
+
+.section-popular1 {
+    position: relative;
+    width: 70%;
+    margin: 105vh auto 0 auto; /* Căn giữa */
+    text-align: center;
+    display: flex;
+    flex-direction: column; /* Xếp tiêu đề + carousel theo chiều dọc */
+    align-items: center; /* Căn giữa ngang */
+    margin-bottom: 40px;
+}
+
+.section-title1 {
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 67px;
+    color: #1C2B38;
+    text-shadow: 0px 5px 13px rgba(255, 255, 255, 0.4);
+    margin-bottom: 30px; /* Thêm khoảng cách với ảnh */
+}
+
+.carousel {
+    width: 100%; /* Đảm bảo ảnh không bị lệch */
+    max-width: 800px; /* Giới hạn chiều rộng */
+}
+
+/* Khi button được chọn */
+.custom-nut:hover, .custom-nut.focus, .custom-nut.active {
+    outline: none;
+    background-color: #7BBCB0;
+    color: white;
+    box-shadow: none;
+}
+
+/* Style cho div chứa thông tin */
+.info-container {
+    text-align: center;
+    margin-top: 20px;
+    padding: 20px;
+    background-color: #f8f9fa;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1); /* Viền shadow */
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+    .info-container button {
+        background-color: #7BBCB0;
+        color: white;
+        border: none;
+        padding: 10px 20px;
+        border-radius: 5px;
+        cursor: pointer;
+        transition: background 0.3s ease;
+    }
+
+        .info-container button:hover {
+            background-color: #689E91;
+        }

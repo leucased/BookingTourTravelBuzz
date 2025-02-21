@@ -62,7 +62,14 @@ I:\FinalTerm\BookingTourTravelBuzz\BookingTourTravelBuzz\wwwroot\lib\bootstrap\d
 I:\FinalTerm\BookingTourTravelBuzz\BookingTourTravelBuzz\wwwroot\lib\bootstrap\dist\js\bootstrap.js
 wwwroot\css\site.css
 wwwroot\favicon.ico
+wwwroot\img\DaLat1.jpg
+wwwroot\img\DaNang1.jpg
+wwwroot\img\Halong2.jpg
+wwwroot\img\mim1.jpg
+wwwroot\img\mim2.jpg
+wwwroot\img\mim3.jpg
 wwwroot\img\Muine1.png
+wwwroot\img\PhuQuoc.jpg
 wwwroot\js\site.js
 wwwroot\lib\bootstrap\dist\css\bootstrap.css
 wwwroot\lib\bootstrap\dist\css\bootstrap.css.map
