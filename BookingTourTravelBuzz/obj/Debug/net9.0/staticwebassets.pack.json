@@ -13,6 +13,14 @@
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
+      "Id": "I:\\FinalTerm\\BookingTourTravelBuzz\\BookingTourTravelBuzz\\wwwroot\\img\\BannerInternational.jpg",
+      "PackagePath": "staticwebassets\\img\\BannerInternational.jpg"
+    },
+    {
+      "Id": "I:\\FinalTerm\\BookingTourTravelBuzz\\BookingTourTravelBuzz\\wwwroot\\img\\Bannerdomestic.webp",
+      "PackagePath": "staticwebassets\\img\\Bannerdomestic.webp"
+    },
+    {
       "Id": "I:\\FinalTerm\\BookingTourTravelBuzz\\BookingTourTravelBuzz\\wwwroot\\img\\DaLat1.jpg",
       "PackagePath": "staticwebassets\\img\\DaLat1.jpg"
     },
@@ -29,8 +37,32 @@
       "PackagePath": "staticwebassets\\img\\Muine1.png"
     },
     {
+      "Id": "I:\\FinalTerm\\BookingTourTravelBuzz\\BookingTourTravelBuzz\\wwwroot\\img\\Muine2.webp",
+      "PackagePath": "staticwebassets\\img\\Muine2.webp"
+    },
+    {
       "Id": "I:\\FinalTerm\\BookingTourTravelBuzz\\BookingTourTravelBuzz\\wwwroot\\img\\PhuQuoc.jpg",
       "PackagePath": "staticwebassets\\img\\PhuQuoc.jpg"
+    },
+    {
+      "Id": "I:\\FinalTerm\\BookingTourTravelBuzz\\BookingTourTravelBuzz\\wwwroot\\img\\ads\\ad3.webp",
+      "PackagePath": "staticwebassets\\img\\ads\\ad3.webp"
+    },
+    {
+      "Id": "I:\\FinalTerm\\BookingTourTravelBuzz\\BookingTourTravelBuzz\\wwwroot\\img\\ads\\ad4.webp",
+      "PackagePath": "staticwebassets\\img\\ads\\ad4.webp"
+    },
+    {
+      "Id": "I:\\FinalTerm\\BookingTourTravelBuzz\\BookingTourTravelBuzz\\wwwroot\\img\\ads\\ads1.webp",
+      "PackagePath": "staticwebassets\\img\\ads\\ads1.webp"
+    },
+    {
+      "Id": "I:\\FinalTerm\\BookingTourTravelBuzz\\BookingTourTravelBuzz\\wwwroot\\img\\ads\\ads2.webp",
+      "PackagePath": "staticwebassets\\img\\ads\\ads2.webp"
+    },
+    {
+      "Id": "I:\\FinalTerm\\BookingTourTravelBuzz\\BookingTourTravelBuzz\\wwwroot\\img\\bannerads1.jpg",
+      "PackagePath": "staticwebassets\\img\\bannerads1.jpg"
     },
     {
       "Id": "I:\\FinalTerm\\BookingTourTravelBuzz\\BookingTourTravelBuzz\\wwwroot\\img\\mim1.jpg",
@@ -43,6 +75,10 @@
     {
       "Id": "I:\\FinalTerm\\BookingTourTravelBuzz\\BookingTourTravelBuzz\\wwwroot\\img\\mim3.jpg",
       "PackagePath": "staticwebassets\\img\\mim3.jpg"
+    },
+    {
+      "Id": "I:\\FinalTerm\\BookingTourTravelBuzz\\BookingTourTravelBuzz\\wwwroot\\img\\mim4.jpg",
+      "PackagePath": "staticwebassets\\img\\mim4.jpg"
     },
     {
       "Id": "I:\\FinalTerm\\BookingTourTravelBuzz\\BookingTourTravelBuzz\\wwwroot\\js\\site.js",

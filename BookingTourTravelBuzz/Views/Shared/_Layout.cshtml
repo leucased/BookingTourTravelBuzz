@@ -29,26 +29,26 @@
             <div class="container-fluid d-flex justify-content-between align-items-center">
                 <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Home"
                    style="font-family: 'Bahnschrift', sans-serif;margin-left: 10px; font-weight: 400; font-size: 40px;
-           line-height: 30px; color: white;">
+           line-height: 30px; color: lightgray;">
                     TRAVELBUZZ
                 </a>
                 <div class="collapse navbar-collapse d-sm-inline-flex justify-content-end">
                     <ul class="navbar-nav d-flex gap-3">
                         <li class="nav-item">
-                            <a class="nav-link" asp-area="" asp-controller="Home" asp-action="Home" style="color: white;">Trang chủ</a>
+                            <a class="nav-link" asp-area="" asp-controller="Home" asp-action="Home" style="color: gray;">Trang chủ</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" asp-area="" asp-controller="Tour" asp-action="Domestic" style="color: white;">Tour trong nước</a>
+                            <a class="nav-link" asp-area="" asp-controller="Tour" asp-action="Domestic" style="color: gray;">Tour trong nước</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" asp-area="" asp-controller="Tour" asp-action="International" style="color: white;">Tour nước ngoài</a>
+                            <a class="nav-link" asp-area="" asp-controller="Tour" asp-action="International" style="color: gray;">Tour nước ngoài</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" asp-area="" asp-controller="Home" asp-action="About" style="color: white;">Về chúng tôi</a>
+                            <a class="nav-link" asp-area="" asp-controller="Home" asp-action="About" style="color: gray;">Giới thiệu</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" asp-area="" asp-controller="Home" asp-action="Contact"
-                               style="color: white; margin-right: 20px;">Liên hệ</a>
+                               style="color: gray; margin-right: 20px;">Liên hệ</a>
                         </li>
                     </ul>
                 </div>
@@ -76,9 +76,9 @@
                 <div class="col-md-2 footer-section">
                     <h3 class="footer-title">Dịch vụ</h3>
                     <ul class="footer-list">
-                        <li><a asp-controller="Home" asp-action="Index">Trang chủ</a></li>
-                        <li><a asp-controller="Tour" asp-action="Domestic">Tour trong nước</a></li>
-                        <li><a asp-controller="Tour" asp-action="International">Tour nước ngoài</a></li>
+                        <li><a asp-controller="Home" asp-action="Home">Trang chủ</a></li>
+                        <li><a asp-controller="Tours" asp-action="Domestic">Tour trong nước</a></li>
+                        <li><a asp-controller="Tours" asp-action="International">Tour nước ngoài</a></li>
                         <li><a asp-controller="Booking" asp-action="History">Lịch sử đặt tour</a></li>
                     </ul>
                 </div>
@@ -86,7 +86,7 @@
                 <div class="col-md-2 footer-section">
                     <h3 class="footer-title">Trợ giúp</h3>
                     <ul class="footer-list">
-                        <li><a asp-controller="About" asp-action="Index">Về chúng tôi</a></li>
+                        <li><a asp-controller="About" asp-action="Index">Giới thiệu</a></li>
                         <li><a asp-controller="Contact" asp-action="Index">Liên hệ</a></li>
                     </ul>
                 </div>

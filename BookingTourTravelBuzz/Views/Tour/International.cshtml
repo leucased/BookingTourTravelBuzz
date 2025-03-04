@@ -1,0 +1,103 @@
+﻿@{
+    ViewData["Title"] = "Tour Nước ngoài";
+}
+<link rel="stylesheet" href="/css/site.css" asp-append-version="true" />
+<script src="/js/site.js" asp-append-version="true"></script>
+
+
+<body>
+
+    <div class="banner"></div>
+    <div class="containerempty1"></div>
+    <h2 class="section-title">Các tour nước ngoài</h2>
+
+    @model List<Tour>
+
+    <section style="background-color: #eee;">
+        <div class="container py-5">
+            @if (Model.Count == 0)
+            {
+                <div class="text-center">
+                    <h4>Không có tour nước ngoài nào!</h4>
+                </div>
+            }
+            else
+            {
+                @foreach (var tour in Model)
+                {
+                    <div class="row justify-content-center mb-3">
+                        <div class="col-md-12 col-xl-10">
+                            <div class="card shadow-0 border rounded-3">
+                                <div class="card-body">
+                                    <div class="row">
+                                        <div class="col-md-12 col-lg-3 col-xl-3 mb-4 mb-lg-0">
+                                            <div class="bg-image hover-zoom ripple rounded ripple-surface">
+                                                <img src="https://via.placeholder.com/300x200" class="w-100" alt="@tour.NAME_TOUR" />
+                                                <a href="#!">
+                                                    <div class="hover-overlay">
+                                                        <div class="mask" style="background-color: rgba(253, 253, 253, 0.15);"></div>
+                                                    </div>
+                                                </a>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6 col-lg-6 col-xl-6">
+                                            <h5>@tour.NAME_TOUR</h5>
+                                            <div class="text-muted small">
+                                                <span>⏳ @tour.TIME_TOUR</span>
+                                                <span class="text-primary"> • </span>
+                                                <span>🏨 @tour.HOTEL_TOUR</span>
+                                                <span class="text-primary"> • </span>
+                                                <span>🚌 @tour.TRANSPORTATION_TOUR</span>
+                                            </div>
+                                            <p class="text-truncate mb-4 mb-md-0">
+                                                @tour.DESCRIPTION_TOUR
+                                            </p>
+                                            <p><strong>📍 Điểm đến:</strong> @tour.DESTINATION_TOUR</p>
+                                        </div>
+                                        <div class="col-md-6 col-lg-3 col-xl-3 border-sm-start-none border-start">
+                                            <div class="d-flex flex-row align-items-center mb-1">
+                                                <h4 class="mb-1 me-1">@tour.PRICE_TOUR.ToString("N0") VND</h4>
+                                            </div>
+                                            <div class="d-flex flex-column mt-4">
+                                                <a href="/Tour/TourDetails/@tour.ID_TOUR" class="btn btn-primary btn-sm">Chi tiết về tour</a>
+                                                <button class="btn btn-outline-primary btn-sm mt-2" type="button">Đặt tour ngay</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                }
+            }
+        </div>
+    </section>
+
+
+    <div class="containerempty"></div>
+</body>
+
+<style>
+
+    .containerempty1 {
+        height: 650px;
+    }
+
+    .containerempty {
+        height: 400px;
+    }
+
+    /* .body {
+            padding-bottom: 500px;
+        } */
+    .banner {
+        margin-top: 75px;
+        position: absolute;
+        left: 0;
+        top: 45px;
+        width: 100%;
+        height: 80vh;
+        background: url('/img/BannerInternational.jpg') center top / cover no-repeat;
+        z-index: -1;
+    }
+</style>

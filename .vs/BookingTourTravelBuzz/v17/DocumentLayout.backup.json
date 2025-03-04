@@ -3,28 +3,68 @@
   "WorkspaceRootPath": "I:\\FinalTerm\\BookingTourTravelBuzz\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{1FDADCB0-BEB1-4542-9186-A5903B95403F}|BookingTourTravelBuzz\\BookingTourTravelBuzz.csproj|i:\\finalterm\\bookingtourtravelbuzz\\bookingtourtravelbuzz\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1FDADCB0-BEB1-4542-9186-A5903B95403F}|BookingTourTravelBuzz\\BookingTourTravelBuzz.csproj|solutionrelative:bookingtourtravelbuzz\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{1FDADCB0-BEB1-4542-9186-A5903B95403F}|BookingTourTravelBuzz\\BookingTourTravelBuzz.csproj|i:\\finalterm\\bookingtourtravelbuzz\\bookingtourtravelbuzz\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
       "RelativeMoniker": "D:0:0:{1FDADCB0-BEB1-4542-9186-A5903B95403F}|BookingTourTravelBuzz\\BookingTourTravelBuzz.csproj|solutionrelative:bookingtourtravelbuzz\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1FDADCB0-BEB1-4542-9186-A5903B95403F}|BookingTourTravelBuzz\\BookingTourTravelBuzz.csproj|i:\\finalterm\\bookingtourtravelbuzz\\bookingtourtravelbuzz\\views\\tour\\tourdetails.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1FDADCB0-BEB1-4542-9186-A5903B95403F}|BookingTourTravelBuzz\\BookingTourTravelBuzz.csproj|solutionrelative:bookingtourtravelbuzz\\views\\tour\\tourdetails.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1FDADCB0-BEB1-4542-9186-A5903B95403F}|BookingTourTravelBuzz\\BookingTourTravelBuzz.csproj|i:\\finalterm\\bookingtourtravelbuzz\\bookingtourtravelbuzz\\views\\tour\\domestic.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1FDADCB0-BEB1-4542-9186-A5903B95403F}|BookingTourTravelBuzz\\BookingTourTravelBuzz.csproj|solutionrelative:bookingtourtravelbuzz\\views\\tour\\domestic.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1FDADCB0-BEB1-4542-9186-A5903B95403F}|BookingTourTravelBuzz\\BookingTourTravelBuzz.csproj|i:\\finalterm\\bookingtourtravelbuzz\\bookingtourtravelbuzz\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1FDADCB0-BEB1-4542-9186-A5903B95403F}|BookingTourTravelBuzz\\BookingTourTravelBuzz.csproj|solutionrelative:bookingtourtravelbuzz\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1FDADCB0-BEB1-4542-9186-A5903B95403F}|BookingTourTravelBuzz\\BookingTourTravelBuzz.csproj|i:\\finalterm\\bookingtourtravelbuzz\\bookingtourtravelbuzz\\models\\tours\\itourrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1FDADCB0-BEB1-4542-9186-A5903B95403F}|BookingTourTravelBuzz\\BookingTourTravelBuzz.csproj|solutionrelative:bookingtourtravelbuzz\\models\\tours\\itourrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1FDADCB0-BEB1-4542-9186-A5903B95403F}|BookingTourTravelBuzz\\BookingTourTravelBuzz.csproj|i:\\finalterm\\bookingtourtravelbuzz\\bookingtourtravelbuzz\\models\\tours\\area.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1FDADCB0-BEB1-4542-9186-A5903B95403F}|BookingTourTravelBuzz\\BookingTourTravelBuzz.csproj|solutionrelative:bookingtourtravelbuzz\\models\\tours\\area.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1FDADCB0-BEB1-4542-9186-A5903B95403F}|BookingTourTravelBuzz\\BookingTourTravelBuzz.csproj|i:\\finalterm\\bookingtourtravelbuzz\\bookingtourtravelbuzz\\models\\tours\\tourrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1FDADCB0-BEB1-4542-9186-A5903B95403F}|BookingTourTravelBuzz\\BookingTourTravelBuzz.csproj|solutionrelative:bookingtourtravelbuzz\\models\\tours\\tourrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1FDADCB0-BEB1-4542-9186-A5903B95403F}|BookingTourTravelBuzz\\BookingTourTravelBuzz.csproj|i:\\finalterm\\bookingtourtravelbuzz\\bookingtourtravelbuzz\\models\\tours\\tour.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1FDADCB0-BEB1-4542-9186-A5903B95403F}|BookingTourTravelBuzz\\BookingTourTravelBuzz.csproj|solutionrelative:bookingtourtravelbuzz\\models\\tours\\tour.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{1FDADCB0-BEB1-4542-9186-A5903B95403F}|BookingTourTravelBuzz\\BookingTourTravelBuzz.csproj|i:\\finalterm\\bookingtourtravelbuzz\\bookingtourtravelbuzz\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1FDADCB0-BEB1-4542-9186-A5903B95403F}|BookingTourTravelBuzz\\BookingTourTravelBuzz.csproj|solutionrelative:bookingtourtravelbuzz\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{1FDADCB0-BEB1-4542-9186-A5903B95403F}|BookingTourTravelBuzz\\BookingTourTravelBuzz.csproj|i:\\finalterm\\bookingtourtravelbuzz\\bookingtourtravelbuzz\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{1FDADCB0-BEB1-4542-9186-A5903B95403F}|BookingTourTravelBuzz\\BookingTourTravelBuzz.csproj|solutionrelative:bookingtourtravelbuzz\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1FDADCB0-BEB1-4542-9186-A5903B95403F}|BookingTourTravelBuzz\\BookingTourTravelBuzz.csproj|i:\\finalterm\\bookingtourtravelbuzz\\bookingtourtravelbuzz\\views\\tour\\international.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1FDADCB0-BEB1-4542-9186-A5903B95403F}|BookingTourTravelBuzz\\BookingTourTravelBuzz.csproj|solutionrelative:bookingtourtravelbuzz\\views\\tour\\international.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{1FDADCB0-BEB1-4542-9186-A5903B95403F}|BookingTourTravelBuzz\\BookingTourTravelBuzz.csproj|i:\\finalterm\\bookingtourtravelbuzz\\bookingtourtravelbuzz\\views\\home\\home.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{1FDADCB0-BEB1-4542-9186-A5903B95403F}|BookingTourTravelBuzz\\BookingTourTravelBuzz.csproj|solutionrelative:bookingtourtravelbuzz\\views\\home\\home.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1FDADCB0-BEB1-4542-9186-A5903B95403F}|BookingTourTravelBuzz\\BookingTourTravelBuzz.csproj|i:\\finalterm\\bookingtourtravelbuzz\\bookingtourtravelbuzz\\wwwroot\\js\\site.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
-      "RelativeMoniker": "D:0:0:{1FDADCB0-BEB1-4542-9186-A5903B95403F}|BookingTourTravelBuzz\\BookingTourTravelBuzz.csproj|solutionrelative:bookingtourtravelbuzz\\wwwroot\\js\\site.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+      "AbsoluteMoniker": "D:0:0:{1FDADCB0-BEB1-4542-9186-A5903B95403F}|BookingTourTravelBuzz\\BookingTourTravelBuzz.csproj|i:\\finalterm\\bookingtourtravelbuzz\\bookingtourtravelbuzz\\controllers\\tourcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1FDADCB0-BEB1-4542-9186-A5903B95403F}|BookingTourTravelBuzz\\BookingTourTravelBuzz.csproj|solutionrelative:bookingtourtravelbuzz\\controllers\\tourcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{1FDADCB0-BEB1-4542-9186-A5903B95403F}|BookingTourTravelBuzz\\BookingTourTravelBuzz.csproj|i:\\finalterm\\bookingtourtravelbuzz\\bookingtourtravelbuzz\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1FDADCB0-BEB1-4542-9186-A5903B95403F}|BookingTourTravelBuzz\\BookingTourTravelBuzz.csproj|solutionrelative:bookingtourtravelbuzz\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1FDADCB0-BEB1-4542-9186-A5903B95403F}|BookingTourTravelBuzz\\BookingTourTravelBuzz.csproj|i:\\finalterm\\bookingtourtravelbuzz\\bookingtourtravelbuzz\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{1FDADCB0-BEB1-4542-9186-A5903B95403F}|BookingTourTravelBuzz\\BookingTourTravelBuzz.csproj|solutionrelative:bookingtourtravelbuzz\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{1FDADCB0-BEB1-4542-9186-A5903B95403F}|BookingTourTravelBuzz\\BookingTourTravelBuzz.csproj|i:\\finalterm\\bookingtourtravelbuzz\\bookingtourtravelbuzz\\wwwroot\\js\\site.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{1FDADCB0-BEB1-4542-9186-A5903B95403F}|BookingTourTravelBuzz\\BookingTourTravelBuzz.csproj|solutionrelative:bookingtourtravelbuzz\\wwwroot\\js\\site.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
     }
   ],
   "DocumentGroupContainers": [
@@ -34,7 +74,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 9,
           "Children": [
             {
               "$type": "Bookmark",
@@ -42,7 +82,189 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ITourRepository.cs",
+              "DocumentMoniker": "I:\\FinalTerm\\BookingTourTravelBuzz\\BookingTourTravelBuzz\\Models\\Tours\\ITourRepository.cs",
+              "RelativeDocumentMoniker": "BookingTourTravelBuzz\\Models\\Tours\\ITourRepository.cs",
+              "ToolTip": "I:\\FinalTerm\\BookingTourTravelBuzz\\BookingTourTravelBuzz\\Models\\Tours\\ITourRepository.cs",
+              "RelativeToolTip": "BookingTourTravelBuzz\\Models\\Tours\\ITourRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-27T06:06:38.481Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "TourController.cs",
+              "DocumentMoniker": "I:\\FinalTerm\\BookingTourTravelBuzz\\BookingTourTravelBuzz\\Controllers\\TourController.cs",
+              "RelativeDocumentMoniker": "BookingTourTravelBuzz\\Controllers\\TourController.cs",
+              "ToolTip": "I:\\FinalTerm\\BookingTourTravelBuzz\\BookingTourTravelBuzz\\Controllers\\TourController.cs",
+              "RelativeToolTip": "BookingTourTravelBuzz\\Controllers\\TourController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-27T06:04:41.148Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "I:\\FinalTerm\\BookingTourTravelBuzz\\BookingTourTravelBuzz\\appsettings.json",
+              "RelativeDocumentMoniker": "BookingTourTravelBuzz\\appsettings.json",
+              "ToolTip": "I:\\FinalTerm\\BookingTourTravelBuzz\\BookingTourTravelBuzz\\appsettings.json",
+              "RelativeToolTip": "BookingTourTravelBuzz\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-02-27T06:15:38.359Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Program.cs",
+              "DocumentMoniker": "I:\\FinalTerm\\BookingTourTravelBuzz\\BookingTourTravelBuzz\\Program.cs",
+              "RelativeDocumentMoniker": "BookingTourTravelBuzz\\Program.cs",
+              "ToolTip": "I:\\FinalTerm\\BookingTourTravelBuzz\\BookingTourTravelBuzz\\Program.cs",
+              "RelativeToolTip": "BookingTourTravelBuzz\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-14T06:36:08.994Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "I:\\FinalTerm\\BookingTourTravelBuzz\\BookingTourTravelBuzz\\Data\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "BookingTourTravelBuzz\\Data\\ApplicationDbContext.cs",
+              "ToolTip": "I:\\FinalTerm\\BookingTourTravelBuzz\\BookingTourTravelBuzz\\Data\\ApplicationDbContext.cs",
+              "RelativeToolTip": "BookingTourTravelBuzz\\Data\\ApplicationDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-27T07:22:13.403Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Tour.cs",
+              "DocumentMoniker": "I:\\FinalTerm\\BookingTourTravelBuzz\\BookingTourTravelBuzz\\Models\\Tours\\Tour.cs",
+              "RelativeDocumentMoniker": "BookingTourTravelBuzz\\Models\\Tours\\Tour.cs",
+              "ToolTip": "I:\\FinalTerm\\BookingTourTravelBuzz\\BookingTourTravelBuzz\\Models\\Tours\\Tour.cs",
+              "RelativeToolTip": "BookingTourTravelBuzz\\Models\\Tours\\Tour.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAcwBUAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-27T06:18:46.499Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "TourDetails.cshtml",
+              "DocumentMoniker": "I:\\FinalTerm\\BookingTourTravelBuzz\\BookingTourTravelBuzz\\Views\\Tour\\TourDetails.cshtml",
+              "RelativeDocumentMoniker": "BookingTourTravelBuzz\\Views\\Tour\\TourDetails.cshtml",
+              "ToolTip": "I:\\FinalTerm\\BookingTourTravelBuzz\\BookingTourTravelBuzz\\Views\\Tour\\TourDetails.cshtml",
+              "RelativeToolTip": "BookingTourTravelBuzz\\Views\\Tour\\TourDetails.cshtml",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAADUAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-28T05:39:29.093Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "site.css",
+              "DocumentMoniker": "I:\\FinalTerm\\BookingTourTravelBuzz\\BookingTourTravelBuzz\\wwwroot\\css\\site.css",
+              "RelativeDocumentMoniker": "BookingTourTravelBuzz\\wwwroot\\css\\site.css",
+              "ToolTip": "I:\\FinalTerm\\BookingTourTravelBuzz\\BookingTourTravelBuzz\\wwwroot\\css\\site.css",
+              "RelativeToolTip": "BookingTourTravelBuzz\\wwwroot\\css\\site.css",
+              "ViewState": "AgIAAFsAAAAAAAAAAAAAwHUAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-02-21T06:49:49.178Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "I:\\FinalTerm\\BookingTourTravelBuzz\\BookingTourTravelBuzz\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "BookingTourTravelBuzz\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "I:\\FinalTerm\\BookingTourTravelBuzz\\BookingTourTravelBuzz\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "BookingTourTravelBuzz\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAABwAAAAAAAAAAAAwwC4AAACIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-12T03:03:43.309Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 3,
+              "Title": "Domestic.cshtml",
+              "DocumentMoniker": "I:\\FinalTerm\\BookingTourTravelBuzz\\BookingTourTravelBuzz\\Views\\Tour\\Domestic.cshtml",
+              "RelativeDocumentMoniker": "BookingTourTravelBuzz\\Views\\Tour\\Domestic.cshtml",
+              "ToolTip": "I:\\FinalTerm\\BookingTourTravelBuzz\\BookingTourTravelBuzz\\Views\\Tour\\Domestic.cshtml",
+              "RelativeToolTip": "BookingTourTravelBuzz\\Views\\Tour\\Domestic.cshtml",
+              "ViewState": "AgIAAEoAAAAAAAAAAAAkwGIAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-27T08:12:32.434Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "TourRepository.cs",
+              "DocumentMoniker": "I:\\FinalTerm\\BookingTourTravelBuzz\\BookingTourTravelBuzz\\Models\\Tours\\TourRepository.cs",
+              "RelativeDocumentMoniker": "BookingTourTravelBuzz\\Models\\Tours\\TourRepository.cs",
+              "ToolTip": "I:\\FinalTerm\\BookingTourTravelBuzz\\BookingTourTravelBuzz\\Models\\Tours\\TourRepository.cs",
+              "RelativeToolTip": "BookingTourTravelBuzz\\Models\\Tours\\TourRepository.cs",
+              "ViewState": "AgIAACcAAAAAAAAAAAAuwCoAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-27T06:10:17.721Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Area.cs",
+              "DocumentMoniker": "I:\\FinalTerm\\BookingTourTravelBuzz\\BookingTourTravelBuzz\\Models\\Tours\\Area.cs",
+              "RelativeDocumentMoniker": "BookingTourTravelBuzz\\Models\\Tours\\Area.cs",
+              "ToolTip": "I:\\FinalTerm\\BookingTourTravelBuzz\\BookingTourTravelBuzz\\Models\\Tours\\Area.cs",
+              "RelativeToolTip": "BookingTourTravelBuzz\\Models\\Tours\\Area.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-02T07:06:17.431Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "International.cshtml",
+              "DocumentMoniker": "I:\\FinalTerm\\BookingTourTravelBuzz\\BookingTourTravelBuzz\\Views\\Tour\\International.cshtml",
+              "RelativeDocumentMoniker": "BookingTourTravelBuzz\\Views\\Tour\\International.cshtml",
+              "ToolTip": "I:\\FinalTerm\\BookingTourTravelBuzz\\BookingTourTravelBuzz\\Views\\Tour\\International.cshtml",
+              "RelativeToolTip": "BookingTourTravelBuzz\\Views\\Tour\\International.cshtml",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAAADYAAABnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-27T08:19:37.07Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Home.cshtml",
+              "DocumentMoniker": "I:\\FinalTerm\\BookingTourTravelBuzz\\BookingTourTravelBuzz\\Views\\Home\\Home.cshtml",
+              "RelativeDocumentMoniker": "BookingTourTravelBuzz\\Views\\Home\\Home.cshtml",
+              "ToolTip": "I:\\FinalTerm\\BookingTourTravelBuzz\\BookingTourTravelBuzz\\Views\\Home\\Home.cshtml",
+              "RelativeToolTip": "BookingTourTravelBuzz\\Views\\Home\\Home.cshtml",
+              "ViewState": "AgIAALkAAAAAAAAAAAArwMcAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-14T06:05:24.88Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "I:\\FinalTerm\\BookingTourTravelBuzz\\BookingTourTravelBuzz\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "BookingTourTravelBuzz\\Controllers\\HomeController.cs",
+              "ToolTip": "I:\\FinalTerm\\BookingTourTravelBuzz\\BookingTourTravelBuzz\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "BookingTourTravelBuzz\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAAwBQAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-27T05:58:31.087Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
               "Title": "site.js",
               "DocumentMoniker": "I:\\FinalTerm\\BookingTourTravelBuzz\\BookingTourTravelBuzz\\wwwroot\\js\\site.js",
               "RelativeDocumentMoniker": "BookingTourTravelBuzz\\wwwroot\\js\\site.js",
@@ -50,72 +272,7 @@
               "RelativeToolTip": "BookingTourTravelBuzz\\wwwroot\\js\\site.js",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
-              "WhenOpened": "2025-02-21T08:07:39.369Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "site.css",
-              "DocumentMoniker": "I:\\FinalTerm\\BookingTourTravelBuzz\\BookingTourTravelBuzz\\wwwroot\\css\\site.css",
-              "RelativeDocumentMoniker": "BookingTourTravelBuzz\\wwwroot\\css\\site.css",
-              "ToolTip": "I:\\FinalTerm\\BookingTourTravelBuzz\\BookingTourTravelBuzz\\wwwroot\\css\\site.css*",
-              "RelativeToolTip": "BookingTourTravelBuzz\\wwwroot\\css\\site.css*",
-              "ViewState": "AgIAABUAAAAAAAAAAAAAADEAAAAUAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2025-02-21T06:49:49.178Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Program.cs",
-              "DocumentMoniker": "I:\\FinalTerm\\BookingTourTravelBuzz\\BookingTourTravelBuzz\\Program.cs",
-              "RelativeDocumentMoniker": "BookingTourTravelBuzz\\Program.cs",
-              "ToolTip": "I:\\FinalTerm\\BookingTourTravelBuzz\\BookingTourTravelBuzz\\Program.cs",
-              "RelativeToolTip": "BookingTourTravelBuzz\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAsAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-14T06:36:08.994Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Home.cshtml",
-              "DocumentMoniker": "I:\\FinalTerm\\BookingTourTravelBuzz\\BookingTourTravelBuzz\\Views\\Home\\Home.cshtml",
-              "RelativeDocumentMoniker": "BookingTourTravelBuzz\\Views\\Home\\Home.cshtml",
-              "ToolTip": "I:\\FinalTerm\\BookingTourTravelBuzz\\BookingTourTravelBuzz\\Views\\Home\\Home.cshtml",
-              "RelativeToolTip": "BookingTourTravelBuzz\\Views\\Home\\Home.cshtml",
-              "ViewState": "AgIAANsAAAAAAAAAAAAAAMIAAAAWAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-02-14T06:05:24.88Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "HomeController.cs",
-              "DocumentMoniker": "I:\\FinalTerm\\BookingTourTravelBuzz\\BookingTourTravelBuzz\\Controllers\\HomeController.cs",
-              "RelativeDocumentMoniker": "BookingTourTravelBuzz\\Controllers\\HomeController.cs",
-              "ToolTip": "I:\\FinalTerm\\BookingTourTravelBuzz\\BookingTourTravelBuzz\\Controllers\\HomeController.cs",
-              "RelativeToolTip": "BookingTourTravelBuzz\\Controllers\\HomeController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAhAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-14T06:31:13.229Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "_Layout.cshtml",
-              "DocumentMoniker": "I:\\FinalTerm\\BookingTourTravelBuzz\\BookingTourTravelBuzz\\Views\\Shared\\_Layout.cshtml",
-              "RelativeDocumentMoniker": "BookingTourTravelBuzz\\Views\\Shared\\_Layout.cshtml",
-              "ToolTip": "I:\\FinalTerm\\BookingTourTravelBuzz\\BookingTourTravelBuzz\\Views\\Shared\\_Layout.cshtml",
-              "RelativeToolTip": "BookingTourTravelBuzz\\Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AgIAABgAAAAAAAAAAAAAAIIAAAAZAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-02-12T03:03:43.309Z"
+              "WhenOpened": "2025-02-21T08:07:39.369Z"
             }
           ]
         }
