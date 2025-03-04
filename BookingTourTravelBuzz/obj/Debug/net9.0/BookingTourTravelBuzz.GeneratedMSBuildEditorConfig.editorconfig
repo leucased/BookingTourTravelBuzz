@@ -1,77 +1,101 @@
 is_global = true
 build_property.TargetFramework = net9.0
+build_property.TargetFramework = net9.0
+build_property.TargetPlatformMinVersion = 
 build_property.TargetPlatformMinVersion = 
 build_property.UsingMicrosoftNETSdkWeb = true
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
 build_property.ProjectTypeGuids = 
 build_property.InvariantGlobalization = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
 build_property.PlatformNeutralAssembly = 
 build_property.EnforceExtendedAnalyzerRules = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = BookingTourTravelBuzz
 build_property.RootNamespace = BookingTourTravelBuzz
-build_property.ProjectDir = I:\FinalTerm\BookingTourTravelBuzz\BookingTourTravelBuzz\
+build_property.ProjectDir = D:\Web Cuối Kì\BookingTourTravelBuzz\BookingTourTravelBuzz\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 9.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = I:\FinalTerm\BookingTourTravelBuzz\BookingTourTravelBuzz
+build_property.MSBuildProjectDirectory = D:\Web Cuối Kì\BookingTourTravelBuzz\BookingTourTravelBuzz
 build_property._RazorSourceGeneratorDebug = 
 build_property.EffectiveAnalysisLevelStyle = 9.0
 build_property.EnableCodeStyleSeverity = 
 
-[I:/FinalTerm/BookingTourTravelBuzz/BookingTourTravelBuzz/Views/Account/Login.cshtml]
+[D:/Web Cuối Kì/BookingTourTravelBuzz/BookingTourTravelBuzz/Views/Account/ChangePassword.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxDaGFuZ2VQYXNzd29yZC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Web Cuối Kì/BookingTourTravelBuzz/BookingTourTravelBuzz/Views/Account/Login.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxMb2dpbi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[I:/FinalTerm/BookingTourTravelBuzz/BookingTourTravelBuzz/Views/Account/Register.cshtml]
+[D:/Web Cuối Kì/BookingTourTravelBuzz/BookingTourTravelBuzz/Views/Account/Register.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxSZWdpc3Rlci5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[I:/FinalTerm/BookingTourTravelBuzz/BookingTourTravelBuzz/Views/Booking/History.cshtml]
+[D:/Web Cuối Kì/BookingTourTravelBuzz/BookingTourTravelBuzz/Views/Account/VerifyEmail.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxWZXJpZnlFbWFpbC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Web Cuối Kì/BookingTourTravelBuzz/BookingTourTravelBuzz/Views/Booking/History.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQm9va2luZ1xIaXN0b3J5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[I:/FinalTerm/BookingTourTravelBuzz/BookingTourTravelBuzz/Views/Home/About.cshtml]
+[D:/Web Cuối Kì/BookingTourTravelBuzz/BookingTourTravelBuzz/Views/Home/About.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxBYm91dC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[I:/FinalTerm/BookingTourTravelBuzz/BookingTourTravelBuzz/Views/Home/Contact.cshtml]
+[D:/Web Cuối Kì/BookingTourTravelBuzz/BookingTourTravelBuzz/Views/Home/Contact.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxDb250YWN0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[I:/FinalTerm/BookingTourTravelBuzz/BookingTourTravelBuzz/Views/Home/Home.cshtml]
+[D:/Web Cuối Kì/BookingTourTravelBuzz/BookingTourTravelBuzz/Views/Home/Home.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxIb21lLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[I:/FinalTerm/BookingTourTravelBuzz/BookingTourTravelBuzz/Views/Shared/Error.cshtml]
+[D:/Web Cuối Kì/BookingTourTravelBuzz/BookingTourTravelBuzz/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[I:/FinalTerm/BookingTourTravelBuzz/BookingTourTravelBuzz/Views/Shared/_ValidationScriptsPartial.cshtml]
+[D:/Web Cuối Kì/BookingTourTravelBuzz/BookingTourTravelBuzz/Views/Shared/_AccountLayout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9BY2NvdW50TGF5b3V0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Web Cuối Kì/BookingTourTravelBuzz/BookingTourTravelBuzz/Views/Shared/_LoginPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9Mb2dpblBhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Web Cuối Kì/BookingTourTravelBuzz/BookingTourTravelBuzz/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[I:/FinalTerm/BookingTourTravelBuzz/BookingTourTravelBuzz/Views/Tour/Domestic.cshtml]
+[D:/Web Cuối Kì/BookingTourTravelBuzz/BookingTourTravelBuzz/Views/Tour/Domestic.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVG91clxEb21lc3RpYy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[I:/FinalTerm/BookingTourTravelBuzz/BookingTourTravelBuzz/Views/Tour/International.cshtml]
+[D:/Web Cuối Kì/BookingTourTravelBuzz/BookingTourTravelBuzz/Views/Tour/International.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVG91clxJbnRlcm5hdGlvbmFsLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[I:/FinalTerm/BookingTourTravelBuzz/BookingTourTravelBuzz/Views/Tour/TourDetails.cshtml]
+[D:/Web Cuối Kì/BookingTourTravelBuzz/BookingTourTravelBuzz/Views/Tour/TourDetails.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVG91clxUb3VyRGV0YWlscy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[I:/FinalTerm/BookingTourTravelBuzz/BookingTourTravelBuzz/Views/_ViewImports.cshtml]
+[D:/Web Cuối Kì/BookingTourTravelBuzz/BookingTourTravelBuzz/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[I:/FinalTerm/BookingTourTravelBuzz/BookingTourTravelBuzz/Views/_ViewStart.cshtml]
+[D:/Web Cuối Kì/BookingTourTravelBuzz/BookingTourTravelBuzz/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[I:/FinalTerm/BookingTourTravelBuzz/BookingTourTravelBuzz/Views/Shared/_Layout.cshtml]
+[D:/Web Cuối Kì/BookingTourTravelBuzz/BookingTourTravelBuzz/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-4jd1m5eqar
