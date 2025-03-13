@@ -1,0 +1,402 @@
+﻿.section{
+    padding-top: 30px;
+}
+
+.tour-policy {
+    max-width: 900px;
+    margin: 30px auto;
+    padding: 20px 20px 20px 20px;
+    background: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+    .tour-policy h2 {
+        color: #2c3e50;
+        font-size: 28px;
+        margin-bottom: 20px;
+    }
+
+.policy-section {
+    margin-bottom: 30px;
+    padding: 20px;
+    background: white;
+    border-left: 5px solid #3498db;
+    border-radius: 5px;
+    box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.1);
+}
+
+    .policy-section h3 {
+        color: #2980b9;
+        font-size: 22px;
+        margin-bottom: 10px;
+    }
+
+    .policy-section h4 {
+        color: #16a085;
+        font-size: 18px;
+        margin-top: 15px;
+    }
+
+    .policy-section ul {
+        list-style: none;
+        padding: 0;
+    }
+
+        .policy-section ul li {
+            font-size: 16px;
+            padding: 8px 0;
+            border-bottom: 1px solid #ecf0f1;
+        }
+
+            .policy-section ul li:last-child {
+                border-bottom: none;
+            }
+
+    .policy-section strong {
+        color: #e74c3c;
+    }
+.privacy-policy {
+    max-width: 900px;
+    margin: 50px auto;
+    padding: 30px;
+    background: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+    .privacy-policy h1 {
+        font-size: 28px;
+        text-align: center;
+        color: #2c3e50;
+        margin-bottom: 20px;
+    }
+
+    .privacy-policy h2 {
+        font-size: 20px;
+        text-align: center;
+        color: #555;
+        margin-bottom: 30px;
+    }
+
+.policy-section {
+    margin-bottom: 30px;
+}
+
+    .policy-section h3 {
+        font-size: 22px;
+        color: #2980b9;
+        border-left: 5px solid #2980b9;
+        padding-left: 10px;
+        margin-bottom: 10px;
+    }
+
+    .policy-section p {
+        font-size: 16px;
+        color: #444;
+        line-height: 1.6;
+    }
+
+    .policy-section ul {
+        margin-left: 20px;
+    }
+
+        .policy-section ul li {
+            font-size: 16px;
+            color: #444;
+            line-height: 1.5;
+            margin-bottom: 5px;
+        }
+.refund-policy {
+    max-width: 900px;
+    margin: 50px auto;
+    padding: 30px;
+    background: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+    .refund-policy h1 {
+        font-size: 28px;
+        text-align: center;
+        color: #2c3e50;
+        margin-bottom: 20px;
+    }
+
+    .refund-policy h2 {
+        font-size: 22px;
+        color: #2980b9;
+        border-left: 5px solid #2980b9;
+        padding-left: 10px;
+        margin-bottom: 15px;
+    }
+
+    .refund-policy h3 {
+        font-size: 18px;
+        color: #333;
+        margin-top: 15px;
+        margin-bottom: 10px;
+    }
+
+    .refund-policy p {
+        font-size: 16px;
+        color: #444;
+        line-height: 1.6;
+    }
+
+    .refund-policy ul {
+        margin-left: 20px;
+    }
+
+        .refund-policy ul li {
+            font-size: 16px;
+            color: #444;
+            line-height: 1.5;
+            margin-bottom: 5px;
+        }
+
+.policy-section {
+    margin-bottom: 30px;
+}
+.about-container {
+    max-width: 1000px;
+    margin: auto;
+    padding: 30px;
+    font-family: Arial, sans-serif;
+}
+
+.banner {
+    text-align: center;
+    background: linear-gradient(to right, #ff7e5f, #feb47b);
+    color: white;
+    padding: 40px 20px;
+    border-radius: 10px;
+}
+
+    .banner h1 {
+        font-size: 32px;
+        margin: 0;
+    }
+
+    .banner p {
+        font-size: 18px;
+        margin-top: 10px;
+    }
+
+.about-section {
+    background: #f9f9f9;
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+    .about-section h2 {
+        color: #ff7e5f;
+        border-left: 5px solid #ff7e5f;
+        padding-left: 10px;
+        font-size: 22px;
+    }
+
+    .about-section p,
+    .about-section ul {
+        font-size: 16px;
+        color: #333;
+        line-height: 1.6;
+    }
+
+    .about-section ul {
+        list-style: none;
+        padding-left: 20px;
+    }
+
+        .about-section ul li {
+            margin-bottom: 8px;
+            position: relative;
+        }
+
+            .about-section ul li::before {
+                content: "✔";
+                color: #ff7e5f;
+                font-weight: bold;
+                margin-right: 8px;
+            }
+
+.features {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.feature-item {
+    background: white;
+    padding: 15px;
+    text-align: center;
+    width: 48%;
+    margin: 10px 0;
+    border-radius: 8px;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1);
+}
+
+    .feature-item i {
+        font-size: 30px;
+        color: #ff7e5f;
+        margin-bottom: 10px;
+    }
+
+    .feature-item p {
+        font-size: 16px;
+        color: #333;
+    }
+
+.contact-section {
+    background: #ff7e5f;
+    color: white;
+    text-align: center;
+    padding: 30px;
+    border-radius: 10px;
+}
+
+    .contact-section p {
+        font-size: 18px;
+    }
+
+.contact-info p {
+    font-size: 16px;
+    margin: 5px 0;
+}
+
+.contact-info a {
+    color: yellow;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+    .contact-info a:hover {
+        text-decoration: underline;
+    }
+.contact-page-container {
+    max-width: 1000px;
+    margin: auto;
+    padding: 30px;
+    font-family: Arial, sans-serif;
+}
+
+.contact-page-banner {
+    text-align: center;
+    background: linear-gradient(to right, #007bff, #00c6ff);
+    color: white;
+    padding: 40px 20px;
+    border-radius: 10px;
+}
+
+    .contact-page-banner h1 {
+        font-size: 32px;
+        margin: 0;
+    }
+
+    .contact-page-banner p {
+        font-size: 18px;
+        margin-top: 10px;
+    }
+
+.contact-page-info {
+    background: #f9f9f9;
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+    .contact-page-info h2 {
+        color: #007bff;
+        border-left: 5px solid #007bff;
+        padding-left: 10px;
+        font-size: 22px;
+    }
+
+.contact-page-details {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.contact-page-item {
+    background: white;
+    padding: 15px;
+    text-align: center;
+    width: 48%;
+    margin: 10px 0;
+    border-radius: 8px;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1);
+}
+
+    .contact-page-item i {
+        font-size: 30px;
+        color: #007bff;
+        margin-bottom: 10px;
+    }
+
+    .contact-page-item p {
+        font-size: 16px;
+        color: #333;
+    }
+
+.contact-page-form {
+    background: #ffffff;
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+    .contact-page-form h2 {
+        color: #007bff;
+        border-left: 5px solid #007bff;
+        padding-left: 10px;
+        font-size: 22px;
+    }
+
+.contact-page-form-group {
+    margin-bottom: 15px;
+}
+
+    .contact-page-form-group label {
+        font-weight: bold;
+        display: block;
+    }
+
+    .contact-page-form-group input,
+    .contact-page-form-group textarea {
+        width: 100%;
+        padding: 10px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+    }
+
+.contact-page-button {
+    background: #007bff;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    width: 100%;
+}
+
+    .contact-page-button:hover {
+        background: #0056b3;
+    }
+
+.contact-page-map {
+    margin-top: 20px;
+    text-align: center;
+}
+
+    .contact-page-map h2 {
+        color: #007bff;
+        border-left: 5px solid #007bff;
+        padding-left: 10px;
+        font-size: 22px;
+    }

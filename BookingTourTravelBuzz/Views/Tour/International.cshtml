@@ -13,6 +13,23 @@
 
     @model List<Tour>
 
+    @{
+        int? selectedArea = Context.Request.Query["idArea"].ToString() == "" ? (int?)null : Convert.ToInt32(Context.Request.Query["idArea"]);
+        string selectedAsia = (selectedArea == 4) ? "selected" : "";
+        string selectedEurope = (selectedArea == 5) ? "selected" : "";
+        string selectedAll = (selectedArea == null) ? "selected" : "";
+    }
+
+    <form class="filter" method="get" action="/Tour/International">
+        <label>Chọn khu vực:</label>
+        <select name="idArea" onchange="this.form.submit()">
+            <option value="" selected="@(selectedArea == null)">Tất cả</option>
+            <option value="4" selected="@(selectedArea == 4)">Châu Á</option>
+            <option value="5" selected="@(selectedArea == 5)">Châu Âu</option>
+        </select>
+    </form>
+
+
     <section style="background-color: #eee;">
         <div class="container py-5">
             @if (Model.Count == 0)

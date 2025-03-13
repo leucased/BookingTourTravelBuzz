@@ -9,6 +9,10 @@
       "PackagePath": "staticwebassets\\css\\site.css"
     },
     {
+      "Id": "I:\\FinalTerm\\BookingTourTravelBuzz\\BookingTourTravelBuzz\\wwwroot\\css\\sitetourterms.css",
+      "PackagePath": "staticwebassets\\css\\sitetourterms.css"
+    },
+    {
       "Id": "I:\\FinalTerm\\BookingTourTravelBuzz\\BookingTourTravelBuzz\\wwwroot\\favicon.ico",
       "PackagePath": "staticwebassets\\favicon.ico"
     },
@@ -79,6 +83,26 @@
     {
       "Id": "I:\\FinalTerm\\BookingTourTravelBuzz\\BookingTourTravelBuzz\\wwwroot\\img\\mim4.jpg",
       "PackagePath": "staticwebassets\\img\\mim4.jpg"
+    },
+    {
+      "Id": "I:\\FinalTerm\\BookingTourTravelBuzz\\BookingTourTravelBuzz\\wwwroot\\img\\replace\\mim10.jpg",
+      "PackagePath": "staticwebassets\\img\\replace\\mim10.jpg"
+    },
+    {
+      "Id": "I:\\FinalTerm\\BookingTourTravelBuzz\\BookingTourTravelBuzz\\wwwroot\\img\\replace\\mim5.jpg",
+      "PackagePath": "staticwebassets\\img\\replace\\mim5.jpg"
+    },
+    {
+      "Id": "I:\\FinalTerm\\BookingTourTravelBuzz\\BookingTourTravelBuzz\\wwwroot\\img\\replace\\mim6.jpg",
+      "PackagePath": "staticwebassets\\img\\replace\\mim6.jpg"
+    },
+    {
+      "Id": "I:\\FinalTerm\\BookingTourTravelBuzz\\BookingTourTravelBuzz\\wwwroot\\img\\replace\\mim8.jpg",
+      "PackagePath": "staticwebassets\\img\\replace\\mim8.jpg"
+    },
+    {
+      "Id": "I:\\FinalTerm\\BookingTourTravelBuzz\\BookingTourTravelBuzz\\wwwroot\\img\\replace\\mim9.jpg",
+      "PackagePath": "staticwebassets\\img\\replace\\mim9.jpg"
     },
     {
       "Id": "I:\\FinalTerm\\BookingTourTravelBuzz\\BookingTourTravelBuzz\\wwwroot\\js\\site.js",

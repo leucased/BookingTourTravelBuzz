@@ -1,0 +1,104 @@
+﻿@{
+    ViewData["Title"] = "Điều khoản và điều kiện tour du lịch";
+}
+<link rel="stylesheet" href="/css/sitetourterms.css" asp-append-version="true" />
+<script src="/js/site.js" asp-append-version="true"></script>
+
+
+<body>
+
+    <div class="banner"></div>
+    <div class="containerempty1"></div>
+
+    <section>
+        @{
+            ViewBag.Title = "Điều khoản & Chính sách Tour";
+        }
+
+        <div class="container tour-policy">
+            <h2 class="text-center">Điều khoản & Chính sách Tour</h2>
+
+            <div class="policy-section">
+                <h3>1. Đăng ký và thanh toán</h3>
+                <ul>
+                    <li>Khách hàng có thể đăng ký tour trực tiếp tại văn phòng, qua website hoặc hotline của chúng tôi.</li>
+                    <li>Để xác nhận đặt tour, khách hàng cần đặt cọc tối thiểu <strong>50%</strong> tổng giá trị tour. Số tiền còn lại phải thanh toán trước ngày khởi hành ít nhất <strong>7 ngày</strong>.</li>
+                    <li>Trường hợp đặt tour cận ngày (dưới 7 ngày trước khởi hành), khách hàng phải thanh toán <strong>100%</strong> tổng giá trị tour.</li>
+                </ul>
+            </div>
+
+            <div class="policy-section">
+                <h3>2. Giá tour và dịch vụ bao gồm</h3>
+                <p><strong>Giá tour được niêm yết trên website/ứng dụng và bao gồm:</strong></p>
+                <ul>
+                    <li><strong>Vận chuyển:</strong> Vé máy bay/tàu xe/xe đưa đón theo chương trình.</li>
+                    <li><strong>Lưu trú:</strong> Khách sạn hoặc resort tiêu chuẩn theo tour.</li>
+                    <li><strong>Ăn uống:</strong> Các bữa ăn theo lịch trình.</li>
+                    <li><strong>Vé tham quan:</strong> Vé vào cửa các điểm du lịch theo chương trình.</li>
+                    <li><strong>Hướng dẫn viên:</strong> Chuyên nghiệp, nhiệt tình, hỗ trợ suốt hành trình.</li>
+                    <li><strong>Bảo hiểm du lịch:</strong> Theo mức quy định của công ty.</li>
+                </ul>
+                <p><strong>Giá tour không bao gồm:</strong> Chi phí cá nhân, đồ uống, chi phí tham quan ngoài chương trình, tip cho hướng dẫn viên và tài xế.</p>
+            </div>
+
+            <div class="policy-section">
+                <h3>3. Chính sách hủy tour & hoàn tiền</h3>
+                <ul>
+                    <li><strong>Hủy tour trước 15 ngày:</strong> Phí hủy 10% tổng giá trị tour.</li>
+                    <li><strong>Hủy tour từ 7 - 14 ngày:</strong> Phí hủy 50% tổng giá trị tour.</li>
+                    <li><strong>Hủy tour dưới 7 ngày hoặc không tham gia:</strong> Không hoàn tiền.</li>
+                    <li>Trường hợp tour bị hủy do điều kiện khách quan (thiên tai, dịch bệnh, chiến tranh…), công ty sẽ hoàn lại <strong>100%</strong> số tiền đã thanh toán hoặc hỗ trợ khách hàng đổi sang tour khác.</li>
+                </ul>
+            </div>
+
+            <div class="policy-section">
+                <h3>4. Trách nhiệm và nghĩa vụ</h3>
+                <h4>4.1. Của khách hàng:</h4>
+                <ul>
+                    <li>Cung cấp thông tin cá nhân chính xác khi đăng ký tour.</li>
+                    <li>Tuân thủ quy định của địa phương và hướng dẫn viên trong suốt hành trình.</li>
+                    <li>Tự bảo quản tài sản cá nhân trong quá trình du lịch.</li>
+                </ul>
+                <h4>4.2. Của công ty:</h4>
+                <ul>
+                    <li>Cung cấp đúng và đầy đủ dịch vụ đã cam kết.</li>
+                    <li>Đảm bảo an toàn cho khách hàng trong phạm vi trách nhiệm.</li>
+                    <li>Hỗ trợ khách hàng trong các tình huống phát sinh ngoài ý muốn.</li>
+                </ul>
+            </div>
+
+            <div class="policy-section">
+                <h3>5. Điều khoản khác</h3>
+                <ul>
+                    <li>Công ty có quyền thay đổi lịch trình, dịch vụ trong trường hợp bất khả kháng nhưng vẫn đảm bảo đầy đủ quyền lợi của khách hàng.</li>
+                    <li>Việc tham gia tour đồng nghĩa với việc khách hàng đã đọc, hiểu và đồng ý với các điều khoản & điều kiện này.</li>
+                </ul>
+            </div>
+        </div>
+
+    </section>
+
+
+    <div class="containerempty"></div>
+</body>
+
+<style>
+
+    .containerempty1 {
+        height: 650px;
+    }
+
+    .containerempty {
+        height: 400px;
+    }
+    .banner {
+        margin-top: 75px;
+        position: absolute;
+        left: 0;
+        top: 45px;
+        width: 100%;
+        height: 80vh;
+        background: url('/img/replace/mim5.jpg') center top / cover no-repeat;
+        z-index: -1;
+    }
+</style>

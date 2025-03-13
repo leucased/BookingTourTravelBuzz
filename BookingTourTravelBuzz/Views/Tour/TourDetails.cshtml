@@ -4,10 +4,22 @@
 <link rel="stylesheet" href="/css/site.css" asp-append-version="true" />
 <script src="/js/site.js" asp-append-version="true"></script>
 
+@{
+    string bannerUrl = Model?.IMAGE_URL;
+
+    if (string.IsNullOrEmpty(bannerUrl))
+    {
+        bannerUrl = "/img/mim4.jpg"; // Ảnh mặc định
+    }
+    else if (!bannerUrl.StartsWith("http"))
+    {
+        bannerUrl = "/img/" + bannerUrl;
+    }
+}
 
 <body>
 
-    <div class="banner"></div>
+    <div class="banner" style="background: url('@bannerUrl') center top / cover no-repeat;"></div>
     <div class="containerempty1"></div>
     <h2 class="section-title2">Thông tin về Tour @Model.NAME_TOUR</h2>
 
@@ -26,7 +38,11 @@
             <p class="details-tour"><strong>Lịch trình:</strong> @Model.ITINERARY_TOUR</p>
         </div>
     </section>
-
+    <div class="booking-container">
+        <a href="@Url.Action("BookTour", "Booking", new { id = Model.ID_TOUR })" class="btn-booking">
+            Đặt Tour ngay
+        </a>
+    </div>
 
     <div class="containerempty"></div>
 </body>

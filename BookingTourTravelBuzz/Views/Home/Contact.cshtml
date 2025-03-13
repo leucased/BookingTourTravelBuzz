@@ -1,5 +1,94 @@
-﻿@*
-    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
-*@
-@{
+﻿@{
+    ViewData["Title"] = "Liên hệ";
 }
+<link rel="stylesheet" href="/css/sitetourterms.css" asp-append-version="true" />
+
+<body>
+
+    <div class="banner"></div>
+    <div class="containerempty1"></div>
+
+    <div class="contact-page-container">
+        <div class="contact-page-banner">
+            <h1>Liên Hệ TravelBuzz</h1>
+            <p>Chúng tôi luôn sẵn sàng hỗ trợ bạn 24/7!</p>
+        </div>
+
+        <section class="contact-page-info">
+            <h2>Thông Tin Liên Hệ</h2>
+            <div class="contact-page-details">
+                <div class="contact-page-item">
+                    <i class="fas fa-phone-alt"></i>
+                    <p><strong>Hotline:</strong> 1900 0502</p>
+                </div>
+                <div class="contact-page-item">
+                    <i class="fas fa-envelope"></i>
+                    <p><strong>Email:</strong> support@travelbuzz.com</p>
+                </div>
+                <div class="contact-page-item">
+                    <i class="fas fa-map-marker-alt"></i>
+                    <p><strong>Địa chỉ:</strong> Số 1 Trương Văn Bang, phường 7, Thành phố Vũng Tàu</p>
+                </div>
+                <div class="contact-page-item">
+                    <i class="fas fa-globe"></i>
+                    <p><strong>Website:</strong> <a href="https://travelbuzz.com" target="_blank">travelbuzz.com</a></p>
+                </div>
+            </div>
+        </section>
+
+        <section class="contact-page-form">
+            <h2>Gửi Tin Nhắn Cho Chúng Tôi</h2>
+            <form action="#" method="post">
+                <div class="contact-page-form-group">
+                    <label for="name">Họ và Tên</label>
+                    <input type="text" id="name" name="name" required placeholder="Nhập họ và tên của bạn">
+                </div>
+                <div class="contact-page-form-group">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" required placeholder="Nhập email của bạn">
+                </div>
+                <div class="contact-page-form-group">
+                    <label for="message">Nội Dung</label>
+                    <textarea id="message" name="message" rows="5" required placeholder="Nhập nội dung tin nhắn"></textarea>
+                </div>
+                <button class="contact-page-button" type="submit">Gửi Tin Nhắn</button>
+            </form>
+        </section>
+
+        <section class="contact-page-map">
+            <h2>Vị Trí Của Chúng Tôi</h2>
+            <div class="map-container">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3919.6709362395553!2d106.7009879759853!3d10.759922359464542!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31752f3a9ef3a97f%3A0x703b1f7e9df79955!2zMTIzIMSQLiBBQkMsIFF14buzbmcsIDE!5e0!3m2!1sen!2s!4v1614579145678!5m2!1sen!2s"
+                        width="100%"
+                        height="300"
+                        style="border:0;"
+                        allowfullscreen=""
+                        loading="lazy">
+                </iframe>
+            </div>
+        </section>
+    </div>
+
+    <div class="containerempty"></div>
+</body>
+
+<style>
+    .containerempty1 {
+        height: 650px;
+    }
+
+    .containerempty {
+        height: 400px;
+    }
+
+    .banner {
+        margin-top: 75px;
+        position: absolute;
+        left: 0;
+        top: 45px;
+        width: 100%;
+        height: 80vh;
+        background: url('/img/replace/mim10.jpg') center top / cover no-repeat;
+        z-index: -1;
+    }
+</style>

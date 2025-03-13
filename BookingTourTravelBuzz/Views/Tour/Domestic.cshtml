@@ -13,6 +13,26 @@
 
     @model List<Tour>
 
+    @{
+    int? selectedArea = Context.Request.Query["idArea"].ToString() == "" ? (int?)null : Convert.ToInt32(Context.Request.Query["idArea"]);
+    string selectedNorth = (selectedArea == 1) ? "selected" : "";
+    string selectedCentral = (selectedArea == 2) ? "selected" : "";
+    string selectedSouth = (selectedArea == 3) ? "selected" : "";
+    string selectedAll = (selectedArea == null) ? "selected" : "";
+}
+
+<form class="filter" method="get" action="/Tour/Domestic">
+    <label>Chọn khu vực:</label>
+    <select name="idArea" onchange="this.form.submit()">
+            <option value="" selected="@(selectedArea == null)">Tất cả</option>
+            <option value="1" selected="@(selectedArea == 1)">Miền Bắc</option>
+            <option value="2" selected="@(selectedArea == 2)">Miền Nam</option>
+            <option value="3" selected="@(selectedArea == 3)">Miền Trung</option>
+    </select>
+</form>
+
+
+
     <section style="background-color: #eee;">
         <div class="container py-5">
             @if (Model.Count == 0)
@@ -96,7 +116,7 @@
         top: 45px;
         width: 100%;
         height: 80vh;
-        background: url('/img/Bannerdomestic.webp') center top / cover no-repeat;
         z-index: -1;
+        background: url('/img/Bannerdomestic.webp') center top / cover no-repeat;
     }
 </style>

@@ -77,8 +77,8 @@
                     <h3 class="footer-title">Dịch vụ</h3>
                     <ul class="footer-list">
                         <li><a asp-controller="Home" asp-action="Home">Trang chủ</a></li>
-                        <li><a asp-controller="Tours" asp-action="Domestic">Tour trong nước</a></li>
-                        <li><a asp-controller="Tours" asp-action="International">Tour nước ngoài</a></li>
+                        <li><a asp-controller="Tour" asp-action="Domestic">Tour trong nước</a></li>
+                        <li><a asp-controller="Tour" asp-action="International">Tour nước ngoài</a></li>
                         <li><a asp-controller="Booking" asp-action="History">Lịch sử đặt tour</a></li>
                     </ul>
                 </div>
@@ -86,16 +86,17 @@
                 <div class="col-md-2 footer-section">
                     <h3 class="footer-title">Trợ giúp</h3>
                     <ul class="footer-list">
-                        <li><a asp-controller="About" asp-action="Index">Giới thiệu</a></li>
-                        <li><a asp-controller="Contact" asp-action="Index">Liên hệ</a></li>
+                        <li><a asp-controller="Home" asp-action="About">Giới thiệu</a></li>
+                        <li><a asp-controller="Home" asp-action="Contact">Liên hệ</a></li>
                     </ul>
                 </div>
 
                 <div class="col-md-2 footer-section">
                     <h3 class="footer-title">Điều khoản</h3>
                     <ul class="footer-list">
-                        <li><a asp-controller="Policy" asp-action="TermA">Điều khoản A</a></li>
-                        <li><a asp-controller="Policy" asp-action="TermB">Điều khoản B</a></li>
+                        <li><a asp-controller="Policy" asp-action="TourTerms">Điều khoản và điều kiện tour du lịch</a></li>
+                        <li><a asp-controller="Policy" asp-action="PrivacyPolicy">Chính sách riêng tư</a></li>
+                        <li><a asp-controller="Policy" asp-action="Cancellation">Chính sách hoàn hủy và đổi lịch tour</a></li>
                     </ul>
                 </div>
 

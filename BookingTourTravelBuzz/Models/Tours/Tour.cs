@@ -17,6 +17,7 @@
         public string? HOTEL_TOUR { get; set; }
         public string? DESTINATION_TOUR { get; set; }
         public string? ITINERARY_TOUR { get; set; }
+        public string? IMAGE_URL { get; set; }
 
     // Thêm thuộc tính NAME_AREA từ bảng AREA
     public string? NAME_AREA { get; set; }

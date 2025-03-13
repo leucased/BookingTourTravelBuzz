@@ -43,6 +43,7 @@ I:\FinalTerm\BookingTourTravelBuzz\BookingTourTravelBuzz\wwwroot\lib\jquery\dist
 I:\FinalTerm\BookingTourTravelBuzz\BookingTourTravelBuzz\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.min.css.map
 I:\FinalTerm\BookingTourTravelBuzz\BookingTourTravelBuzz\wwwroot\css\site.css
 I:\FinalTerm\BookingTourTravelBuzz\BookingTourTravelBuzz\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.rtl.css
+I:\FinalTerm\BookingTourTravelBuzz\BookingTourTravelBuzz\wwwroot\css\sitetourterms.css
 I:\FinalTerm\BookingTourTravelBuzz\BookingTourTravelBuzz\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.rtl.css.map
 I:\FinalTerm\BookingTourTravelBuzz\BookingTourTravelBuzz\wwwroot\lib\jquery\dist\jquery.js
 I:\FinalTerm\BookingTourTravelBuzz\BookingTourTravelBuzz\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.rtl.min.css
@@ -61,6 +62,7 @@ I:\FinalTerm\BookingTourTravelBuzz\BookingTourTravelBuzz\wwwroot\lib\jquery\LICE
 I:\FinalTerm\BookingTourTravelBuzz\BookingTourTravelBuzz\wwwroot\lib\bootstrap\dist\js\bootstrap.esm.js
 I:\FinalTerm\BookingTourTravelBuzz\BookingTourTravelBuzz\wwwroot\lib\bootstrap\dist\js\bootstrap.js
 wwwroot\css\site.css
+wwwroot\css\sitetourterms.css
 wwwroot\favicon.ico
 wwwroot\img\ads\ad3.webp
 wwwroot\img\ads\ad4.webp
@@ -79,6 +81,11 @@ wwwroot\img\mim4.jpg
 wwwroot\img\Muine1.png
 wwwroot\img\Muine2.webp
 wwwroot\img\PhuQuoc.jpg
+wwwroot\img\replace\mim10.jpg
+wwwroot\img\replace\mim5.jpg
+wwwroot\img\replace\mim6.jpg
+wwwroot\img\replace\mim8.jpg
+wwwroot\img\replace\mim9.jpg
 wwwroot\js\site.js
 wwwroot\lib\bootstrap\dist\css\bootstrap.css
 wwwroot\lib\bootstrap\dist\css\bootstrap.css.map

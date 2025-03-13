@@ -1,9 +1,18 @@
-﻿@{
+﻿@using BookingTourTravelBuzz.Data
+@{
     ViewData["Title"] = "Trang chủ";
 }
 <link rel="stylesheet" href="/css/site.css" asp-append-version="true" />
 <script src="/js/site.js" asp-append-version="true"></script>
 
+@inject ApplicationDbContext _context
+
+@{
+    var destinations = _context.TOURS
+        .Select(t => t.DESTINATION_TOUR)
+        .Distinct()
+        .ToList();
+}
 
 <body>
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
@@ -13,10 +22,17 @@
 
     <!-- Hộp tìm kiếm -->
     <div class="search-box d-flex align-items-center p-3">
-        <!-- Điểm khởi hành -->
+        <!-- Điểm đến -->
         <div class="search-item">
-            <p class="search-value">Điểm khởi hành</p>
-            <p class="search-label">Chọn địa điểm bắt đầu</p>
+            <p class="search-value" id="destinationSelect">Điểm đến</p>
+            <select id="destination" class="search-dropdown">
+                <option value="" selected>Chọn điểm đến</option>
+                @foreach (var dest in destinations)
+                {
+                    <option value="@dest">@dest</option>
+                }
+            </select>
+
         </div>
 
         <div class="divider"></div>
@@ -24,7 +40,7 @@
         <!-- Số lượng người tham gia -->
         <div class="search-item">
             <p class="search-value">Số lượng người tham gia</p>
-            <p class="search-label">Số người trên chuyến đi</p>
+            <input type="number" id="numPeople" class="search-input" min="1" max="50" placeholder="Nhập số người">
         </div>
 
         <div class="divider"></div>
@@ -32,12 +48,23 @@
         <!-- Ngày đi -->
         <div class="search-item">
             <p class="search-value">Ngày đi</p>
-            <p class="search-label">Chọn ngày khởi hành</p>
+            <input type="date" id="startDate" class="search-input">
         </div>
 
         <!-- Nút tìm kiếm -->
-        <button class="search-button">Tìm kiếm</button>
+        <button class="search-button" onclick="searchTours()">Tìm kiếm</button>
     </div>
+
+    <!-- Popup kết quả tìm kiếm -->
+    <div id="searchResultsPopup" class="popup">
+        <div class="popup-content">
+            <span class="close-btn" onclick="closePopup()">&times;</span>
+            <h2>Kết quả tìm kiếm</h2>
+            <div id="resultsContainer"></div>
+        </div>
+    </div>
+
+
 
     <div class="section-popular1">
         <h2 class="section-title1">Các chương trình du lịch độc đáo</h2>
@@ -113,69 +140,7 @@
         z-index: -1;
     }
 
-    /* Hộp tìm kiếm */
-    .search-box {
-        position: absolute;
-        top: 90vh; /* Điều chỉnh vị trí gần bên dưới ảnh */
-        left: 50%;
-        transform: translateX(-50%);
-        width: 1000px;
-        height: 90px;
-        background: #FFFFFF;
-        box-shadow: 0px 10px 30px rgba(123, 188, 176, 0.5);
-        border-radius: 10px;
-        display: flex;
-        justify-content: space-between;
-    }
-
-    /* Các phần tử con */
-    .search-item {
-        flex: 1;
-        text-align: center;
-        margin-top: 10px;
-    }
-
-    .search-value {
-        /* font-family: 'Mulish', sans-serif; */
-        font-weight: 800;
-        font-size: 15px;
-        color: #7BBCB0;
-    }
-
-    .search-label {
-        /* font-family: 'Mulish', sans-serif; */
-        font-style: italic;
-        font-weight: 600;
-        font-size: 14px;
-        color: #778088;
-        margin-top: -5px;
-    }
-
-    /* Đường kẻ phân cách */
-    .divider {
-        width: 3px;
-        height: 40px;
-        background: #E8EAEB;
-    }
-
-    /* Nút tìm kiếm */
-    .search-button {
-        background: #FFD700;
-        color: black;
-        font-weight: bold;
-        border: none;
-        border-radius: 10px;
-        padding: 10px 25px;
-        margin-right: 15px;
-        box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
-        transition: all 0.3s ease;
-    }
-
-        .search-button:hover {
-            background: #FFC107;
-            transform: scale(1.05);
-        }
-
+  
     
 
     /* Phần tiêu đề */
