@@ -1,5 +1,6 @@
 using System.Diagnostics;
 using BookingTourTravelBuzz.Models;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
 namespace BookingTourTravelBuzz.Controllers
@@ -19,6 +20,10 @@ namespace BookingTourTravelBuzz.Controllers
         }
 
         public IActionResult About()
+
+        //[Authorize]
+        //public IActionResult Privacy()
+
         {
             return View();
         }
