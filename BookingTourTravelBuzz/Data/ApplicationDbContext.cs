@@ -11,5 +11,6 @@ namespace BookingTourTravelBuzz.Data
         public DbSet<Tour> TOURS { get; set; } // Đảm bảo tên này trùng với model
         public object Tour { get; internal set; }
         public DbSet<Area> AREAS { get; set; }
+        public DbSet<Admin> ADMIN { get; set; }
     }
 }

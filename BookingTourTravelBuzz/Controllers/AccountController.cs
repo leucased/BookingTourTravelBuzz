@@ -21,22 +21,50 @@ namespace BookingTourTravelBuzz.Controllers
             return View();
         }
 
-        [HttpPost]
+        //[HttpPost]
 
+        //public async Task<IActionResult> Login(LoginViewModel model)
+        //{
+        //    if (ModelState.IsValid)
+        //    {
+        //        var result = await signInManager.PasswordSignInAsync(model.Email, model.Password, model.RememberMe, false);
+        //        if (result.Succeeded)
+        //        {
+        //            return RedirectToAction("Home", "Home");
+        //        }
+        //        else
+        //        {
+        //            ModelState.AddModelError("", "Email hoặc mật khẩu sai.");
+        //            return View(model);
+        //        }
+        //    }
+        //    return View(model);
+        //}
+
+        [HttpPost]
         public async Task<IActionResult> Login(LoginViewModel model)
         {
             if (ModelState.IsValid)
             {
-                var result = await signInManager.PasswordSignInAsync(model.Email, model.Password, model.RememberMe, false);
-                if (result.Succeeded)
+                var user = await userManager.FindByEmailAsync(model.Email);
+                if (user != null)
                 {
-                    return RedirectToAction("Home", "Home");
+                    var result = await signInManager.PasswordSignInAsync(user, model.Password, model.RememberMe, false);
+                    if (result.Succeeded)
+                    {
+                        // Kiểm tra vai trò của user
+                        var roles = await userManager.GetRolesAsync(user);
+                        if (roles.Contains("Admin"))
+                        {
+                            return RedirectToAction("Dashboard", "Admin", new { area = "Admin" });
+                        }
+                        else if (roles.Contains("Customer"))
+                        {
+                            return RedirectToAction("Home", "Home");
+                        }
+                    }
                 }
-                else
-                {
-                    ModelState.AddModelError("", "Email hoặc mật khẩu sai.");
-                    return View(model);
-                }
+                ModelState.AddModelError("", "Email hoặc mật khẩu sai.");
             }
             return View(model);
         }
@@ -46,23 +74,65 @@ namespace BookingTourTravelBuzz.Controllers
             return View();
         }
 
+        //[HttpPost]
+        //public async Task<IActionResult> Register(RegisterViewModel model)
+        //{
+        //    if (ModelState.IsValid)
+        //    {
+        //        Users users = new Users
+        //        {
+        //            FullName = model.Name,
+        //            Email = model.Email,
+        //            UserName = model.Email,
+
+        //        };
+
+        //        var result = await userManager.CreateAsync(users, model.Password);
+
+        //        if (result.Succeeded)
+        //        {
+        //            return RedirectToAction("Login", "Account");
+        //        }
+        //        else
+        //        {
+        //            foreach (var error in result.Errors)
+        //            {
+        //                ModelState.AddModelError("", error.Description);
+        //            }
+        //            return View(model);
+        //        }
+        //    }
+        //    return View(model);
+        //}
+
         [HttpPost]
         public async Task<IActionResult> Register(RegisterViewModel model)
         {
             if (ModelState.IsValid)
             {
-                Users users = new Users
+                // Kiểm tra nếu email đã tồn tại
+                var existingUser = await userManager.FindByEmailAsync(model.Email);
+                if (existingUser != null)
+                {
+                    ModelState.AddModelError("", "Email đã tồn tại.");
+                    return View(model);
+                }
+
+                // Tạo user với role mặc định là "Customer"
+                var user = new Users
                 {
                     FullName = model.Name,
                     Email = model.Email,
-                    UserName = model.Email,
-
+                    UserName = model.Email
                 };
 
-                var result = await userManager.CreateAsync(users, model.Password);
+                var result = await userManager.CreateAsync(user, model.Password);
 
                 if (result.Succeeded)
                 {
+                    // Mặc định gán quyền "Customer"
+                    await userManager.AddToRoleAsync(user, "Customer");
+
                     return RedirectToAction("Login", "Account");
                 }
                 else
@@ -71,11 +141,11 @@ namespace BookingTourTravelBuzz.Controllers
                     {
                         ModelState.AddModelError("", error.Description);
                     }
-                    return View(model);
                 }
             }
             return View(model);
         }
+
 
         public IActionResult VerifyEmail()
         {
@@ -151,5 +221,6 @@ namespace BookingTourTravelBuzz.Controllers
             await signInManager.SignOutAsync();
             return RedirectToAction("Home", "Home");
         }
+
     }
 }

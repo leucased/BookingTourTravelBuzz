@@ -31,6 +31,12 @@ builder.Services.AddIdentity<Users, IdentityRole>(options =>
 
 var app = builder.Build();
 
+using (var scope = app.Services.CreateScope())
+{
+    var serviceProvider = scope.ServiceProvider;
+    await SeedRoles.Initialize(serviceProvider);
+}
+
 // Configure the HTTP request pipeline.
 if (!app.Environment.IsDevelopment())
 {
@@ -51,5 +57,8 @@ app.MapControllerRoute(
     pattern: "{controller=Home}/{action=Home}/{id?}")
     .WithStaticAssets();
 
-
+app.MapControllerRoute(
+    name: "Admin",
+    pattern: "{area:exists}/{controller=Admin}/{action=Dashboard}/{id?}"
+);
 app.Run();
