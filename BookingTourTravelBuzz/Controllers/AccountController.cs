@@ -56,7 +56,7 @@ namespace BookingTourTravelBuzz.Controllers
                         var roles = await userManager.GetRolesAsync(user);
                         if (roles.Contains("Admin"))
                         {
-                            return RedirectToAction("Dashboard", "Admin", new { area = "Admin" });
+                            return RedirectToAction("Domestic", "TourManager", new { area = "Admin" });
                         }
                         else if (roles.Contains("Customer"))
                         {

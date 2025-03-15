@@ -1,0 +1,185 @@
+﻿@addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - BookingTourTravelBuzz</title>
+    <link href="https://fonts.googleapis.com/css2?family=Nico+Moji&display=swap" rel="stylesheet">
+
+    <script type="importmap"></script>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/BookingTourTravelBuzz.styles.css" asp-append-version="true" />
+</head>
+<body>
+    <header style ="position: relative;">
+            <div style="position: relative; width: 100%; height: 46px; background: #1C2B38; display: flex; align-items: center; padding: 0 20px;">
+                <span style="font-family: 'Mulish'; font-style: normal; font-weight: 600; font-size: 20px; color: #FFFFFF; margin-right: 40px;">
+                    info@travelbuzz.com
+                </span>
+                <span style="font-family: 'Mulish'; font-style: normal; font-weight: 600; font-size: 20px; color: #FFFFFF;">
+                    Hotline: 1900 0502
+                </span>
+            </div>
+
+        <nav class="navbar navbar-expand-sm navbar-toggleable-sm border-bottom box-shadow mb-3"
+             style="height: 75px; position: absolute; width: 100%; left: 50%; transform: translateX(-50%);
+    top: 46px;">
+
+            <div class="container-fluid d-flex justify-content-between align-items-center">
+                <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Home"
+                   style="font-family: 'Bahnschrift', sans-serif;margin-left: 10px; font-weight: 400; font-size: 40px;
+           line-height: 30px; color: lightgray;">
+                    TRAVELBUZZ
+                </a>
+                <div class="collapse navbar-collapse d-sm-inline-flex justify-content-end">
+                    <ul class="navbar-nav d-flex gap-3">
+                        <li class="nav-item">
+                            <a class="nav-link" asp-area="" asp-controller="Home" asp-action="Home" style="color: gray;">Trang chủ</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" asp-area="" asp-controller="Tour" asp-action="Domestic" style="color: gray;">Tour trong nước</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" asp-area="" asp-controller="Tour" asp-action="International" style="color: gray;">Tour nước ngoài</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" asp-area="" asp-controller="Home" asp-action="About" style="color: gray;">Giới thiệu</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" asp-area="" asp-controller="Home" asp-action="Contact"
+                               style="color: gray; margin-right: 20px;">Liên hệ</a>
+                        </li>
+                    </ul>
+                </div>
+                <button class="btn" asp-area="" asp-controller="Account" asp-action="Login"
+                        style="background-color: yellow; color: black; font-weight: 800; font-size: 16px;">
+                    <partial name="_LoginPartial2" />
+                </button>
+            </div>
+        </nav>
+
+
+
+    </header>
+    <div class="container">
+        <main role="main" class="pb-3">
+            @RenderBody()
+        </main>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer text-muted">
+        
+        <div class="container1" style="background-color: #13253F; color: white;">
+            <div class="row">
+                <div class="col-md-2 footer-section">
+                    <h3 class="footer-title">Dịch vụ</h3>
+                    <ul class="footer-list">
+                        <li><a asp-controller="Home" asp-action="Home">Trang chủ</a></li>
+                        <li><a asp-controller="Tour" asp-action="Domestic">Tour trong nước</a></li>
+                        <li><a asp-controller="Tour" asp-action="International">Tour nước ngoài</a></li>
+                        <li><a asp-controller="Booking" asp-action="History">Lịch sử đặt tour</a></li>
+                    </ul>
+                </div>
+
+                <div class="col-md-2 footer-section">
+                    <h3 class="footer-title">Trợ giúp</h3>
+                    <ul class="footer-list">
+                        <li><a asp-controller="Home" asp-action="About">Giới thiệu</a></li>
+                        <li><a asp-controller="Home" asp-action="Contact">Liên hệ</a></li>
+                    </ul>
+                </div>
+
+                <div class="col-md-2 footer-section">
+                    <h3 class="footer-title">Điều khoản</h3>
+                    <ul class="footer-list">
+                        <li><a asp-controller="Policy" asp-action="TourTerms">Điều khoản và điều kiện tour du lịch</a></li>
+                        <li><a asp-controller="Policy" asp-action="PrivacyPolicy">Chính sách riêng tư</a></li>
+                        <li><a asp-controller="Policy" asp-action="Cancellation">Chính sách hoàn hủy và đổi lịch tour</a></li>
+                    </ul>
+                </div>
+
+                <div class="col-md-2 footer-section founder">
+                    <h3 class="footer-title">Founder</h3>
+                    <p class="founder-name">Phạm Thị Đoan Trang</p>
+                    <p class="founder-name">Nguyễn Huỳnh Vân Anh</p>
+                    <p class="founder-name">Bùi Thị Mỹ Duyên</p>
+                </div>
+            </div>
+        </div>
+        <div class="container2" style="background-color: rgb(12, 10, 23);">
+            &copy; 2025 - TravelBuzz - <a asp-controller="Home" asp-action="Privacy" style="color: white;">Privacy</a>
+        </div>
+    </footer>
+    <!-- Footer -->
+<style>
+  
+    .footer{
+            margin-top: 50px; /* Giảm khoảng cách giữa nội dung và footer */
+    }
+        .container1 {
+            padding-top: 20px;
+            max-width: 100%; /* Đảm bảo container không vượt quá chiều rộng */
+            padding: 0 15px; /* Giảm padding để container không bị quá rộng */
+            margin: 0 auto; /* Căn giữa */
+        }
+
+        /* Điều chỉnh vị trí của footer */
+        .container2 {
+            background-color: rgb(12, 10, 23);
+            padding: 10px 0; /* Giảm padding nếu cần */
+            color: white;
+            text-align: center;
+            height: 70px;
+        }
+        .footer-title{
+            margin-left: 35px;
+            padding-top: 20px;
+        }
+        .footer-section h3 {
+            
+            font-size: 18px; /* Thu nhỏ tiêu đề */
+            margin-bottom: 10px; /* Giảm khoảng cách dưới tiêu đề */
+        }
+        .founder{
+            margin-left: auto;
+            margin-right: 30px;
+            text-align: right;
+        }
+        .founder-name{
+            line-height: 3; /* Giảm khoảng cách dòng */
+        }
+
+        .footer-section ul {
+            list-style: none; /* Xóa dấu chấm đầu dòng */
+            padding: 0;
+            line-height: 2; /* Giảm khoảng cách dòng */
+            margin-left: 35px; /* Loại bỏ khoảng cách thừa */
+        }
+        .footer-section p,
+        .footer-section a {
+            margin-bottom: 5px; /* Giảm khoảng cách giữa các dòng */
+            line-height: 1.2; /* Giảm khoảng cách dòng */
+            text-decoration: none !important; /* Bỏ gạch chân */
+            color: white; /* Giữ màu trắng */
+            font-weight: normal; /* Mặc định không đậm */
+            transition: font-weight 0.2s ease-in-out; /* Hiệu ứng mượt */
+        }
+
+            .footer-section a:hover {
+                text-decoration: none; /* Đảm bảo không có gạch chân khi hover */
+                font-weight: bold; /* Làm chữ đậm hơn khi hover */
+                color: white; /* Giữ màu chữ không đổi */
+            }
+</style>
+
+
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+    @await RenderSectionAsync("Scripts", required: false)
+</body>
+</html>

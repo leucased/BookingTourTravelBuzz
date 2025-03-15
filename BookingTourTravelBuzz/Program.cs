@@ -52,13 +52,27 @@ app.UseAuthorization();
 
 app.MapStaticAssets();
 
+app.UseEndpoints(endpoints =>
+{
+    endpoints.MapControllerRoute(
+      name: "areas",
+      pattern: "{area:exists}/{controller=TourManager}/{action=Domestic}/{id?}"
+    );
+});
+
+//app.UseEndpoints(endpoints =>
+//{
+//    endpoints.MapControllerRoute(
+//      name: "areas",
+//      pattern: "{area:exists}/{controller=CustomerPage}/{action=Personal}/{id?}"
+//    );
+//});
+
 app.MapControllerRoute(
     name: "default",
     pattern: "{controller=Home}/{action=Home}/{id?}")
     .WithStaticAssets();
 
-app.MapControllerRoute(
-    name: "Admin",
-    pattern: "{area:exists}/{controller=Admin}/{action=Dashboard}/{id?}"
-);
 app.Run();
+
+

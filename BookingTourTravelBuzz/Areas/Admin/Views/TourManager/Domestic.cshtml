@@ -1,0 +1,107 @@
+﻿@model IEnumerable<Tour>
+@addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
+
+@{
+    ViewData["Title"] = "Domestic";
+}
+
+<h1>Domestic</h1>    
+<a asp-area="Admin" asp-controller="TourManager" asp-action="Create">Create</a>
+
+        
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.ID_CATEGORY)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.ID_AREA)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.NAME_TOUR)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DESCRIPTION_TOUR)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.TIME_TOUR)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.PRICE_TOUR)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.COUNTRY_TOUR)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.TRANSPORTATION_TOUR)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.HOTEL_TOUR)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DESTINATION_TOUR)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.ITINERARY_TOUR)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.IMAGE_URL)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.NAME_AREA)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.ID_CATEGORY)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.ID_AREA)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.NAME_TOUR)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.DESCRIPTION_TOUR)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.TIME_TOUR)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.PRICE_TOUR)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.COUNTRY_TOUR)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.TRANSPORTATION_TOUR)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.HOTEL_TOUR)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.DESTINATION_TOUR)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.ITINERARY_TOUR)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.IMAGE_URL)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.NAME_AREA)
+            </td>
+            <td>
+                <a asp-action="Edit" asp-route-id="@item.ID_TOUR">Edit</a> |
+                <a asp-action="TourDetails" asp-route-id="@item.ID_TOUR">Details</a> |
+                <a asp-action="Delete" asp-route-id="@item.ID_TOUR">Delete</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>
