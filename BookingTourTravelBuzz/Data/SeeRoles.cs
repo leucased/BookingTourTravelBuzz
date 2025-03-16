@@ -13,7 +13,7 @@ namespace BookingTourTravelBuzz.Data
         public static async Task Initialize(IServiceProvider serviceProvider)
         {
             var roleManager = serviceProvider.GetRequiredService<RoleManager<IdentityRole>>();
-            var userManager = serviceProvider.GetRequiredService<UserManager<Users>>();
+            var userManager = serviceProvider.GetRequiredService<UserManager<Customer>>();
             var dbContext = serviceProvider.GetRequiredService<ApplicationDbContext>();
 
             // 1️⃣ Tạo role "Admin" và "Customer" nếu chưa có
@@ -35,7 +35,7 @@ namespace BookingTourTravelBuzz.Data
                 if (user == null)
                 {
                     // 4️⃣ Nếu chưa có, thêm admin vào Identity
-                    var newUser = new Users
+                    var newUser = new Customer
                     {
                         UserName = admin.EMAIL_ADMIN,
                         Email = admin.EMAIL_ADMIN,

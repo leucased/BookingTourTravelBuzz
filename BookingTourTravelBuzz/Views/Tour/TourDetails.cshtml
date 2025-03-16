@@ -3,27 +3,25 @@
 }
 <link rel="stylesheet" href="/css/site.css" asp-append-version="true" />
 <script src="/js/site.js" asp-append-version="true"></script>
-
+@model Tour
 @{
-    string bannerUrl = Model?.IMAGE_URL;
+    string bannerUrl = Model?.IMAGE_URL?.Trim() ?? ""; // Nếu null thì gán chuỗi rỗng
 
     if (string.IsNullOrEmpty(bannerUrl))
     {
-        bannerUrl = "/img/mim4.jpg"; // Ảnh mặc định
+        bannerUrl = "/img/mim4.jpg"; // Ảnh mặc định nếu không có
     }
-    else if (!bannerUrl.StartsWith("http"))
+    else
     {
-        bannerUrl = "/img/" + bannerUrl;
+        bannerUrl = "/img/Tour/" + Model.IMAGE_URL;
     }
 }
 
-<body>
 
+<body>
     <div class="banner" style="background: url('@bannerUrl') center top / cover no-repeat;"></div>
     <div class="containerempty1"></div>
     <h2 class="section-title2">Thông tin về Tour @Model.NAME_TOUR</h2>
-
-    @model Tour
 
     <section>
         <p class="description-tour">@Model.DESCRIPTION_TOUR</p>
@@ -39,16 +37,117 @@
         </div>
     </section>
     <div class="booking-container">
-        <a href="@Url.Action("BookTour", "Booking", new { id = Model.ID_TOUR })" class="btn-booking">
-            Đặt Tour ngay
-        </a>
+        @if (User.Identity.IsAuthenticated)
+        {
+            <!-- Nếu đã đăng nhập, mở modal đặt tour -->
+            <button class="btn-booking" data-bs-toggle="modal" data-bs-target="#bookingModal">
+                Đặt Tour ngay
+            </button>
+        }
+        else
+        {
+            <!-- Nếu chưa đăng nhập, chuyển hướng đến trang đăng nhập -->
+            <a href="@Url.Action("Login", "Account")" class="btn-booking">
+                Đăng nhập để đặt tour
+            </a>
+        }
     </div>
-
     <div class="containerempty"></div>
 </body>
 
-<style>
+<!-- Form đặt tour (Modal) -->
+<div class="modal fade" id="bookingModal" tabindex="-1" aria-labelledby="bookingModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="bookingModalLabel">Đặt Tour - @Model.NAME_TOUR</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <form asp-action="BookTour" asp-controller="Booking" method="post">
+                <div class="modal-body">
+                    <div class="row">
+                        <!-- Cột 1: Thông tin khách hàng -->
+                        <div class="col-md-6">
+                            <h5>Thông tin khách hàng</h5>
+                            <div class="mb-3">
+                                <label class="form-label">Họ và tên:</label>
+                                <input type="text" name="FullName" class="form-control" required>
+                            </div>
+                            <div class="mb-3">
+                                <label class="form-label">Số điện thoại:</label>
+                                <input type="text" name="Phone" class="form-control" required>
+                            </div>
+                            <div class="mb-3">
+                                <label class="form-label">Email:</label>
+                                <input type="email" name="Email" class="form-control" required>
+                            </div>
+                            <div class="mb-3">
+                                <label class="form-label">Số người đi:</label>
+                                <input type="number" name="Quantity" class="form-control" min="1" required>
+                            </div>
+                            <div class="mb-3">
+                                <label class="form-label">Ngày khởi hành:</label>
+                                <input type="date" class="form-control" name="START_DATE" required />
+                            </div>
+                            <div class="mb-3">
+                                <label class="form-label">Thời gian tour:</label>
+                                <select name="TimeTour" class="form-select">
+                                    <option>2 ngày 1 đêm</option>
+                                    <option>3 ngày 2 đêm</option>
+                                    <option>4 ngày 3 đêm</option>
+                                    <option>5 ngày 4 đêm</option>
+                                    <option>6 ngày 5 đêm</option>
+                                    <option>7 ngày 6 đêm</option>
+                                </select>
+                            </div>
+                        </div>
 
+                        <!-- Cột 2: Thông tin tour -->
+                        <div class="col-md-6">
+                            <h5>Thông tin Tour</h5>
+                            <div class="mb-3">
+                                <label class="form-label">Tên Tour:</label>
+                                <input type="text" class="form-control" value="@Model.NAME_TOUR" readonly>
+                                <input type="hidden" name="TourID" value="@Model.ID_TOUR">
+                            </div>
+                            <div class="mb-3">
+                                <label class="form-label">Khu vực:</label>
+                                <input type="text" class="form-control" value="@Model.Area.NAME_AREA" readonly>
+                            </div>
+
+                            <div class="mb-3">
+                                <label class="form-label">Quốc gia:</label>
+                                <input type="text" class="form-control" value="@Model.COUNTRY_TOUR" readonly>
+                            </div>
+                            <div class="mb-3">
+                                <label class="form-label">Phương tiện di chuyển:</label>
+                                <input type="text" class="form-control" value="@Model.TRANSPORTATION_TOUR" readonly>
+                            </div>
+                            <div class="mb-3">
+                                <label class="form-label">Khách sạn:</label>
+                                <input type="text" class="form-control" value="@Model.HOTEL_TOUR" readonly>
+                            </div>
+                            <div class="mb-3">
+                                <label class="form-label">Điểm đến:</label>
+                                <input type="text" class="form-control" value="@Model.DESTINATION_TOUR" readonly>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="modal-footer">
+                    <button type="submit" class="btn btn-success">Xác nhận đặt tour</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+
+<!-- Nút đặt tour -->
+<button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#bookingModal">Đặt tour ngay</button>
+
+
+<style>
     .containerempty1 {
         height: 650px;
     }
@@ -57,9 +156,6 @@
         height: 400px;
     }
 
-    /* .body {
-            padding-bottom: 500px;
-        } */
     .banner {
         margin-top: 75px;
         position: absolute;
@@ -67,7 +163,7 @@
         top: 45px;
         width: 100%;
         height: 80vh;
-        background: url('/img/mim4.jpg') center top / cover no-repeat;
+        background: url('@bannerUrl') center top / cover no-repeat;
         z-index: -1;
     }
 </style>

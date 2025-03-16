@@ -257,3 +257,11 @@ body {
     cursor: pointer;
     color: red;
 }
+
+.tour-image {
+    width: 100%; /* Đảm bảo ảnh phủ hết div */
+    height: 200px; /* Đặt chiều cao bằng chiều rộng */
+    object-fit: cover; /* Cắt ảnh để giữ tỷ lệ mà không méo */
+    border-radius: 8px; /* Bo góc ảnh nhẹ nhàng */
+}
+

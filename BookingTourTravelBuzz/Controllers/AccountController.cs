@@ -7,10 +7,10 @@ namespace BookingTourTravelBuzz.Controllers
 {
     public class AccountController : Controller
     {
-        private readonly SignInManager<Users> signInManager;
-        private readonly UserManager<Users> userManager;
+        private readonly SignInManager<Customer> signInManager;
+        private readonly UserManager<Customer> userManager;
 
-        public AccountController(SignInManager<Users> signInManager, UserManager<Users> userManager)
+        public AccountController(SignInManager<Customer> signInManager, UserManager<Customer> userManager)
         {
             this.signInManager = signInManager;
             this.userManager = userManager;
@@ -119,7 +119,7 @@ namespace BookingTourTravelBuzz.Controllers
                 }
 
                 // Tạo user với role mặc định là "Customer"
-                var user = new Users
+                var user = new Customer
                 {
                     FullName = model.Name,
                     Email = model.Email,

@@ -1,355 +1,427 @@
 {
   "Files": [
     {
-      "Id": "D:\\Web Cuối Kì\\BookingTourTravelBuzz\\BookingTourTravelBuzz\\obj\\Debug\\net9.0\\scopedcss\\projectbundle\\BookingTourTravelBuzz.bundle.scp.css",
+      "Id": "I:\\FinalTerm\\BookingTourTravelBuzz\\BookingTourTravelBuzz\\obj\\Debug\\net9.0\\scopedcss\\projectbundle\\BookingTourTravelBuzz.bundle.scp.css",
       "PackagePath": "staticwebassets\\BookingTourTravelBuzz.7krulx63s9.bundle.scp.css"
     },
     {
-      "Id": "D:\\Web Cuối Kì\\BookingTourTravelBuzz\\BookingTourTravelBuzz\\wwwroot\\css\\account.css",
+      "Id": "I:\\FinalTerm\\BookingTourTravelBuzz\\BookingTourTravelBuzz\\wwwroot\\css\\account.css",
       "PackagePath": "staticwebassets\\css\\account.css"
     },
     {
-      "Id": "D:\\Web Cuối Kì\\BookingTourTravelBuzz\\BookingTourTravelBuzz\\wwwroot\\css\\site.css",
+      "Id": "I:\\FinalTerm\\BookingTourTravelBuzz\\BookingTourTravelBuzz\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },
     {
-      "Id": "D:\\Web Cuối Kì\\BookingTourTravelBuzz\\BookingTourTravelBuzz\\wwwroot\\css\\sitetourterms.css",
+      "Id": "I:\\FinalTerm\\BookingTourTravelBuzz\\BookingTourTravelBuzz\\wwwroot\\css\\sitetourterms.css",
       "PackagePath": "staticwebassets\\css\\sitetourterms.css"
     },
     {
-      "Id": "D:\\Web Cuối Kì\\BookingTourTravelBuzz\\BookingTourTravelBuzz\\wwwroot\\favicon.ico",
+      "Id": "I:\\FinalTerm\\BookingTourTravelBuzz\\BookingTourTravelBuzz\\wwwroot\\favicon.ico",
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
-      "Id": "D:\\Web Cuối Kì\\BookingTourTravelBuzz\\BookingTourTravelBuzz\\wwwroot\\img\\BannerInternational.jpg",
+      "Id": "I:\\FinalTerm\\BookingTourTravelBuzz\\BookingTourTravelBuzz\\wwwroot\\img\\BannerInternational.jpg",
       "PackagePath": "staticwebassets\\img\\BannerInternational.jpg"
     },
     {
-      "Id": "D:\\Web Cuối Kì\\BookingTourTravelBuzz\\BookingTourTravelBuzz\\wwwroot\\img\\Bannerdomestic.webp",
+      "Id": "I:\\FinalTerm\\BookingTourTravelBuzz\\BookingTourTravelBuzz\\wwwroot\\img\\Bannerdomestic.webp",
       "PackagePath": "staticwebassets\\img\\Bannerdomestic.webp"
     },
     {
-      "Id": "D:\\Web Cuối Kì\\BookingTourTravelBuzz\\BookingTourTravelBuzz\\wwwroot\\img\\DaLat1.jpg",
+      "Id": "I:\\FinalTerm\\BookingTourTravelBuzz\\BookingTourTravelBuzz\\wwwroot\\img\\DaLat1.jpg",
       "PackagePath": "staticwebassets\\img\\DaLat1.jpg"
     },
     {
-      "Id": "D:\\Web Cuối Kì\\BookingTourTravelBuzz\\BookingTourTravelBuzz\\wwwroot\\img\\DaNang1.jpg",
+      "Id": "I:\\FinalTerm\\BookingTourTravelBuzz\\BookingTourTravelBuzz\\wwwroot\\img\\DaNang1.jpg",
       "PackagePath": "staticwebassets\\img\\DaNang1.jpg"
     },
     {
-      "Id": "D:\\Web Cuối Kì\\BookingTourTravelBuzz\\BookingTourTravelBuzz\\wwwroot\\img\\Halong2.jpg",
+      "Id": "I:\\FinalTerm\\BookingTourTravelBuzz\\BookingTourTravelBuzz\\wwwroot\\img\\Halong2.jpg",
       "PackagePath": "staticwebassets\\img\\Halong2.jpg"
     },
     {
-      "Id": "D:\\Web Cuối Kì\\BookingTourTravelBuzz\\BookingTourTravelBuzz\\wwwroot\\img\\Muine1.png",
+      "Id": "I:\\FinalTerm\\BookingTourTravelBuzz\\BookingTourTravelBuzz\\wwwroot\\img\\Muine1.png",
       "PackagePath": "staticwebassets\\img\\Muine1.png"
     },
     {
-      "Id": "D:\\Web Cuối Kì\\BookingTourTravelBuzz\\BookingTourTravelBuzz\\wwwroot\\img\\Muine2.webp",
+      "Id": "I:\\FinalTerm\\BookingTourTravelBuzz\\BookingTourTravelBuzz\\wwwroot\\img\\Muine2.webp",
       "PackagePath": "staticwebassets\\img\\Muine2.webp"
     },
     {
-      "Id": "D:\\Web Cuối Kì\\BookingTourTravelBuzz\\BookingTourTravelBuzz\\wwwroot\\img\\PhuQuoc.jpg",
+      "Id": "I:\\FinalTerm\\BookingTourTravelBuzz\\BookingTourTravelBuzz\\wwwroot\\img\\PhuQuoc.jpg",
       "PackagePath": "staticwebassets\\img\\PhuQuoc.jpg"
     },
     {
-      "Id": "D:\\Web Cuối Kì\\BookingTourTravelBuzz\\BookingTourTravelBuzz\\wwwroot\\img\\ads\\ad3.webp",
+      "Id": "I:\\FinalTerm\\BookingTourTravelBuzz\\BookingTourTravelBuzz\\wwwroot\\img\\Tour\\CanTho.webp",
+      "PackagePath": "staticwebassets\\img\\Tour\\CanTho.webp"
+    },
+    {
+      "Id": "I:\\FinalTerm\\BookingTourTravelBuzz\\BookingTourTravelBuzz\\wwwroot\\img\\Tour\\CaoBang.webp",
+      "PackagePath": "staticwebassets\\img\\Tour\\CaoBang.webp"
+    },
+    {
+      "Id": "I:\\FinalTerm\\BookingTourTravelBuzz\\BookingTourTravelBuzz\\wwwroot\\img\\Tour\\DaNang.webp",
+      "PackagePath": "staticwebassets\\img\\Tour\\DaNang.webp"
+    },
+    {
+      "Id": "I:\\FinalTerm\\BookingTourTravelBuzz\\BookingTourTravelBuzz\\wwwroot\\img\\Tour\\HaLong.webp",
+      "PackagePath": "staticwebassets\\img\\Tour\\HaLong.webp"
+    },
+    {
+      "Id": "I:\\FinalTerm\\BookingTourTravelBuzz\\BookingTourTravelBuzz\\wwwroot\\img\\Tour\\HaNoi.webp",
+      "PackagePath": "staticwebassets\\img\\Tour\\HaNoi.webp"
+    },
+    {
+      "Id": "I:\\FinalTerm\\BookingTourTravelBuzz\\BookingTourTravelBuzz\\wwwroot\\img\\Tour\\HaiPhong.webp",
+      "PackagePath": "staticwebassets\\img\\Tour\\HaiPhong.webp"
+    },
+    {
+      "Id": "I:\\FinalTerm\\BookingTourTravelBuzz\\BookingTourTravelBuzz\\wwwroot\\img\\Tour\\HanQuoc.webp",
+      "PackagePath": "staticwebassets\\img\\Tour\\HanQuoc.webp"
+    },
+    {
+      "Id": "I:\\FinalTerm\\BookingTourTravelBuzz\\BookingTourTravelBuzz\\wwwroot\\img\\Tour\\HongKong.webp",
+      "PackagePath": "staticwebassets\\img\\Tour\\HongKong.webp"
+    },
+    {
+      "Id": "I:\\FinalTerm\\BookingTourTravelBuzz\\BookingTourTravelBuzz\\wwwroot\\img\\Tour\\NhatBan.webp",
+      "PackagePath": "staticwebassets\\img\\Tour\\NhatBan.webp"
+    },
+    {
+      "Id": "I:\\FinalTerm\\BookingTourTravelBuzz\\BookingTourTravelBuzz\\wwwroot\\img\\Tour\\PhanThiet.webp",
+      "PackagePath": "staticwebassets\\img\\Tour\\PhanThiet.webp"
+    },
+    {
+      "Id": "I:\\FinalTerm\\BookingTourTravelBuzz\\BookingTourTravelBuzz\\wwwroot\\img\\Tour\\Phap.webp",
+      "PackagePath": "staticwebassets\\img\\Tour\\Phap.webp"
+    },
+    {
+      "Id": "I:\\FinalTerm\\BookingTourTravelBuzz\\BookingTourTravelBuzz\\wwwroot\\img\\Tour\\PhuQuoc.webp",
+      "PackagePath": "staticwebassets\\img\\Tour\\PhuQuoc.webp"
+    },
+    {
+      "Id": "I:\\FinalTerm\\BookingTourTravelBuzz\\BookingTourTravelBuzz\\wwwroot\\img\\Tour\\Sapa1.webp",
+      "PackagePath": "staticwebassets\\img\\Tour\\Sapa1.webp"
+    },
+    {
+      "Id": "I:\\FinalTerm\\BookingTourTravelBuzz\\BookingTourTravelBuzz\\wwwroot\\img\\ads\\ad3.webp",
       "PackagePath": "staticwebassets\\img\\ads\\ad3.webp"
     },
     {
-      "Id": "D:\\Web Cuối Kì\\BookingTourTravelBuzz\\BookingTourTravelBuzz\\wwwroot\\img\\ads\\ad4.webp",
+      "Id": "I:\\FinalTerm\\BookingTourTravelBuzz\\BookingTourTravelBuzz\\wwwroot\\img\\ads\\ad4.webp",
       "PackagePath": "staticwebassets\\img\\ads\\ad4.webp"
     },
     {
-      "Id": "D:\\Web Cuối Kì\\BookingTourTravelBuzz\\BookingTourTravelBuzz\\wwwroot\\img\\ads\\ads1.webp",
+      "Id": "I:\\FinalTerm\\BookingTourTravelBuzz\\BookingTourTravelBuzz\\wwwroot\\img\\ads\\ads1.webp",
       "PackagePath": "staticwebassets\\img\\ads\\ads1.webp"
     },
     {
-      "Id": "D:\\Web Cuối Kì\\BookingTourTravelBuzz\\BookingTourTravelBuzz\\wwwroot\\img\\ads\\ads2.webp",
+      "Id": "I:\\FinalTerm\\BookingTourTravelBuzz\\BookingTourTravelBuzz\\wwwroot\\img\\ads\\ads2.webp",
       "PackagePath": "staticwebassets\\img\\ads\\ads2.webp"
     },
     {
-      "Id": "D:\\Web Cuối Kì\\BookingTourTravelBuzz\\BookingTourTravelBuzz\\wwwroot\\img\\bannerads1.jpg",
+      "Id": "I:\\FinalTerm\\BookingTourTravelBuzz\\BookingTourTravelBuzz\\wwwroot\\img\\bannerads1.jpg",
       "PackagePath": "staticwebassets\\img\\bannerads1.jpg"
     },
     {
-      "Id": "D:\\Web Cuối Kì\\BookingTourTravelBuzz\\BookingTourTravelBuzz\\wwwroot\\img\\mim1.jpg",
+      "Id": "I:\\FinalTerm\\BookingTourTravelBuzz\\BookingTourTravelBuzz\\wwwroot\\img\\headerbanner\\1.webp",
+      "PackagePath": "staticwebassets\\img\\headerbanner\\1.webp"
+    },
+    {
+      "Id": "I:\\FinalTerm\\BookingTourTravelBuzz\\BookingTourTravelBuzz\\wwwroot\\img\\headerbanner\\2.webp",
+      "PackagePath": "staticwebassets\\img\\headerbanner\\2.webp"
+    },
+    {
+      "Id": "I:\\FinalTerm\\BookingTourTravelBuzz\\BookingTourTravelBuzz\\wwwroot\\img\\headerbanner\\3.webp",
+      "PackagePath": "staticwebassets\\img\\headerbanner\\3.webp"
+    },
+    {
+      "Id": "I:\\FinalTerm\\BookingTourTravelBuzz\\BookingTourTravelBuzz\\wwwroot\\img\\headerbanner\\4.webp",
+      "PackagePath": "staticwebassets\\img\\headerbanner\\4.webp"
+    },
+    {
+      "Id": "I:\\FinalTerm\\BookingTourTravelBuzz\\BookingTourTravelBuzz\\wwwroot\\img\\headerbanner\\5.webp",
+      "PackagePath": "staticwebassets\\img\\headerbanner\\5.webp"
+    },
+    {
+      "Id": "I:\\FinalTerm\\BookingTourTravelBuzz\\BookingTourTravelBuzz\\wwwroot\\img\\mim1.jpg",
       "PackagePath": "staticwebassets\\img\\mim1.jpg"
     },
     {
-      "Id": "D:\\Web Cuối Kì\\BookingTourTravelBuzz\\BookingTourTravelBuzz\\wwwroot\\img\\mim2.jpg",
+      "Id": "I:\\FinalTerm\\BookingTourTravelBuzz\\BookingTourTravelBuzz\\wwwroot\\img\\mim2.jpg",
       "PackagePath": "staticwebassets\\img\\mim2.jpg"
     },
     {
-      "Id": "D:\\Web Cuối Kì\\BookingTourTravelBuzz\\BookingTourTravelBuzz\\wwwroot\\img\\mim3.jpg",
+      "Id": "I:\\FinalTerm\\BookingTourTravelBuzz\\BookingTourTravelBuzz\\wwwroot\\img\\mim3.jpg",
       "PackagePath": "staticwebassets\\img\\mim3.jpg"
     },
     {
-      "Id": "D:\\Web Cuối Kì\\BookingTourTravelBuzz\\BookingTourTravelBuzz\\wwwroot\\img\\mim4.jpg",
+      "Id": "I:\\FinalTerm\\BookingTourTravelBuzz\\BookingTourTravelBuzz\\wwwroot\\img\\mim4.jpg",
       "PackagePath": "staticwebassets\\img\\mim4.jpg"
     },
     {
-      "Id": "D:\\Web Cuối Kì\\BookingTourTravelBuzz\\BookingTourTravelBuzz\\wwwroot\\img\\replace\\mim10.jpg",
+      "Id": "I:\\FinalTerm\\BookingTourTravelBuzz\\BookingTourTravelBuzz\\wwwroot\\img\\replace\\mim10.jpg",
       "PackagePath": "staticwebassets\\img\\replace\\mim10.jpg"
     },
     {
-      "Id": "D:\\Web Cuối Kì\\BookingTourTravelBuzz\\BookingTourTravelBuzz\\wwwroot\\img\\replace\\mim5.jpg",
+      "Id": "I:\\FinalTerm\\BookingTourTravelBuzz\\BookingTourTravelBuzz\\wwwroot\\img\\replace\\mim5.jpg",
       "PackagePath": "staticwebassets\\img\\replace\\mim5.jpg"
     },
     {
-      "Id": "D:\\Web Cuối Kì\\BookingTourTravelBuzz\\BookingTourTravelBuzz\\wwwroot\\img\\replace\\mim6.jpg",
+      "Id": "I:\\FinalTerm\\BookingTourTravelBuzz\\BookingTourTravelBuzz\\wwwroot\\img\\replace\\mim6.jpg",
       "PackagePath": "staticwebassets\\img\\replace\\mim6.jpg"
     },
     {
-      "Id": "D:\\Web Cuối Kì\\BookingTourTravelBuzz\\BookingTourTravelBuzz\\wwwroot\\img\\replace\\mim8.jpg",
+      "Id": "I:\\FinalTerm\\BookingTourTravelBuzz\\BookingTourTravelBuzz\\wwwroot\\img\\replace\\mim8.jpg",
       "PackagePath": "staticwebassets\\img\\replace\\mim8.jpg"
     },
     {
-      "Id": "D:\\Web Cuối Kì\\BookingTourTravelBuzz\\BookingTourTravelBuzz\\wwwroot\\img\\replace\\mim9.jpg",
+      "Id": "I:\\FinalTerm\\BookingTourTravelBuzz\\BookingTourTravelBuzz\\wwwroot\\img\\replace\\mim9.jpg",
       "PackagePath": "staticwebassets\\img\\replace\\mim9.jpg"
     },
     {
-      "Id": "D:\\Web Cuối Kì\\BookingTourTravelBuzz\\BookingTourTravelBuzz\\wwwroot\\js\\site.js",
+      "Id": "I:\\FinalTerm\\BookingTourTravelBuzz\\BookingTourTravelBuzz\\wwwroot\\js\\site.js",
       "PackagePath": "staticwebassets\\js\\site.js"
     },
     {
-      "Id": "D:\\Web Cuối Kì\\BookingTourTravelBuzz\\BookingTourTravelBuzz\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "Id": "I:\\FinalTerm\\BookingTourTravelBuzz\\BookingTourTravelBuzz\\wwwroot\\lib\\bootstrap\\LICENSE",
       "PackagePath": "staticwebassets\\lib\\bootstrap"
     },
     {
-      "Id": "D:\\Web Cuối Kì\\BookingTourTravelBuzz\\BookingTourTravelBuzz\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "Id": "I:\\FinalTerm\\BookingTourTravelBuzz\\BookingTourTravelBuzz\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
     },
     {
-      "Id": "D:\\Web Cuối Kì\\BookingTourTravelBuzz\\BookingTourTravelBuzz\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "Id": "I:\\FinalTerm\\BookingTourTravelBuzz\\BookingTourTravelBuzz\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
     },
     {
-      "Id": "D:\\Web Cuối Kì\\BookingTourTravelBuzz\\BookingTourTravelBuzz\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "Id": "I:\\FinalTerm\\BookingTourTravelBuzz\\BookingTourTravelBuzz\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
     },
     {
-      "Id": "D:\\Web Cuối Kì\\BookingTourTravelBuzz\\BookingTourTravelBuzz\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "Id": "I:\\FinalTerm\\BookingTourTravelBuzz\\BookingTourTravelBuzz\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
     },
     {
-      "Id": "D:\\Web Cuối Kì\\BookingTourTravelBuzz\\BookingTourTravelBuzz\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "Id": "I:\\FinalTerm\\BookingTourTravelBuzz\\BookingTourTravelBuzz\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
     },
     {
-      "Id": "D:\\Web Cuối Kì\\BookingTourTravelBuzz\\BookingTourTravelBuzz\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "Id": "I:\\FinalTerm\\BookingTourTravelBuzz\\BookingTourTravelBuzz\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
     },
     {
-      "Id": "D:\\Web Cuối Kì\\BookingTourTravelBuzz\\BookingTourTravelBuzz\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "Id": "I:\\FinalTerm\\BookingTourTravelBuzz\\BookingTourTravelBuzz\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
     },
     {
-      "Id": "D:\\Web Cuối Kì\\BookingTourTravelBuzz\\BookingTourTravelBuzz\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "Id": "I:\\FinalTerm\\BookingTourTravelBuzz\\BookingTourTravelBuzz\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
     },
     {
-      "Id": "D:\\Web Cuối Kì\\BookingTourTravelBuzz\\BookingTourTravelBuzz\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "Id": "I:\\FinalTerm\\BookingTourTravelBuzz\\BookingTourTravelBuzz\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
     },
     {
-      "Id": "D:\\Web Cuối Kì\\BookingTourTravelBuzz\\BookingTourTravelBuzz\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "Id": "I:\\FinalTerm\\BookingTourTravelBuzz\\BookingTourTravelBuzz\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
     },
     {
-      "Id": "D:\\Web Cuối Kì\\BookingTourTravelBuzz\\BookingTourTravelBuzz\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "Id": "I:\\FinalTerm\\BookingTourTravelBuzz\\BookingTourTravelBuzz\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
     },
     {
-      "Id": "D:\\Web Cuối Kì\\BookingTourTravelBuzz\\BookingTourTravelBuzz\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "Id": "I:\\FinalTerm\\BookingTourTravelBuzz\\BookingTourTravelBuzz\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
     },
     {
-      "Id": "D:\\Web Cuối Kì\\BookingTourTravelBuzz\\BookingTourTravelBuzz\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "Id": "I:\\FinalTerm\\BookingTourTravelBuzz\\BookingTourTravelBuzz\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
     },
     {
-      "Id": "D:\\Web Cuối Kì\\BookingTourTravelBuzz\\BookingTourTravelBuzz\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "Id": "I:\\FinalTerm\\BookingTourTravelBuzz\\BookingTourTravelBuzz\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
     },
     {
-      "Id": "D:\\Web Cuối Kì\\BookingTourTravelBuzz\\BookingTourTravelBuzz\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "Id": "I:\\FinalTerm\\BookingTourTravelBuzz\\BookingTourTravelBuzz\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
     },
     {
-      "Id": "D:\\Web Cuối Kì\\BookingTourTravelBuzz\\BookingTourTravelBuzz\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "Id": "I:\\FinalTerm\\BookingTourTravelBuzz\\BookingTourTravelBuzz\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
     },
     {
-      "Id": "D:\\Web Cuối Kì\\BookingTourTravelBuzz\\BookingTourTravelBuzz\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "Id": "I:\\FinalTerm\\BookingTourTravelBuzz\\BookingTourTravelBuzz\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
     },
     {
-      "Id": "D:\\Web Cuối Kì\\BookingTourTravelBuzz\\BookingTourTravelBuzz\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "Id": "I:\\FinalTerm\\BookingTourTravelBuzz\\BookingTourTravelBuzz\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
     },
     {
-      "Id": "D:\\Web Cuối Kì\\BookingTourTravelBuzz\\BookingTourTravelBuzz\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "Id": "I:\\FinalTerm\\BookingTourTravelBuzz\\BookingTourTravelBuzz\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
     },
     {
-      "Id": "D:\\Web Cuối Kì\\BookingTourTravelBuzz\\BookingTourTravelBuzz\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "Id": "I:\\FinalTerm\\BookingTourTravelBuzz\\BookingTourTravelBuzz\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
     },
     {
-      "Id": "D:\\Web Cuối Kì\\BookingTourTravelBuzz\\BookingTourTravelBuzz\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "Id": "I:\\FinalTerm\\BookingTourTravelBuzz\\BookingTourTravelBuzz\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
     },
     {
-      "Id": "D:\\Web Cuối Kì\\BookingTourTravelBuzz\\BookingTourTravelBuzz\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "Id": "I:\\FinalTerm\\BookingTourTravelBuzz\\BookingTourTravelBuzz\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
     },
     {
-      "Id": "D:\\Web Cuối Kì\\BookingTourTravelBuzz\\BookingTourTravelBuzz\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "Id": "I:\\FinalTerm\\BookingTourTravelBuzz\\BookingTourTravelBuzz\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
     },
     {
-      "Id": "D:\\Web Cuối Kì\\BookingTourTravelBuzz\\BookingTourTravelBuzz\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "Id": "I:\\FinalTerm\\BookingTourTravelBuzz\\BookingTourTravelBuzz\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
     },
     {
-      "Id": "D:\\Web Cuối Kì\\BookingTourTravelBuzz\\BookingTourTravelBuzz\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "Id": "I:\\FinalTerm\\BookingTourTravelBuzz\\BookingTourTravelBuzz\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
     },
     {
-      "Id": "D:\\Web Cuối Kì\\BookingTourTravelBuzz\\BookingTourTravelBuzz\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "Id": "I:\\FinalTerm\\BookingTourTravelBuzz\\BookingTourTravelBuzz\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
     },
     {
-      "Id": "D:\\Web Cuối Kì\\BookingTourTravelBuzz\\BookingTourTravelBuzz\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "Id": "I:\\FinalTerm\\BookingTourTravelBuzz\\BookingTourTravelBuzz\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
     },
     {
-      "Id": "D:\\Web Cuối Kì\\BookingTourTravelBuzz\\BookingTourTravelBuzz\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "Id": "I:\\FinalTerm\\BookingTourTravelBuzz\\BookingTourTravelBuzz\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
     },
     {
-      "Id": "D:\\Web Cuối Kì\\BookingTourTravelBuzz\\BookingTourTravelBuzz\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "Id": "I:\\FinalTerm\\BookingTourTravelBuzz\\BookingTourTravelBuzz\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
     },
     {
-      "Id": "D:\\Web Cuối Kì\\BookingTourTravelBuzz\\BookingTourTravelBuzz\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "Id": "I:\\FinalTerm\\BookingTourTravelBuzz\\BookingTourTravelBuzz\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
     },
     {
-      "Id": "D:\\Web Cuối Kì\\BookingTourTravelBuzz\\BookingTourTravelBuzz\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "Id": "I:\\FinalTerm\\BookingTourTravelBuzz\\BookingTourTravelBuzz\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
     },
     {
-      "Id": "D:\\Web Cuối Kì\\BookingTourTravelBuzz\\BookingTourTravelBuzz\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "Id": "I:\\FinalTerm\\BookingTourTravelBuzz\\BookingTourTravelBuzz\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
     },
     {
-      "Id": "D:\\Web Cuối Kì\\BookingTourTravelBuzz\\BookingTourTravelBuzz\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "Id": "I:\\FinalTerm\\BookingTourTravelBuzz\\BookingTourTravelBuzz\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
     },
     {
-      "Id": "D:\\Web Cuối Kì\\BookingTourTravelBuzz\\BookingTourTravelBuzz\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "Id": "I:\\FinalTerm\\BookingTourTravelBuzz\\BookingTourTravelBuzz\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
     },
     {
-      "Id": "D:\\Web Cuối Kì\\BookingTourTravelBuzz\\BookingTourTravelBuzz\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "Id": "I:\\FinalTerm\\BookingTourTravelBuzz\\BookingTourTravelBuzz\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
     },
     {
-      "Id": "D:\\Web Cuối Kì\\BookingTourTravelBuzz\\BookingTourTravelBuzz\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "Id": "I:\\FinalTerm\\BookingTourTravelBuzz\\BookingTourTravelBuzz\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
     },
     {
-      "Id": "D:\\Web Cuối Kì\\BookingTourTravelBuzz\\BookingTourTravelBuzz\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "Id": "I:\\FinalTerm\\BookingTourTravelBuzz\\BookingTourTravelBuzz\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
     },
     {
-      "Id": "D:\\Web Cuối Kì\\BookingTourTravelBuzz\\BookingTourTravelBuzz\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "Id": "I:\\FinalTerm\\BookingTourTravelBuzz\\BookingTourTravelBuzz\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
     },
     {
-      "Id": "D:\\Web Cuối Kì\\BookingTourTravelBuzz\\BookingTourTravelBuzz\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "Id": "I:\\FinalTerm\\BookingTourTravelBuzz\\BookingTourTravelBuzz\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
     },
     {
-      "Id": "D:\\Web Cuối Kì\\BookingTourTravelBuzz\\BookingTourTravelBuzz\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "Id": "I:\\FinalTerm\\BookingTourTravelBuzz\\BookingTourTravelBuzz\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
     },
     {
-      "Id": "D:\\Web Cuối Kì\\BookingTourTravelBuzz\\BookingTourTravelBuzz\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "Id": "I:\\FinalTerm\\BookingTourTravelBuzz\\BookingTourTravelBuzz\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
     },
     {
-      "Id": "D:\\Web Cuối Kì\\BookingTourTravelBuzz\\BookingTourTravelBuzz\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "Id": "I:\\FinalTerm\\BookingTourTravelBuzz\\BookingTourTravelBuzz\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
     },
     {
-      "Id": "D:\\Web Cuối Kì\\BookingTourTravelBuzz\\BookingTourTravelBuzz\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "Id": "I:\\FinalTerm\\BookingTourTravelBuzz\\BookingTourTravelBuzz\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
     },
     {
-      "Id": "D:\\Web Cuối Kì\\BookingTourTravelBuzz\\BookingTourTravelBuzz\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "Id": "I:\\FinalTerm\\BookingTourTravelBuzz\\BookingTourTravelBuzz\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
     },
     {
-      "Id": "D:\\Web Cuối Kì\\BookingTourTravelBuzz\\BookingTourTravelBuzz\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "Id": "I:\\FinalTerm\\BookingTourTravelBuzz\\BookingTourTravelBuzz\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
       "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
     },
     {
-      "Id": "D:\\Web Cuối Kì\\BookingTourTravelBuzz\\BookingTourTravelBuzz\\wwwroot\\lib\\jquery-validation-unobtrusive\\dist\\jquery.validate.unobtrusive.js",
+      "Id": "I:\\FinalTerm\\BookingTourTravelBuzz\\BookingTourTravelBuzz\\wwwroot\\lib\\jquery-validation-unobtrusive\\dist\\jquery.validate.unobtrusive.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\dist\\jquery.validate.unobtrusive.js"
     },
     {
-      "Id": "D:\\Web Cuối Kì\\BookingTourTravelBuzz\\BookingTourTravelBuzz\\wwwroot\\lib\\jquery-validation-unobtrusive\\dist\\jquery.validate.unobtrusive.min.js",
+      "Id": "I:\\FinalTerm\\BookingTourTravelBuzz\\BookingTourTravelBuzz\\wwwroot\\lib\\jquery-validation-unobtrusive\\dist\\jquery.validate.unobtrusive.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\dist\\jquery.validate.unobtrusive.min.js"
     },
     {
-      "Id": "D:\\Web Cuối Kì\\BookingTourTravelBuzz\\BookingTourTravelBuzz\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "Id": "I:\\FinalTerm\\BookingTourTravelBuzz\\BookingTourTravelBuzz\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
     },
     {
-      "Id": "D:\\Web Cuối Kì\\BookingTourTravelBuzz\\BookingTourTravelBuzz\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "Id": "I:\\FinalTerm\\BookingTourTravelBuzz\\BookingTourTravelBuzz\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
     },
     {
-      "Id": "D:\\Web Cuối Kì\\BookingTourTravelBuzz\\BookingTourTravelBuzz\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "Id": "I:\\FinalTerm\\BookingTourTravelBuzz\\BookingTourTravelBuzz\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
     },
     {
-      "Id": "D:\\Web Cuối Kì\\BookingTourTravelBuzz\\BookingTourTravelBuzz\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "Id": "I:\\FinalTerm\\BookingTourTravelBuzz\\BookingTourTravelBuzz\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
     },
     {
-      "Id": "D:\\Web Cuối Kì\\BookingTourTravelBuzz\\BookingTourTravelBuzz\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "Id": "I:\\FinalTerm\\BookingTourTravelBuzz\\BookingTourTravelBuzz\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
     },
     {
-      "Id": "D:\\Web Cuối Kì\\BookingTourTravelBuzz\\BookingTourTravelBuzz\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "Id": "I:\\FinalTerm\\BookingTourTravelBuzz\\BookingTourTravelBuzz\\wwwroot\\lib\\jquery\\LICENSE.txt",
       "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
     },
     {
-      "Id": "D:\\Web Cuối Kì\\BookingTourTravelBuzz\\BookingTourTravelBuzz\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "Id": "I:\\FinalTerm\\BookingTourTravelBuzz\\BookingTourTravelBuzz\\wwwroot\\lib\\jquery\\dist\\jquery.js",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
     },
     {
-      "Id": "D:\\Web Cuối Kì\\BookingTourTravelBuzz\\BookingTourTravelBuzz\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "Id": "I:\\FinalTerm\\BookingTourTravelBuzz\\BookingTourTravelBuzz\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
     },
     {
-      "Id": "D:\\Web Cuối Kì\\BookingTourTravelBuzz\\BookingTourTravelBuzz\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "Id": "I:\\FinalTerm\\BookingTourTravelBuzz\\BookingTourTravelBuzz\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
     },
     {
-      "Id": "D:\\Web Cuối Kì\\BookingTourTravelBuzz\\BookingTourTravelBuzz\\wwwroot\\lib\\jquery\\dist\\jquery.slim.js",
+      "Id": "I:\\FinalTerm\\BookingTourTravelBuzz\\BookingTourTravelBuzz\\wwwroot\\lib\\jquery\\dist\\jquery.slim.js",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.slim.js"
     },
     {
-      "Id": "D:\\Web Cuối Kì\\BookingTourTravelBuzz\\BookingTourTravelBuzz\\wwwroot\\lib\\jquery\\dist\\jquery.slim.min.js",
+      "Id": "I:\\FinalTerm\\BookingTourTravelBuzz\\BookingTourTravelBuzz\\wwwroot\\lib\\jquery\\dist\\jquery.slim.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.slim.min.js"
     },
     {
-      "Id": "D:\\Web Cuối Kì\\BookingTourTravelBuzz\\BookingTourTravelBuzz\\wwwroot\\lib\\jquery\\dist\\jquery.slim.min.map",
+      "Id": "I:\\FinalTerm\\BookingTourTravelBuzz\\BookingTourTravelBuzz\\wwwroot\\lib\\jquery\\dist\\jquery.slim.min.map",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.slim.min.map"
     },
     {

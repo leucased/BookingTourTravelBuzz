@@ -1,4 +1,5 @@
-﻿using System.ComponentModel.DataAnnotations;
+﻿using BookingTourTravelBuzz.Models;
+using System.ComponentModel.DataAnnotations;
 
 //namespace BookingTourTravelBuzz.Models // Thêm namespace đúng với cấu trúc của dự án
 //{
@@ -17,8 +18,12 @@
         public string? HOTEL_TOUR { get; set; }
         public string? DESTINATION_TOUR { get; set; }
         public string? ITINERARY_TOUR { get; set; }
-        public string? IMAGE_URL { get; set; }
+        public string? IMAGE_URL { get; set; } = string.Empty;
+
 
     // Thêm thuộc tính NAME_AREA từ bảng AREA
+
+    // Thêm navigation property để liên kết với Area
+    public virtual Area? Area { get; set; }
     public string? NAME_AREA { get; set; }
 }

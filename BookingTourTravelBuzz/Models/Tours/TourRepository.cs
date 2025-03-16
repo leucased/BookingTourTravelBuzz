@@ -34,6 +34,7 @@ namespace BookingTourTravelBuzz.Models
                         HOTEL_TOUR = t.HOTEL_TOUR,
                         DESTINATION_TOUR = t.DESTINATION_TOUR,
                         ITINERARY_TOUR = t.ITINERARY_TOUR,
+                        IMAGE_URL=t.IMAGE_URL,
                         NAME_AREA = a.NAME_AREA // Thêm tên khu vực
                     }).ToList();
         }
@@ -57,13 +58,16 @@ namespace BookingTourTravelBuzz.Models
                         HOTEL_TOUR = t.HOTEL_TOUR,
                         DESTINATION_TOUR = t.DESTINATION_TOUR,
                         ITINERARY_TOUR = t.ITINERARY_TOUR,
+                        IMAGE_URL=t.IMAGE_URL,
                         NAME_AREA = a.NAME_AREA // Thêm tên khu vực
                     }).ToList();
         }
 
         public Tour? GetTourById(int id)
         {
-            return (from t in _context.TOURS
+            return (
+                
+                from t in _context.TOURS
                     join a in _context.AREAS on t.ID_AREA equals a.ID_AREA into areaGroup
                     from a in areaGroup.DefaultIfEmpty() // Để tránh lỗi nếu không có khu vực
                     where t.ID_TOUR == id
@@ -81,7 +85,8 @@ namespace BookingTourTravelBuzz.Models
                         HOTEL_TOUR = t.HOTEL_TOUR ?? "Không rõ",
                         DESTINATION_TOUR = t.DESTINATION_TOUR ?? "Không có điểm đến",
                         ITINERARY_TOUR = t.ITINERARY_TOUR ?? "Không có lịch trình",
-                        NAME_AREA = a != null ? a.NAME_AREA : "Không xác định"
+                        IMAGE_URL = t.IMAGE_URL ?? "",
+                        Area = a != null ? new Area { ID_AREA = a.ID_AREA, NAME_AREA = a.NAME_AREA } : null
                     }).FirstOrDefault();
         }
 

@@ -4,7 +4,7 @@ using Microsoft.AspNetCore.Identity.EntityFrameworkCore; // Đảm bảo namespa
 
 namespace BookingTourTravelBuzz.Data
 {
-    public class ApplicationDbContext : IdentityDbContext<Users>
+    public class ApplicationDbContext : IdentityDbContext<Customer>
     {
         public ApplicationDbContext(DbContextOptions options) : base(options) { }       
 
@@ -12,5 +12,6 @@ namespace BookingTourTravelBuzz.Data
         public object Tour { get; internal set; }
         public DbSet<Area> AREAS { get; set; }
         public DbSet<Admin> ADMIN { get; set; }
+        public DbSet<Booking> BOOKINGS { get; internal set; }
     }
 }
