@@ -3,6 +3,7 @@ using System.Linq;
 using BookingTourTravelBuzz.Data; // Namespace của DbContext
 using BookingTourTravelBuzz.Models;
 using BookingTourTravelBuzz.Models.Tours;
+using Microsoft.EntityFrameworkCore;
 
 namespace BookingTourTravelBuzz.Models
 {
@@ -15,28 +16,36 @@ namespace BookingTourTravelBuzz.Models
             _context = context;
         }
 
+        //public IEnumerable<Tour> GetAllDomesticTours()
+        //{
+        //    return (from t in _context.TOURS
+        //            join a in _context.AREAS on t.ID_AREA equals a.ID_AREA
+        //            where t.ID_CATEGORY == 1
+        //            select new Tour
+        //            {
+        //                ID_TOUR = t.ID_TOUR,
+        //                ID_CATEGORY = t.ID_CATEGORY,
+        //                ID_AREA = t.ID_AREA,
+        //                NAME_TOUR = t.NAME_TOUR,
+        //                DESCRIPTION_TOUR = t.DESCRIPTION_TOUR,
+        //                TIME_TOUR = t.TIME_TOUR,
+        //                PRICE_TOUR = t.PRICE_TOUR,
+        //                COUNTRY_TOUR = t.COUNTRY_TOUR,
+        //                TRANSPORTATION_TOUR = t.TRANSPORTATION_TOUR,
+        //                HOTEL_TOUR = t.HOTEL_TOUR,
+        //                DESTINATION_TOUR = t.DESTINATION_TOUR,
+        //                ITINERARY_TOUR = t.ITINERARY_TOUR,
+        //                IMAGE_URL=t.IMAGE_URL,
+        //                Area = new Area { NAME_AREA = a.NAME_AREA } // Thêm tên khu vực
+        //            }).ToList();    
+        //}
+
         public IEnumerable<Tour> GetAllDomesticTours()
         {
-            return (from t in _context.TOURS
-                    join a in _context.AREAS on t.ID_AREA equals a.ID_AREA
-                    where t.ID_CATEGORY == 1
-                    select new Tour
-                    {
-                        ID_TOUR = t.ID_TOUR,
-                        ID_CATEGORY = t.ID_CATEGORY,
-                        ID_AREA = t.ID_AREA,
-                        NAME_TOUR = t.NAME_TOUR,
-                        DESCRIPTION_TOUR = t.DESCRIPTION_TOUR,
-                        TIME_TOUR = t.TIME_TOUR,
-                        PRICE_TOUR = t.PRICE_TOUR,
-                        COUNTRY_TOUR = t.COUNTRY_TOUR,
-                        TRANSPORTATION_TOUR = t.TRANSPORTATION_TOUR,
-                        HOTEL_TOUR = t.HOTEL_TOUR,
-                        DESTINATION_TOUR = t.DESTINATION_TOUR,
-                        ITINERARY_TOUR = t.ITINERARY_TOUR,
-                        IMAGE_URL=t.IMAGE_URL,
-                        NAME_AREA = a.NAME_AREA // Thêm tên khu vực
-                    }).ToList();
+            return _context.TOURS
+           .Include(t => t.Area)      // Tải Area liên quan 
+           .Where(t => t.ID_CATEGORY == 1)
+           .ToList();
         }
 
         public IEnumerable<Tour> GetAllInternationalTours()
@@ -59,7 +68,7 @@ namespace BookingTourTravelBuzz.Models
                         DESTINATION_TOUR = t.DESTINATION_TOUR,
                         ITINERARY_TOUR = t.ITINERARY_TOUR,
                         IMAGE_URL=t.IMAGE_URL,
-                        NAME_AREA = a.NAME_AREA // Thêm tên khu vực
+                        Area = new Area { NAME_AREA = a.NAME_AREA } // Thêm tên khu vực
                     }).ToList();
         }
 

@@ -35,7 +35,7 @@
                 <td>@item.DESCRIPTION_TOUR</td>
                 <td>@item.TIME_TOUR</td>
                 <td>@item.PRICE_TOUR</td>
-                <td>@item.NAME_AREA</td>
+                <td>@item.Area.NAME_AREA</td>
                 <td>@item.COUNTRY_TOUR</td>
                 <td>@item.TRANSPORTATION_TOUR</td>
                 <td>@item.HOTEL_TOUR</td>
@@ -45,13 +45,8 @@
                 
 
                 <td>
-                    <a href="Admin/Tour/Edit" asp-route-id="@item.ID_TOUR" class="btn btn-warning">Sửa</a>
-                    @using (Html.BeginForm("Delete", "TourManager", FormMethod.Post, new { area = "Admin", onsubmit = "return confirm('Bạn có chắc muốn xóa?');" }))
-                    {
-                        @Html.AntiForgeryToken()
-                        @Html.Hidden("id", item.ID_TOUR)
-                        <button type="submit" class="btn btn-danger">Xóa</button>
-                    }
+                    <a href="/Admin/Tour/Edit/@item.ID_TOUR" class="btn btn-primary btn-sm">Sửa</a>
+                    <a href="/Admin/Tour/Delete/@item.ID_TOUR" class="btn btn-danger">Xóa</a>
                 </td>
             </tr>
         }

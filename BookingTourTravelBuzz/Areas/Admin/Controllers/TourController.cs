@@ -3,6 +3,7 @@ using Microsoft.AspNetCore.Mvc;
 using BookingTourTravelBuzz.Models;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Mvc.Rendering;
 
 namespace BookingTourTravelBuzz.Areas.Admin.Controllers
 {
@@ -36,16 +37,16 @@ namespace BookingTourTravelBuzz.Areas.Admin.Controllers
         }
 
         // Action hiển thị form chỉnh sửa
-        public async Task<IActionResult> Edit(int id)
+        public IActionResult Edit(int id)
         {
-            var tour = _context.TOURS.Find(id);
+            var tour = _context.TOURS.Include(t => t.Area).FirstOrDefault(t => t.ID_TOUR == id);
             if (tour == null)
             {
                 return NotFound();
             }
 
-            // Lấy danh sách khu vực từ database và đổ vào ViewBag
-            ViewBag.Areas = _context.AREAS.ToList();
+            // Lấy danh sách khu vực để tạo dropdown
+            ViewBag.AreaList = new SelectList(_context.AREAS, "ID_AREA", "NAME_AREA", tour.ID_AREA);
 
             return View(tour);
         }
@@ -84,6 +85,17 @@ namespace BookingTourTravelBuzz.Areas.Admin.Controllers
             return View(tour);
         }
 
+        public IActionResult Delete(int? id)
+        {
+            var tour = _context.TOURS.Find(id);
+            if (tour == null)
+            {
+                return NotFound();
+            }
+
+            return View(tour);  // Truyền đối tượng tour tìm được vào view
+        }
+
         [HttpPost]
         [ValidateAntiForgeryToken]
         public IActionResult Delete(int id)
@@ -97,7 +109,7 @@ namespace BookingTourTravelBuzz.Areas.Admin.Controllers
             _context.TOURS.Remove(tour);
             _context.SaveChanges();
 
-            return RedirectToAction("Index");
+            return RedirectToAction("Domestic");  // Chuyển hướng sau khi xóa thành công
         }
 
     }

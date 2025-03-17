@@ -1,5 +1,6 @@
 ﻿using BookingTourTravelBuzz.Models;
 using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
 
 //namespace BookingTourTravelBuzz.Models.Tours// Thêm namespace đúng với cấu trúc của dự án
 //{
@@ -21,10 +22,18 @@ using System.ComponentModel.DataAnnotations;
         public string? IMAGE_URL { get; set; } = string.Empty;
 
 
-        // Thêm thuộc tính NAME_AREA từ bảng AREA
+    // Thêm thuộc tính NAME_AREA từ bảng AREA
 
-        // Thêm navigation property để liên kết với Area
-        public virtual Area? Area { get; set; }
-        public string? NAME_AREA { get; set; }
-    }
+    // Thêm navigation property để liên kết với Area
+    //public virtual Area? Area { get; set; }
+    //public string? NAME_AREA { get; set; }
+
+    // Khóa ngoại đúng
+
+    [ForeignKey("ID_AREA")]
+    public virtual Area? Area { get; set; }
+
+    [ForeignKey("ID_CATEGORY")]
+    public virtual Category Category { get; set; }
+}
 

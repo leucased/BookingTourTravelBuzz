@@ -48,6 +48,10 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcVG91clxDcmVhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
+[D:/Web Cuối Kì/BookingTourTravelBuzz/BookingTourTravelBuzz/Areas/Admin/Views/Tour/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcVG91clxEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [D:/Web Cuối Kì/BookingTourTravelBuzz/BookingTourTravelBuzz/Areas/Admin/Views/Tour/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcVG91clxFZGl0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 

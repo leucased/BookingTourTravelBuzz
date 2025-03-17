@@ -11,54 +11,65 @@
     @Html.AntiForgeryToken()
 
     <div class="form-group">
-        @Html.LabelFor(model => model.NAME_TOUR)
+        <label class="form-label">Tên Tour</label>
         @Html.TextBoxFor(model => model.NAME_TOUR, new { @class = "form-control" })
     </div>
 
     <div class="form-group">
-        @Html.LabelFor(model => model.DESCRIPTION_TOUR)
+        <label class="form-label">Thông tin Tour</label>
         @Html.TextAreaFor(model => model.DESCRIPTION_TOUR, new { @class = "form-control" })
     </div>
 
     <div class="form-group">
-        @Html.LabelFor(model => model.TIME_TOUR)
+        <label class="form-label">Thời gian</label>
         @Html.TextBoxFor(model => model.TIME_TOUR, new { @class = "form-control", type = "date" })
     </div>
 
     <div class="form-group">
-        @Html.LabelFor(model => model.PRICE_TOUR)
+        <label class="form-label">Giá</label>
         @Html.TextBoxFor(model => model.PRICE_TOUR, new { @class = "form-control", type = "number" })
     </div>
 
     <div class="form-group">
-        @Html.LabelFor(model => model.COUNTRY_TOUR)
+        <label class="form-label">Quốc gia</label>
         @Html.TextBoxFor(model => model.COUNTRY_TOUR, new { @class = "form-control" })
     </div>
 
     <div class="form-group">
-        @Html.LabelFor(model => model.TRANSPORTATION_TOUR)
+        <label class="form-label">Phương tiện</label>
         @Html.TextBoxFor(model => model.TRANSPORTATION_TOUR, new { @class = "form-control" })
     </div>
 
     <div class="form-group">
-        @Html.LabelFor(model => model.HOTEL_TOUR)
+        <label class="form-label">Khách sạn</label>
         @Html.TextBoxFor(model => model.HOTEL_TOUR, new { @class = "form-control" })
     </div>
 
     <div class="form-group">
-        @Html.LabelFor(model => model.DESTINATION_TOUR)
+        <label class="form-label">Điểm đến</label>
         @Html.TextBoxFor(model => model.DESTINATION_TOUR, new { @class = "form-control" })
     </div>
 
     <div class="form-group">
-        @Html.LabelFor(model => model.ITINERARY_TOUR)
+        <label class="form-label">Lịch trình</label>
         @Html.TextBoxFor(model => model.ITINERARY_TOUR, new { @class = "form-control" })
     </div>
 
     <div class="form-group">
-        @Html.LabelFor(model => model.IMAGE_URL)
+        <label class="form-label">Hình ảnh</label>
         @Html.TextBoxFor(model => model.IMAGE_URL, new { @class = "form-control" })
     </div>
 
+    <div class="form-group">
+        <label class="form-label">Khu vực</label>
+        @Html.TextBoxFor(model => model.Area.NAME_AREA, new { @class = "form-control" })
+    </div>
+
+    <div class="form-group">
+        <label class="form-label">Khu vực</label>
+        @Html.TextBoxFor(model => model.Category.NAME_CATEGORY, new { @class = "form-control" })
+    </div>
+
     <button type="submit" class="btn btn-primary">Thêm Tour</button>
+    <a href="/Admin/TourManager/Domestic">Back to List</a>
 }

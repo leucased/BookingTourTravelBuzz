@@ -22264,13 +22264,13 @@
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\BookingTourTravelBuzz.7krulx63s9.bundle.scp.css'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
       <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"7krulx63s9"},{"Name":"integrity","Value":"sha256-B2B0eS1VLk0swOmZqf4nG3yG9aM1KlBebaTPIKA1TLo="},{"Name":"label","Value":"_content/BookingTourTravelBuzz/BookingTourTravelBuzz.bundle.scp.css"}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"2295"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022B2B0eS1VLk0swOmZqf4nG3yG9aM1KlBebaTPIKA1TLo=\u0022"},{"Name":"Last-Modified","Value":"Sun, 16 Mar 2025 17:52:56 GMT"}]]]></ResponseHeaders>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"2295"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022B2B0eS1VLk0swOmZqf4nG3yG9aM1KlBebaTPIKA1TLo=\u0022"},{"Name":"Last-Modified","Value":"Mon, 17 Mar 2025 15:18:16 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/BookingTourTravelBuzz/BookingTourTravelBuzz.bundle.scp.css">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\BookingTourTravelBuzz.7krulx63s9.bundle.scp.css'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
       <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-B2B0eS1VLk0swOmZqf4nG3yG9aM1KlBebaTPIKA1TLo="}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"2295"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022B2B0eS1VLk0swOmZqf4nG3yG9aM1KlBebaTPIKA1TLo=\u0022"},{"Name":"Last-Modified","Value":"Sun, 16 Mar 2025 17:52:56 GMT"}]]]></ResponseHeaders>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"2295"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022B2B0eS1VLk0swOmZqf4nG3yG9aM1KlBebaTPIKA1TLo=\u0022"},{"Name":"Last-Modified","Value":"Mon, 17 Mar 2025 15:18:16 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/BookingTourTravelBuzz/css/account.css">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\account.css'))</AssetFile>
