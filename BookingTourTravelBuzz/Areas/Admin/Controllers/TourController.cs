@@ -38,11 +38,15 @@ namespace BookingTourTravelBuzz.Areas.Admin.Controllers
         // Action hiển thị form chỉnh sửa
         public async Task<IActionResult> Edit(int id)
         {
-            var tour = await _context.TOURS.FindAsync(id);
+            var tour = _context.TOURS.Find(id);
             if (tour == null)
             {
                 return NotFound();
             }
+
+            // Lấy danh sách khu vực từ database và đổ vào ViewBag
+            ViewBag.Areas = _context.AREAS.ToList();
+
             return View(tour);
         }
 
@@ -78,6 +82,22 @@ namespace BookingTourTravelBuzz.Areas.Admin.Controllers
                 return RedirectToAction(nameof(Index)); // Quay về danh sách Tour
             }
             return View(tour);
+        }
+
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public IActionResult Delete(int id)
+        {
+            var tour = _context.TOURS.Find(id);
+            if (tour == null)
+            {
+                return NotFound();
+            }
+
+            _context.TOURS.Remove(tour);
+            _context.SaveChanges();
+
+            return RedirectToAction("Index");
         }
 
     }

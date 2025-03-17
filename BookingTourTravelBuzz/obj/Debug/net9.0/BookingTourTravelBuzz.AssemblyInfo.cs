@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("BookingTourTravelBuzz")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d6294f3c92b97f58df2b4fc0abbdff183818b3ee")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a88a57b5d9f54fd7105998272f6cfcba95acd074")]
 [assembly: System.Reflection.AssemblyProductAttribute("BookingTourTravelBuzz")]
 [assembly: System.Reflection.AssemblyTitleAttribute("BookingTourTravelBuzz")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

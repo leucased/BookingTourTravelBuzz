@@ -6,17 +6,10 @@
 
 <h2>Chỉnh sửa Tour</h2>
 
-@if (TempData["SuccessMessage"] != null)
-{
-    <div class="alert alert-success">
-        @TempData["SuccessMessage"]
-    </div>
-}
-
 @using (Html.BeginForm("Edit", "TourManager", FormMethod.Post, new { area = "Admin" }))
 {
     @Html.AntiForgeryToken()
-    @Html.HiddenFor(model => model.ID_TOUR) <!-- Ẩn ID để cập nhật đúng tour -->
+    @Html.HiddenFor(model => model.ID_TOUR) <!-- Ẩn ID_TOUR để cập nhật đúng bản ghi -->
 
     <div class="form-group">
         @Html.LabelFor(model => model.NAME_TOUR)
@@ -29,54 +22,13 @@
     </div>
 
     <div class="form-group">
-        @Html.LabelFor(model => model.TIME_TOUR)
-        @Html.TextBoxFor(model => model.TIME_TOUR, new { @class = "form-control", type = "date" })
-    </div>
-
-    <div class="form-group">
-        @Html.LabelFor(model => model.PRICE_TOUR)
-        @Html.TextBoxFor(model => model.PRICE_TOUR, new { @class = "form-control", type = "number" })
-    </div>
-
-    <div class="form-group">
-        @Html.LabelFor(model => model.COUNTRY_TOUR)
-        @Html.TextBoxFor(model => model.COUNTRY_TOUR, new { @class = "form-control" })
-    </div>
-
-    <div class="form-group">
-        @Html.LabelFor(model => model.TRANSPORTATION_TOUR)
-        @Html.TextBoxFor(model => model.TRANSPORTATION_TOUR, new { @class = "form-control" })
-    </div>
-
-    <div class="form-group">
-        @Html.LabelFor(model => model.HOTEL_TOUR)
-        @Html.TextBoxFor(model => model.HOTEL_TOUR, new { @class = "form-control" })
-    </div>
-
-    <div class="form-group">
-        @Html.LabelFor(model => model.DESTINATION_TOUR)
-        @Html.TextBoxFor(model => model.DESTINATION_TOUR, new { @class = "form-control" })
-    </div>
-
-    <div class="form-group">
-        @Html.LabelFor(model => model.ITINERARY_TOUR)
-        @Html.TextBoxFor(model => model.ITINERARY_TOUR, new { @class = "form-control" })
-    </div>
-
-    <div class="form-group">
-        @Html.LabelFor(model => model.IMAGE_URL)
-        @Html.TextBoxFor(model => model.IMAGE_URL, new { @class = "form-control" })
-    </div>
-
-    <div class="form-group">
         @Html.LabelFor(model => model.NAME_AREA)
-        @Html.TextBoxFor(model => model.NAME_AREA, new { @class = "form-control" })
+        @Html.TextAreaFor(model => model.NAME_TOUR, new { @class = "form-control" })
     </div>
 
-    <button type="submit" class="btn btn-primary">Cập nhật Tour</button>
-    <a asp-action="Index" asp-controller="TourManager" asp-area="Admin" class="btn btn-secondary">Quay lại</a>
+    <button type="submit" class="btn btn-primary">Cập nhật</button>
+    <a href="@Url.Action("Index", "TourManager", new { area = "Admin" })" class="btn btn-secondary">Hủy</a>
 }
-
 @section Scripts {
     @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
 }
