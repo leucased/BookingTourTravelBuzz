@@ -1,4 +1,5 @@
-﻿using System;
+﻿using BookingTourTravelBuzz.Models.Tours;
+using System;
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 

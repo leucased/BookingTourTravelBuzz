@@ -9523,23 +9523,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\PC\\.nuget\\packages\\": {},
+    "C:\\Users\\Kou\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "I:\\FinalTerm\\BookingTourTravelBuzz\\BookingTourTravelBuzz\\BookingTourTravelBuzz.csproj",
+      "projectUniqueName": "D:\\Web Cuối Kì\\BookingTourTravelBuzz\\BookingTourTravelBuzz\\BookingTourTravelBuzz.csproj",
       "projectName": "BookingTourTravelBuzz",
-      "projectPath": "I:\\FinalTerm\\BookingTourTravelBuzz\\BookingTourTravelBuzz\\BookingTourTravelBuzz.csproj",
-      "packagesPath": "C:\\Users\\PC\\.nuget\\packages\\",
-      "outputPath": "I:\\FinalTerm\\BookingTourTravelBuzz\\BookingTourTravelBuzz\\obj\\",
+      "projectPath": "D:\\Web Cuối Kì\\BookingTourTravelBuzz\\BookingTourTravelBuzz\\BookingTourTravelBuzz.csproj",
+      "packagesPath": "C:\\Users\\Kou\\.nuget\\packages\\",
+      "outputPath": "D:\\Web Cuối Kì\\BookingTourTravelBuzz\\BookingTourTravelBuzz\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\PC\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Kou\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],

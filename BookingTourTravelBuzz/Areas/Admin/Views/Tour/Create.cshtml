@@ -1,0 +1,69 @@
+﻿@model Tour
+
+@{
+    ViewBag.Title = "Thêm Tour Mới";
+}
+
+<h2>Thêm Tour</h2>
+
+@using (Html.BeginForm("Create", "Tour", FormMethod.Post))
+{
+    @Html.AntiForgeryToken()
+
+    <div class="form-group">
+        @Html.LabelFor(model => model.NAME_TOUR)
+        @Html.TextBoxFor(model => model.NAME_TOUR, new { @class = "form-control" })
+    </div>
+
+    <div class="form-group">
+        @Html.LabelFor(model => model.DESCRIPTION_TOUR)
+        @Html.TextAreaFor(model => model.DESCRIPTION_TOUR, new { @class = "form-control" })
+    </div>
+
+    <div class="form-group">
+        @Html.LabelFor(model => model.TIME_TOUR)
+        @Html.TextBoxFor(model => model.TIME_TOUR, new { @class = "form-control", type = "date" })
+    </div>
+
+    <div class="form-group">
+        @Html.LabelFor(model => model.PRICE_TOUR)
+        @Html.TextBoxFor(model => model.PRICE_TOUR, new { @class = "form-control", type = "number" })
+    </div>
+
+    <div class="form-group">
+        @Html.LabelFor(model => model.COUNTRY_TOUR)
+        @Html.TextBoxFor(model => model.COUNTRY_TOUR, new { @class = "form-control" })
+    </div>
+
+    <div class="form-group">
+        @Html.LabelFor(model => model.TRANSPORTATION_TOUR)
+        @Html.TextBoxFor(model => model.TRANSPORTATION_TOUR, new { @class = "form-control" })
+    </div>
+
+    <div class="form-group">
+        @Html.LabelFor(model => model.HOTEL_TOUR)
+        @Html.TextBoxFor(model => model.HOTEL_TOUR, new { @class = "form-control" })
+    </div>
+
+    <div class="form-group">
+        @Html.LabelFor(model => model.DESTINATION_TOUR)
+        @Html.TextBoxFor(model => model.DESTINATION_TOUR, new { @class = "form-control" })
+    </div>
+
+    <div class="form-group">
+        @Html.LabelFor(model => model.ITINERARY_TOUR)
+        @Html.TextBoxFor(model => model.ITINERARY_TOUR, new { @class = "form-control" })
+    </div>
+
+    <div class="form-group">
+        @Html.LabelFor(model => model.IMAGE_URL)
+        @Html.TextBoxFor(model => model.IMAGE_URL, new { @class = "form-control" })
+    </div>
+
+    <div class="form-group">
+        @Html.LabelFor(model => model.NAME_AREA)
+        @Html.TextBoxFor(model => model.NAME_AREA, new { @class = "form-control" })
+    </div>
+
+    <button type="submit" class="btn btn-primary">Thêm Tour</button>
+}
