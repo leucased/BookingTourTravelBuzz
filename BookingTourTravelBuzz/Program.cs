@@ -60,13 +60,15 @@ app.UseEndpoints(endpoints =>
     );
 });
 
-//app.UseEndpoints(endpoints =>
-//{
-//    endpoints.MapControllerRoute(
-//      name: "areas",
-//      pattern: "{area:exists}/{controller=CustomerPage}/{action=Personal}/{id?}"
-//    );
-//});
+app.UseEndpoints(endpoints =>
+{
+    endpoints.MapControllerRoute(
+        name: "areas",
+        pattern: "{area:exists}/{controller=Customer}/{action=Profile}/{id?}"
+    );
+
+    endpoints.MapDefaultControllerRoute();
+});
 
 app.MapControllerRoute(
     name: "default",

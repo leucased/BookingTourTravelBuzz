@@ -26,7 +26,7 @@ namespace BookingTourTravelBuzz.Controllers
                     _context.SaveChanges();
 
                     // Chuyển hướng đến trang xác nhận đặt tour
-                    return RedirectToAction("BookingConfirmation", new { id = model.ID_BOOKING });
+                    return RedirectToAction("Checkout", new { id = model.ID_BOOKING });
                 }
                 catch (Exception ex)
                 {
@@ -36,14 +36,15 @@ namespace BookingTourTravelBuzz.Controllers
             return View(model);
         }
 
-        // Trang xác nhận đặt tour
-        public IActionResult BookingConfirmation(int id)
+        // Trang hiển thị form thanh toán tiền cọc
+        public IActionResult Checkout(int id)
         {
             var booking = _context.BOOKINGS.FirstOrDefault(b => b.ID_BOOKING == id);
             if (booking == null)
             {
                 return NotFound();
             }
+
             return View(booking);
         }
     }
