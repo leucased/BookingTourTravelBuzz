@@ -1,6 +1,7 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using BookingTourTravelBuzz.Models;
-using Microsoft.AspNetCore.Identity.EntityFrameworkCore; // Đảm bảo namespace này đúng
+using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
+using BookingTourTravelBuzz.Models.Guides; // Đảm bảo namespace này đúng
 
 namespace BookingTourTravelBuzz.Data
 {
@@ -13,5 +14,7 @@ namespace BookingTourTravelBuzz.Data
         public DbSet<Area> AREAS { get; set; }
         public DbSet<Admin> ADMIN { get; set; }
         public DbSet<Booking> BOOKINGS { get; internal set; }
+
+        public DbSet<Guide> GUIDES { get; set; }
     }
 }

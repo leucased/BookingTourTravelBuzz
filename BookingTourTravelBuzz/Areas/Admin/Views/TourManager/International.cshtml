@@ -1,0 +1,40 @@
+﻿@model IEnumerable<Tour>
+
+@{
+    ViewBag.Title = "Danh sách Tour";
+}
+
+<h2>Danh sách Tour</h2>
+
+<a href="Admin/Tour/Create" class="btn btn-success mb-3">Thêm Tour</a>
+
+<table class="table table-bordered">
+    <thead>
+        <tr>
+            <th>ID Tour</th>
+            <th>Tên Tour</th>
+            <th>Khu vực</th>
+            <th>Quốc Gia</th>
+            <th>Ảnh</th>
+
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>@item.ID_TOUR</td>
+                <td>@item.NAME_TOUR</td>
+                <td>@item.Area.NAME_AREA</td>
+                <td>@item.COUNTRY_TOUR</td>
+                <td>@item.IMAGE_URL</td>
+
+
+                <td>
+                    <a href="/Admin/Tour/Edit/@item.ID_TOUR" class="btn btn-primary btn-sm">Sửa</a>
+                    <a href="/Admin/Tour/Delete/@item.ID_TOUR" class="btn btn-danger">Xóa</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

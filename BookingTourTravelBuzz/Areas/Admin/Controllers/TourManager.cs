@@ -4,6 +4,7 @@ using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
+using BookingTourTravelBuzz.Models.Tours;
 
 namespace BookingTourTravelBuzz.Areas.Admin.Controllers
 {
@@ -12,9 +13,9 @@ namespace BookingTourTravelBuzz.Areas.Admin.Controllers
     public class TourManager : Controller
     {
 
-        private readonly Models.Tours.ITourRepository _toursRepository;
+        private readonly BookingTourTravelBuzz.Models.Tours.ITourRepository _toursRepository;
 
-        public TourManager(Models.Tours.ITourRepository toursRepository)
+        public TourManager(BookingTourTravelBuzz.Models.Tours.ITourRepository toursRepository)
         {
             _toursRepository = toursRepository;
         }

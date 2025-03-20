@@ -1,5 +1,6 @@
 using BookingTourTravelBuzz.Data;
 using BookingTourTravelBuzz.Models;
+using BookingTourTravelBuzz.Models.Guides;
 using BookingTourTravelBuzz.Models.Tours;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
@@ -14,6 +15,8 @@ builder.Services.AddDbContext<ApplicationDbContext>(options =>
 options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
 
 builder.Services.AddScoped<ITourRepository, TourRepository>();
+builder.Services.AddScoped<IGuideRepostory, GuideRepository>();
+
 
 builder.Services.AddIdentity<Customer, IdentityRole>(options =>
 {

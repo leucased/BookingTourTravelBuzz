@@ -1,0 +1,41 @@
+﻿@using BookingTourTravelBuzz.Models.Guides;
+@model IEnumerable<Guide>
+@addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
+
+@{
+    ViewBag.Title = "Danh sách Tour";
+}
+
+<h2>Danh sách Hướng dẫn viên</h2>
+
+<a asp-area="Admin" asp-controller="Guide" asp-action="Create" class="btn btn-success mb-3">Thêm Hướng dẫn viên</a>
+
+<table class="table table-bordered">
+    <thead>
+        <tr>
+            <th>ID Hướng Dẫn Viên</th>
+            <th>Họ và Tên</th>
+            <th>Email</th>
+            <th>Trạng thái</th>
+
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>@item.ID_GUIDE</td>
+                <td>@item.FULLNAME_GUIDE</td>
+                <td>@item.EMAIL_GUIDE</td>
+                <td>@item.GetStatus()</td>
+
+
+                <td>
+                    <a href="/Admin/Guide/Details/@item.ID_GUIDE" class="btn btn-primary btn-sm">Chi tiết</a>
+                    <a href="/Admin/Guide/Edit/@item.ID_GUIDE" class="btn btn-primary btn-sm">Sửa</a>
+                    <a href="/Admin/Guide/Delete/@item.ID_GUIDE" class="btn btn-danger">Xóa</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

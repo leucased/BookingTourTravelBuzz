@@ -1,0 +1,69 @@
+﻿@model BookingTourTravelBuzz.Models.Guides.Guide
+@addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
+
+@{
+    ViewData["Title"] = "Edit";
+}
+
+<h1>Edit</h1>
+
+<h4>Guide</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Edit">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <input type="hidden" asp-for="ID_GUIDE" />
+            <div class="form-group">
+                <label asp-for="FULLNAME_GUIDE" class="control-label">Họ Tên</label>
+                <input asp-for="FULLNAME_GUIDE" class="form-control" />
+                <span asp-validation-for="FULLNAME_GUIDE" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="ROLE_GUIDE" class="control-label">Vai trò</label>
+                <input asp-for="ROLE_GUIDE" class="form-control" />
+                <span asp-validation-for="ROLE_GUIDE" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="PHONE_GUIDE" class="control-label">Số điện thoại</label>
+                <input asp-for="PHONE_GUIDE" class="form-control" />
+                <span asp-validation-for="PHONE_GUIDE" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="BIRTHDAY_GUIDE" class="control-label">Ngày sinh</label>
+                <input asp-for="BIRTHDAY_GUIDE" class="form-control" />
+                <span asp-validation-for="BIRTHDAY_GUIDE" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="EMAIL_GUIDE" class="control-label">Email</label>
+                <input asp-for="EMAIL_GUIDE" class="form-control" />
+                <span asp-validation-for="EMAIL_GUIDE" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label class="form-label">Trạng thái</label>
+                <select asp-for="STATUS_GUIDE">
+                    <option value="0">Đang chờ</option>
+                    <option value="1">Đang hoạt động</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label asp-for="GENDER_GUIDE" class="control-label">Giới tính</label>
+                <select asp-for="ROLE_GUIDE">
+                    <option value="0">Nam</option>
+                    <option value="1">Nữ</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Save" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="ListGuides">Back to List</a>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}
