@@ -1,7 +1,8 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using BookingTourTravelBuzz.Models;
 using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
-using BookingTourTravelBuzz.Models.Guides; // Đảm bảo namespace này đúng
+using BookingTourTravelBuzz.Models.Guides;
+using BookingTourTravelBuzz.Models.Tours; // Đảm bảo namespace này đúng
 
 namespace BookingTourTravelBuzz.Data
 {

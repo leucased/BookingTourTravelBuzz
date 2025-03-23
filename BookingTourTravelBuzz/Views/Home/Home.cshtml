@@ -3,21 +3,16 @@
     ViewData["Title"] = "Trang chủ";
 }
 <link rel="stylesheet" href="/css/site.css" asp-append-version="true" />
-<script src="/js/site.js" asp-append-version="true"></script>
+
 
 @inject ApplicationDbContext _context
 
 @{
-    var destinations = _context.TOURS
-        .Select(t => t.DESTINATION_TOUR)
-        .Distinct()
-        .ToList();
+    var destinations = ViewData["Destinations"] as List<string> ?? new List<string>();
 }
 
-<body>
-    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 
+<body>
     <div class="banner"></div>
 
     <!-- Hộp tìm kiếm -->
@@ -27,12 +22,14 @@
             <p class="search-value" id="destinationSelect">Điểm đến</p>
             <select id="destination" class="search-dropdown">
                 <option value="" selected>Chọn điểm đến</option>
-                @foreach (var dest in destinations)
+                @if (destinations.Any()) // Kiểm tra danh sách đã được khai báo ở trên
                 {
-                    <option value="@dest">@dest</option>
+                    foreach (var dest in destinations)
+                    {
+                        <option value="@dest">@dest</option>
+                    }
                 }
             </select>
-
         </div>
 
         <div class="divider"></div>
@@ -99,10 +96,10 @@
     <div class="container">
         <!-- Button -->
         <div class="button-container" style="display: flex; justify-content: center; gap: 25px; margin-bottom: 20px;">
-            <button class="btn custom-nut active" onclick="changeImage('/img/PhuQuoc.jpg', 'Phú Quốc', this)">Phú Quốc</button>
-            <button class="btn custom-nut" onclick="changeImage('/img/Halong2.jpg', 'Hạ Long', this)">Hạ Long</button>
-            <button class="btn custom-nut" onclick="changeImage('/img/DaNang1.jpg', 'Đà Nẵng', this)">Đà Nẵng</button>
-            <button class="btn custom-nut" onclick="changeImage('/img/DaLat1.jpg', 'Đà Lạt', this)">Đà Lạt</button>
+            <button class="btn custom-nut active" data-image="/img/PhuQuoc.jpg" data-tour="Phú Quốc">Phú Quốc</button>
+            <button class="btn custom-nut" data-image="/img/Halong2.jpg" data-tour="Hạ Long">Hạ Long</button>
+            <button class="btn custom-nut" data-image="/img/DaNang1.jpg" data-tour="Đà Nẵng">Đà Nẵng</button>
+            <button class="btn custom-nut" data-image="/img/DaLat1.jpg" data-tour="Đà Lạt">Đà Lạt</button>
         </div>
 
         <!-- Hình ảnh hiển thị -->
@@ -112,16 +109,21 @@
         <!-- Div hiển thị thông tin -->
         <div id="infoBox" class="info-container">
             <h2 id="tourTitle">Phú Quốc</h2>
-            <p id="tourDescription">Mô tả tour Phú Quốc. Một địa điểm tuyệt vời với biển xanh và nắng vàng.</p>
-            <p><strong>Thời gian:</strong> <span id="tourDuration">3 ngày 2 đêm</span></p>
+            <p id="tourDescription">Hòn đảo thiên đường với biển xanh, cát trắng và những khu nghỉ dưỡng cao cấp. Nơi đây nổi tiếng với hoàng hôn tuyệt đẹp, chợ đêm sầm uất và các hoạt động lặn biển thú vị.</p>
+            <p><strong>Nơi ở:</strong> <span id="tourLocation">Nhiều resort cao cấp ven biển (Bãi Trường, Bãi Khem), khách sạn trung tâm Dương Đông tiện di chuyển, bungalow và homestay gần làng chài cho trải nghiệm địa phương.</span></p>
             <button class="btn btn-primary">Đặt ngay</button>
         </div>
     </div>
     
     <div class="containerempty"></div>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+    <script>
+        console.log("Inline script executed");
+    </script>
+
 </body>
-
-
 
 <style>
     .containerempty{

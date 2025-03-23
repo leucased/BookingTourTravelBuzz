@@ -168,8 +168,12 @@ body {
 /* Các phần tử con */
 .search-item {
     flex: 1;
-    text-align: center;
     position: relative;
+    max-width: 200px;
+    min-width: 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Căn giữa nội dung */
 }
 
 .search-value {
@@ -180,11 +184,10 @@ body {
 }
 
 .search-input, .search-dropdown {
-    width: 80%;
+    width: 100%;
     padding: 5px;
     border: 1px solid #ccc;
     border-radius: 5px;
-    /*display: none;*/
     text-align: center;
 }
 
@@ -221,27 +224,22 @@ body {
 
 /* Popup hiển thị kết quả */
 .popup {
+    display: none;
     position: fixed;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    background: white;
-    padding: 20px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    border-radius: 10px;
-    display: none; /* Ban đầu ẩn */
-    opacity: 0;
-    visibility: hidden;
-    transition: opacity 0.3s ease, visibility 0.3s ease;
-    z-index: 1000;
-    width: 80%;
+    width: 60%;
     max-width: 600px;
+    background-color: white;
+    padding: 20px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+    z-index: 1000;
+    border-radius: 10px;
 }
 
     .popup.active {
         display: block;
-        opacity: 1;
-        visibility: visible;
     }
 
 
@@ -264,4 +262,5 @@ body {
     object-fit: cover; /* Cắt ảnh để giữ tỷ lệ mà không méo */
     border-radius: 8px; /* Bo góc ảnh nhẹ nhàng */
 }
+
 

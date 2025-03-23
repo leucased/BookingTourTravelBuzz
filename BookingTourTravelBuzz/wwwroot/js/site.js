@@ -1,46 +1,58 @@
-﻿
-    function changeImage(imageSrc, tourName, clickedButton) {
-        document.getElementById("displayedImage").src = imageSrc;
-
-    // Xóa class 'active' khỏi tất cả button
-    let buttons = document.querySelectorAll(".custom-nut");
-       buttons.forEach(button => button.classList.remove("active"));
-
-    // Thêm class 'active' cho button được chọn
-    clickedButton.classList.add("active");
-
-    // Cập nhật nội dung của infoBox
-    let tourData = {
-        "Phú Quốc": {
-        description: "Một địa điểm tuyệt vời với biển xanh và nắng vàng.",
-    duration: "3 ngày 2 đêm"
-           },
+﻿console.log("site.js loaded");
+let tourData = {
+    "Phú Quốc": {
+        description: "Hòn đảo thiên đường với biển xanh, cát trắng và những khu nghỉ dưỡng cao cấp. Nơi đây nổi tiếng với hoàng hôn tuyệt đẹp, chợ đêm sầm uất và các hoạt động lặn biển thú vị.",
+        location: "Nhiều resort cao cấp ven biển (Bãi Trường, Bãi Khem), khách sạn trung tâm Dương Đông tiện di chuyển, bungalow và homestay gần làng chài."
+    },
     "Hạ Long": {
-        description: "Di sản thiên nhiên thế giới với hàng nghìn đảo đá vôi kỳ vĩ.",
-    duration: "2 ngày 1 đêm"
-           },
+        description: "Thành phố biển nổi tiếng với Vịnh Hạ Long – kỳ quan thiên nhiên thế giới, bãi biển đẹp, khu vui chơi Sun World và những làng chài cổ kính.",
+        location: "Khách sạn ven biển tại Bãi Cháy thuận tiện di chuyển, homestay gần trung tâm, du thuyền trên vịnh dành cho kỳ nghỉ sang trọng."
+    },
     "Đà Nẵng": {
-        description: "Thành phố biển đáng sống nhất Việt Nam với nhiều cảnh đẹp.",
-    duration: "4 ngày 3 đêm"
-           },
+        description: "Thành phố biển sôi động với bãi biển Mỹ Khê tuyệt đẹp, những cây cầu biểu tượng và nền ẩm thực phong phú. Đà Nẵng còn là cửa ngõ đến Hội An và Bà Nà Hills.",
+        location: "Khách sạn ven biển Mỹ Khê với view biển đẹp, resort cao cấp trên Bà Nà Hills, homestay trong trung tâm gần chợ và cầu Rồng."
+    },
     "Đà Lạt": {
-        description: "Thành phố ngàn hoa với khí hậu mát mẻ quanh năm.",
-    duration: "3 ngày 2 đêm"
-           }
-       };
+        description: "Thành phố ngàn hoa với không khí mát mẻ quanh năm, cảnh quan thơ mộng và kiến trúc châu Âu cổ kính. Đà Lạt thu hút du khách với những vườn hoa, đồi thông và quán cà phê đẹp.",
+        location: "Homestay phong cách vintage giữa rừng thông, biệt thự cổ gần Hồ Xuân Hương, khách sạn trung tâm thuận tiện di chuyển."
+    }
+};
 
+function changeImage(imageSrc, tourName, clickedButton) {
+    console.log("changeImage called with:", imageSrc, tourName, clickedButton);
+    let imageElement = document.getElementById("displayedImage");
+
+    // Thêm hiệu ứng mờ dần khi thay đổi ảnh
+    imageElement.style.opacity = "0";
+    setTimeout(() => {
+        imageElement.src = imageSrc;
+        imageElement.style.opacity = "1";
+    }, 300);
+
+    console.log("Tour Data:", tourData[tourName]);
+
+    // Cập nhật thông tin tour
     document.getElementById("tourTitle").innerText = tourName;
     document.getElementById("tourDescription").innerText = tourData[tourName].description;
-    document.getElementById("tourDuration").innerText = tourData[tourName].duration;
+    document.getElementById("tourLocation").innerText = tourData[tourName].location;
+
+    // Loại bỏ class 'active' khỏi tất cả button và thêm vào button được chọn
+    document.querySelectorAll(".custom-nut").forEach(button => button.classList.remove("active"));
+    clickedButton.classList.add("active");
 }
 
 document.addEventListener("DOMContentLoaded", function () {
-    let searchButton = document.getElementById("searchButton");
-    if (searchButton) {
-        searchButton.addEventListener("click", searchTours);
-    } else {
-        console.error("❌ Không tìm thấy nút tìm kiếm!");
-    }
+    let buttons = document.querySelectorAll(".custom-nut");
+    console.log("Buttons found:", buttons.length); // Thêm log để kiểm tra
+
+    buttons.forEach(button => {
+        button.addEventListener("click", function () {
+            let imageSrc = this.getAttribute("data-image");
+            let tourName = this.getAttribute("data-tour");
+            console.log("Button clicked:", imageSrc, tourName); // Thêm log để kiểm tra
+            changeImage(imageSrc, tourName, this);
+        });
+    });
 });
 
 
@@ -66,16 +78,16 @@ document.querySelectorAll(".search-item").forEach(item => {
 function searchTours() {
     console.log("🔍 Bắt đầu tìm kiếm...");
 
-    let destinationInput = document.getElementById("destination").value.trim().toLowerCase(); // Lấy điểm đến
+    let destinationInput = document.getElementById("destination").value.trim().toLowerCase();
 
     if (!destinationInput) {
         alert("Vui lòng chọn điểm đến!");
         return;
     }
 
-    let tours = @Html.Raw(Json.Serialize(_context.TOURS.ToList()));
+    // Kiểm tra dữ liệu có tồn tại không
+    console.log("Dữ liệu điểm đến:", destinationInput);
 
-    // Chỉ lọc theo điểm đến
     let filteredTours = tours.filter(tour =>
         tour.DESTINATION_TOUR.toLowerCase().includes(destinationInput)
     );
@@ -84,7 +96,6 @@ function searchTours() {
     displayResults(filteredTours);
 }
 
-// 🖥 Hiển thị kết quả tìm kiếm trong popup
 function displayResults(filteredTours) {
     let resultsContainer = document.getElementById("resultsContainer");
     let popup = document.getElementById("searchResultsPopup");
@@ -112,9 +123,8 @@ function displayResults(filteredTours) {
         });
     }
 
-    // 🔥 Đảm bảo popup hiển thị
+    // Hiển thị popup
     popup.style.display = "block";
-    popup.classList.add("active");
 }
 
 // ❌ Đóng popup
