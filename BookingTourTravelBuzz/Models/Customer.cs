@@ -1,9 +1,12 @@
 ﻿using Microsoft.AspNetCore.Identity;
-using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
+using System.ComponentModel.DataAnnotations.Schema;
+
 namespace BookingTourTravelBuzz.Models
 {
     public class Customer : IdentityUser
     {
-        public string FullName { get; set; }
+        [PersonalData]
+        [Column("FullName")] // Đảm bảo ánh xạ đúng tên cột
+        public string? FullName { get; set; }
     }
 }

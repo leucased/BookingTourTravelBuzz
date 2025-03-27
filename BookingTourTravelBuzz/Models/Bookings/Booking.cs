@@ -1,49 +1,51 @@
-﻿using BookingTourTravelBuzz.Models.Tours;
-using System;
-using System.ComponentModel.DataAnnotations;
+﻿using BookingTourTravelBuzz.Models.Guides;
+using BookingTourTravelBuzz.Models;
 using System.ComponentModel.DataAnnotations.Schema;
+using System.ComponentModel.DataAnnotations;
 
-namespace BookingTourTravelBuzz.Models
+public class Booking
 {
-    public class Booking
-    {
-        [Key]
-        public int ID_BOOKING { get; set; } // Khóa chính
+    [Key]
+    public int ID_BOOKING { get; set; }
 
-        [Required]
-        public int ID_TOUR { get; set; } // Khóa ngoại - Tour
+    // Liên kết với Tour
+    [ForeignKey("Tour")]
+    public int ID_TOUR { get; set; }
+    public virtual Tour Tour { get; set; }
 
-        [Required]
-        public string ID_CUSTOMER { get; set; } // Khóa ngoại - Khách hàng
+    // ✅ Đổi ID_CUSTOMER → Id để trùng với AspNetUsers.Id (string)
+    [ForeignKey("Customer")]
+    public string? Id { get; set; }
+    public virtual Customer? Customer { get; set; }
 
-        [Required]
-        public string FULLNAME_CUSTOMER { get; set; }
+    public DateTime START_DATES { get; set; }
 
-        [Required]
-        public string PHONE_CUSTOMER { get; set; }
+    [Required]
+    [StringLength(100)]
+    public string? FULLNAME_CUSTOMER { get; set; }
 
-        [Required, EmailAddress]
-        public string EMAIL_CUSTOMER { get; set; }
+    [Required]
+    [StringLength(15)]
+    public string? PHONE_CUSTOMER { get; set; }
 
-        public int ID_GUIDE { get; set; } // Hướng dẫn viên (nếu có)
+    [Required]
+    [StringLength(30)]
+    public string? EMAIL_CUSTOMER { get; set; }
 
-        [Required]
-        public int QUANTITY { get; set; } // Số lượng khách
+    // Liên kết với Guide (hướng dẫn viên)
+    [ForeignKey("Guide")]
+    public int ID_GUIDE { get; set; }
+    public virtual Guide Guide { get; set; }
 
-        [Required]
-        public decimal TOTAL_PRICE { get; set; } // Tổng giá tiền
+    [Required]
+    public int QUANTITY_BOOKING { get; set; }
 
-        public DateTime BOOKING_DATE { get; set; } = DateTime.Now; // Ngày đặt
+    [Required]
+    public decimal TOTAL_PRICE { get; set; }
 
-        public string STATUS_BOOKING { get; set; } = "Chờ xác nhận"; // Trạng thái
+    public DateTime BOOKING_DATE { get; set; }
 
-        public DateTime START_DATE { get; set; } // Ngày khởi hành
-
-        // Navigation properties
-        [ForeignKey("ID_TOUR")]
-        public virtual Tour Tour { get; set; }
-
-        [ForeignKey("ID_CUSTOMER")]
-        public virtual Customer Customer { get; set; }
-    }
+    [Required]
+    [StringLength(50)]
+    public string? STATUS_BOOKING { get; set; }
 }

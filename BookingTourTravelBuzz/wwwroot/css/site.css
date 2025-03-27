@@ -263,4 +263,57 @@ body {
     border-radius: 8px; /* Bo góc ảnh nhẹ nhàng */
 }
 
+.tour-container {
+    max-width: 900px;
+    margin: 50px auto;
+    background: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
 
+.tour-title {
+    text-align: center;
+    color: #007BFF;
+    text-transform: uppercase;
+}
+
+.tour-notice {
+    background: #FFF3CD;
+    color: #856404;
+    padding: 15px;
+    border-left: 5px solid #FFA500;
+    margin-bottom: 20px;
+}
+
+.tour-section {
+    margin-bottom: 20px;
+}
+
+    .tour-section h3 {
+        color: #333;
+        border-left: 5px solid #007BFF;
+        padding-left: 10px;
+    }
+
+    .tour-section p {
+        line-height: 1.6;
+        color: #555;
+    }
+
+.tour-highlight {
+    color: #D9534F;
+    font-weight: bold;
+}
+
+ul {
+    list-style-type: disc;
+    padding-left: 20px;
+}
+
+.tour-footer {
+    text-align: center;
+    margin-top: 30px;
+    font-size: 14px;
+    color: #777;
+}

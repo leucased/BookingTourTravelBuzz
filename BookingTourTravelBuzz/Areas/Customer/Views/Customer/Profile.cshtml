@@ -1,55 +1,119 @@
-﻿@{
-    Layout = "~/Views/Shared/_Layout.cshtml"; // Nếu bạn có layout chung
-}
-<div style="height: 80px;"></div>
+﻿@model BookingTourTravelBuzz.Models.ProfileViewModel
 
+@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div style="height: 80px;"></div>
+<p>User: @User.Identity.Name</p>
 <div class="container mt-4">
     <div class="row">
         <!-- Sidebar -->
         <div class="col-md-3">
             <div class="list-group shadow-sm">
-                <a href="#profile" class="list-group-item list-group-item-action active">
+                <a href="#profile" class="list-group-item list-group-item-action active" onclick="showSection(event, 'profile')">
                     <i class="fas fa-user-circle"></i> Hồ sơ cá nhân
                 </a>
-                <a href="#history" class="list-group-item list-group-item-action">
+                <a href="#history" class="list-group-item list-group-item-action" onclick="showSection(event, 'history')">
                     <i class="fas fa-history"></i> Lịch sử đặt tour
                 </a>
-                <a href="#password" class="list-group-item list-group-item-action">
+                <a href="#password" class="list-group-item list-group-item-action" onclick="showSection(event, 'password')">
                     <i class="fas fa-lock"></i> Đổi mật khẩu
                 </a>
-                <a href="#support" class="list-group-item list-group-item-action">
+                <a href="#support" class="list-group-item list-group-item-action" onclick="showSection(event, 'support')">
                     <i class="fas fa-headset"></i> Yêu cầu hỗ trợ
                 </a>
-                <a href="#notifications" class="list-group-item list-group-item-action">
-                    <i class="fas fa-bell"></i> Thông báo
+                <a href="#notifications" class="list-group-item list-group-item-action" onclick="showSection(event, 'notifications')">
+                    <i class="fas fa-bell"></i> Thông báo <span class="badge bg-danger" id="notificationCount">3</span>
                 </a>
             </div>
         </div>
 
         <!-- Nội dung chính -->
         <div class="col-md-9">
-            <div class="card shadow-sm">
-                <div class="card-body">
-                    <h3 class="mb-4"><i class="fas fa-user"></i> Thông tin cá nhân</h3>
-                    <form>
-                        <div class="mb-3">
-                            <label class="form-label">Họ và tên</label>
-                            <input type="text" class="form-control" value="Nguyễn Văn A">
-                        </div>
-                        <div class="mb-3">
-                            <label class="form-label">Email</label>
-                            <input type="email" class="form-control" value="email@example.com" disabled>
-                        </div>
-                        <div class="mb-3">
-                            <label class="form-label">Số điện thoại</label>
-                            <input type="text" class="form-control" value="0123456789">
-                        </div>
-                        <div class="mb-3">
-                            <label class="form-label">Địa chỉ</label>
-                            <input type="text" class="form-control" value="Hà Nội, Việt Nam">
-                        </div>
-                        <button type="submit" class="btn btn-primary">Cập nhật</button>
-                    </form>
+            <!-- Hồ sơ cá nhân -->
+            <div id="profile" class="content-section">
+                <div class="card shadow-sm">
+                    <div class="card-body">
+                        <h3><i class="fas fa-user"></i> Thông tin cá nhân</h3>
+
+                        @if (TempData["SuccessMessage"] != null)
+                        {
+                            <div class="alert alert-success">@TempData["SuccessMessage"]</div>
+                        }
+
+                        <form id="profileForm" method="post" asp-action="UpdateProfile">
+                            <div class="mb-3">
+                                <label class="form-label">Họ và tên</label>
+                                <input type="text" class="form-control" id="fullName" name="FullName" value="@(Model?.FullName ?? "Chưa cập nhật")" disabled>
+                            </div>
+                            <div class="mb-3">
+                                <label class="form-label">Email</label>
+                                <input type="email" class="form-control" id="email" name="Email" value="@(Model?.Email ?? "Chưa cập nhật")" disabled>
+                            </div>
+                            <div class="mb-3">
+                                <label class="form-label">Số điện thoại</label>
+                                <input type="text" class="form-control" id="phone" name="PhoneNumber" value="@(Model?.PhoneNumber ?? "Chưa cập nhật")" disabled>
+                            </div>
+                            <button type="button" class="btn btn-primary" onclick="enableEdit()">Chỉnh sửa thông tin</button>
+                            <button type="submit" class="btn btn-success d-none" id="saveBtn">Lưu</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Lịch sử đặt tour -->
+            <div id="history" class="content-section d-none">
+                <div class="card shadow-sm">
+                    <div class="card-body">
+                        <h3><i class="fas fa-history"></i> Lịch sử đặt tour</h3>
+                        <p>Danh sách các tour đã đặt sẽ hiển thị ở đây.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Đổi mật khẩu -->
+            <div id="password" class="content-section d-none">
+                <div class="card shadow-sm">
+                    <div class="card-body">
+                        <h3><i class="fas fa-lock"></i> Đổi mật khẩu</h3>
+                        <form>
+                            <div class="mb-3">
+                                <label class="form-label">Mật khẩu cũ</label>
+                                <input type="password" class="form-control">
+                            </div>
+                            <div class="mb-3">
+                                <label class="form-label">Mật khẩu mới</label>
+                                <input type="password" class="form-control">
+                            </div>
+                            <div class="mb-3">
+                                <label class="form-label">Nhập lại mật khẩu mới</label>
+                                <input type="password" class="form-control">
+                            </div>
+                            <button type="submit" class="btn btn-primary">Cập nhật mật khẩu</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Yêu cầu hỗ trợ -->
+            <div id="support" class="content-section d-none">
+                <div class="card shadow-sm">
+                    <div class="card-body">
+                        <h3><i class="fas fa-headset"></i> Yêu cầu hỗ trợ</h3>
+                        <p>Hotline: 1900 123 456</p>
+                        <p>Email: support@travelbuzz.com</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Thông báo -->
+            <div id="notifications" class="content-section d-none">
+                <div class="card shadow-sm">
+                    <div class="card-body">
+                        <h3><i class="fas fa-bell"></i> Thông báo</h3>
+                        <p>Bạn có thông báo mới về các tour đặt chỗ.</p>
+                    </div>
                 </div>
             </div>
         </div>
@@ -58,6 +122,30 @@
 
 <div style="height: 500px;"></div>
 
+<script>
+    function showSection(event, sectionId) {
+        event.preventDefault();
+
+        document.querySelectorAll('.content-section').forEach(section => {
+            section.classList.add('d-none');
+        });
+
+        document.getElementById(sectionId).classList.remove('d-none');
+
+        document.querySelectorAll('.list-group-item').forEach(item => {
+            item.classList.remove('active');
+        });
+
+        event.target.classList.add('active');
+    }
+
+    function enableEdit() {
+        document.getElementById('fullName').disabled = false;
+        document.getElementById('email').disabled = false;
+        document.getElementById('phone').disabled = false;
+        document.getElementById('saveBtn').classList.remove('d-none');
+    }
+</script>
 
 <!-- Thêm FontAwesome để có icon đẹp -->
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">

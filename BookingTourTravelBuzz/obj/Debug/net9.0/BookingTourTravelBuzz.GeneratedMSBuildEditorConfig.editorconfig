@@ -112,12 +112,8 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxWZXJpZnlFbWFpbC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[I:/FinalTerm/BookingTourTravelBuzz/BookingTourTravelBuzz/Views/Booking/BookTour.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQm9va2luZ1xCb29rVG91ci5jc2h0bWw=
-build_metadata.AdditionalFiles.CssScope = 
-
-[I:/FinalTerm/BookingTourTravelBuzz/BookingTourTravelBuzz/Views/Booking/History.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQm9va2luZ1xIaXN0b3J5LmNzaHRtbA==
+[I:/FinalTerm/BookingTourTravelBuzz/BookingTourTravelBuzz/Views/Booking/Checkout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQm9va2luZ1xDaGVja291dC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [I:/FinalTerm/BookingTourTravelBuzz/BookingTourTravelBuzz/Views/Home/About.cshtml]

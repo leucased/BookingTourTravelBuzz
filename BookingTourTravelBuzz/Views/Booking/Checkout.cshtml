@@ -1,0 +1,111 @@
+﻿@using BookingTourTravelBuzz.ViewModels
+@{
+    ViewData["Title"] = "Thanh toán Tour";
+}
+
+<link rel="stylesheet" href="/css/site.css" asp-append-version="true" />
+<script src="/js/site.js" asp-append-version="true"></script>
+
+@model Booking
+<div style="height: 80px;"></div>
+<div class="container mt-5">
+    <h2 class="text-center mb-4">Xác nhận & Thanh toán</h2>
+
+    <div class="row">
+        <!-- Cột 1: Thông tin khách hàng -->
+        <div class="col-md-6">
+            <div class="card p-4 shadow-lg">
+                <h4>🧑 Thông tin khách hàng</h4>
+                <div class="mb-3">
+                    <label class="form-label">Họ và tên:</label>
+                    <input type="text" class="form-control" name="FULLNAME_CUSTOMER" value="@Model.FULLNAME_CUSTOMER" readonly>
+                </div>
+                <div class="mb-3">
+                    <label class="form-label">Email:</label>
+                    <input type="email" class="form-control" name="EMAIL_CUSTOMER" value="@Model.EMAIL_CUSTOMER" readonly>
+                </div>
+                <div class="mb-3">
+                    <label class="form-label">Số điện thoại:</label>
+                    <input type="text" class="form-control" name="PHONE_CUSTOMER" value="@Model.PHONE_CUSTOMER" readonly>
+                </div>
+            </div>
+        </div>
+
+        <!-- Cột 2: Chi tiết đặt tour -->
+        <div class="col-md-6">
+            <div class="card p-4 shadow-lg">
+                <h4>📌 Chi tiết đơn hàng</h4>
+                <p><strong>Tour:</strong> </p>
+                <p><strong>Ngày khởi hành:</strong> @Model.START_DATES.ToString("dd/MM/yyyy")</p>
+                <p><strong>Số người:</strong> @Model.QUANTITY_BOOKING khách</p>
+                <p class="text-danger fw-bold"><strong>Tổng tiền:</strong> @Model.TOTAL_PRICE.ToString("N0") VND</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Phương thức thanh toán -->
+    <div class="card p-4 shadow-lg mt-4">
+        <h4>💳 Chọn phương thức thanh toán</h4>
+        <div class="form-check">
+            <input class="form-check-input" type="radio" name="PAYMENT_METHOD" value="Tiền mặt" checked onclick="toggleBankTransfer(false)">
+            <label class="form-check-label">Tiền mặt tại văn phòng</label>
+        </div>
+        <div class="form-check">
+            <input class="form-check-input" type="radio" name="PAYMENT_METHOD" value="Chuyển khoản" onclick="toggleBankTransfer(true)">
+            <label class="form-check-label">Chuyển khoản ngân hàng</label>
+        </div>
+    </div>
+
+    <!-- Thông tin chuyển khoản (ẩn mặc định) -->
+    <div id="bankTransferInfo" class="card p-4 shadow-lg mt-3 d-none">
+        <h4>🏦 Thông tin chuyển khoản</h4>
+        <p><strong>Số tài khoản:</strong> 0123456789</p>
+        <p><strong>Ngân hàng:</strong> Vietcombank</p>
+        <p><strong>Chủ tài khoản:</strong> Công ty TravelBuzz</p>
+        <img src="/images/qr-code.png" alt="Mã QR thanh toán" class="img-fluid my-3" width="200">
+
+        <div class="mb-3">
+            <label class="form-label">Tải lên ảnh minh chứng thanh toán:</label>
+            <input type="file" class="form-control" name="PAYMENT_PROOF">
+        </div>
+    </div>
+
+    <!-- Nút xác nhận -->
+    <div class="text-center mt-4">
+        <!-- Thanh toán sau -->
+        <button type="button" class="btn btn-secondary" onclick="goBackToTourDetails()">Thanh toán sau</button>
+
+        <!-- Xác nhận đã thanh toán -->
+        <button type="button" class="btn btn-success" onclick="goBackToTourDetails()">Xác nhận đã thanh toán</button>
+    </div>
+</div>
+    <div class="containerempty"></div>
+
+<script>
+    function toggleBankTransfer(show) {
+        const bankInfo = document.getElementById("bankTransferInfo");
+        if (show) {
+            bankInfo.classList.remove("d-none");
+        } else {
+            bankInfo.classList.add("d-none");
+        }
+    }
+    function goBackToTourDetails() {
+        // Chuyển hướng về trang chi tiết tour
+        window.location.href = "/Tour/TourDetails/@Model.ID_TOUR";
+    }
+</script>
+<style>
+    .containerempty {
+        height: 400px;
+    }
+    .card {
+        border-radius: 12px;
+    }
+
+    .btn-success {
+        padding: 12px 24px;
+        font-size: 18px;
+        border-radius: 8px;
+    }
+</style>

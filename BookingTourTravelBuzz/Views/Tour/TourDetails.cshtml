@@ -52,6 +52,71 @@
             </a>
         }
     </div>
+    <div class="tour-container">
+        <h2 class="tour-title">📌 LƯU Ý KHI THAM GIA TOUR</h2>
+
+        <div class="tour-notice">
+            🛑 **Quan trọng:** Quý khách vui lòng đọc kỹ các lưu ý trước khi tham gia tour để có chuyến đi trọn vẹn và an toàn nhất.
+        </div>
+
+        <div class="tour-section">
+            <h3>📝 1. Hồ sơ và giấy tờ tùy thân</h3>
+            <p>Quý khách cần mang theo đầy đủ giấy tờ cá nhân để làm thủ tục:</p>
+            <ul>
+                <li><strong>CMND/CCCD/Hộ chiếu:</strong> Đối với khách du lịch trong nước và quốc tế.</li>
+                <li><strong>Giấy khai sinh:</strong> Nếu có trẻ em đi cùng.</li>
+                <li><strong>Visa:</strong> Nếu tour yêu cầu xuất cảnh.</li>
+                <li>Quý khách nên giữ bản sao phòng trường hợp thất lạc giấy tờ.</li>
+            </ul>
+        </div>
+
+        <div class="tour-section">
+            <h3>🧳 2. Hành lý cần chuẩn bị</h3>
+            <p>Hành lý mang theo cần phù hợp với điều kiện thời tiết và lịch trình tour:</p>
+            <ul>
+                <li>Quần áo thoải mái, giày thể thao hoặc dép chống trượt.</li>
+                <li>Nón, kính mát, kem chống nắng để bảo vệ da.</li>
+                <li>Thuốc cá nhân, băng cá nhân, dầu gió (nếu cần).</li>
+                <li>Pin sạc dự phòng, máy ảnh để lưu lại những khoảnh khắc đẹp.</li>
+            </ul>
+        </div>
+
+        <div class="tour-section">
+            <h3>⏰ 3. Thời gian và địa điểm tập trung</h3>
+            <p>Quý khách cần có mặt đúng giờ tại điểm hẹn. Nếu trễ giờ, công ty không chịu trách nhiệm.</p>
+            <p><span class="tour-highlight">Lưu ý:</span> Trong trường hợp thay đổi lịch trình, chúng tôi sẽ thông báo qua điện thoại hoặc email.</p>
+        </div>
+
+        <div class="tour-section">
+            <h3>🍽 4. Ăn uống và chế độ dinh dưỡng</h3>
+            <p>Quý khách vui lòng thông báo trước nếu có nhu cầu đặc biệt về ăn uống (ăn chay, dị ứng thực phẩm,...). Một số điểm đến có đặc sản địa phương, quý khách có thể thử nhưng cần lưu ý vấn đề vệ sinh an toàn thực phẩm.</p>
+        </div>
+
+        <div class="tour-section">
+            <h3>⚠ 5. An toàn và bảo vệ tài sản cá nhân</h3>
+            <p>Trong quá trình di chuyển, quý khách cần lưu ý:</p>
+            <ul>
+                <li>Không mang theo quá nhiều tiền mặt hoặc đồ trang sức đắt tiền.</li>
+                <li>Giữ điện thoại, ví, hộ chiếu ở nơi an toàn.</li>
+                <li>Không tự ý tách đoàn, nếu cần, hãy báo với hướng dẫn viên.</li>
+            </ul>
+        </div>
+
+        <div class="tour-section">
+            <h3>🚍 6. Phương tiện di chuyển</h3>
+            <p>Tùy từng tour, phương tiện di chuyển có thể là xe du lịch, máy bay hoặc tàu. Quý khách cần tuân thủ các quy định an toàn, giữ vệ sinh trên xe và tuân theo hướng dẫn của tài xế hoặc tiếp viên.</p>
+        </div>
+
+        <div class="tour-section">
+            <h3>📢 7. Chính sách hủy tour và bồi hoàn</h3>
+            <p>Quý khách vui lòng đọc kỹ các điều kiện hủy tour.</p>
+        </div>
+
+        <div class="tour-footer">
+            📞 Mọi thắc mắc vui lòng liên hệ TravelBuzz qua hotline: <strong>19000502</strong> hoặc email: <strong>support@travelbuzz.com</strong>.
+        </div>
+    </div>
+
     <div class="containerempty"></div>
 </body>
 
@@ -63,42 +128,35 @@
                 <h5 class="modal-title" id="bookingModalLabel">Đặt Tour - @Model.NAME_TOUR</h5>
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
-            <form asp-action="BookTour" asp-controller="Booking" method="post">
+            <form asp-action="Booking" asp-controller="Booking" method="post">
                 <div class="modal-body">
                     <div class="row">
                         <!-- Cột 1: Thông tin khách hàng -->
                         <div class="col-md-6">
                             <h5>Thông tin khách hàng</h5>
+                            @{
+                                var userId = User.FindFirst("Id")?.Value ?? "";
+                            }
+                            <input type="hidden" name="ID_CUSTOMER" value="@userId" />
                             <div class="mb-3">
                                 <label class="form-label">Họ và tên:</label>
-                                <input type="text" name="FullName" class="form-control" required>
+                                <input type="text" name="FULLNAME_CUSTOMER" class="form-control" required>
                             </div>
                             <div class="mb-3">
                                 <label class="form-label">Số điện thoại:</label>
-                                <input type="text" name="Phone" class="form-control" required>
+                                <input type="text" name="PHONE_CUSTOMER" class="form-control" required>
                             </div>
                             <div class="mb-3">
                                 <label class="form-label">Email:</label>
-                                <input type="email" name="Email" class="form-control" required>
+                                <input type="email" name="EMAIL_CUSTOMER" class="form-control" required>
                             </div>
                             <div class="mb-3">
                                 <label class="form-label">Số người đi:</label>
-                                <input type="number" name="Quantity" class="form-control" min="1" required>
+                                <input type="number" name="QUANTITY_BOOKING" class="form-control" min="1" required>
                             </div>
                             <div class="mb-3">
                                 <label class="form-label">Ngày khởi hành:</label>
-                                <input type="date" class="form-control" name="START_DATE" required />
-                            </div>
-                            <div class="mb-3">
-                                <label class="form-label">Thời gian tour:</label>
-                                <select name="TimeTour" class="form-select">
-                                    <option>2 ngày 1 đêm</option>
-                                    <option>3 ngày 2 đêm</option>
-                                    <option>4 ngày 3 đêm</option>
-                                    <option>5 ngày 4 đêm</option>
-                                    <option>6 ngày 5 đêm</option>
-                                    <option>7 ngày 6 đêm</option>
-                                </select>
+                                <input type="date" class="form-control" name="START_DATES" required />
                             </div>
                         </div>
 
@@ -164,3 +222,14 @@
         z-index: -1;
     }
 </style>
+<script>
+    document.addEventListener("DOMContentLoaded", function () {
+        var form = document.querySelector("form[asp-action='Booking'][asp-controller='Booking']");
+
+        form.addEventListener("submit", function(event) {
+            setTimeout(function() {
+                window.location.href = "/Booking/Checkout";
+            }, 500); // Chờ 0.5 giây để đảm bảo submit hoàn tất
+        });
+    });
+</script>

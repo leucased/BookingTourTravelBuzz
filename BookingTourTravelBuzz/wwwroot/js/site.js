@@ -135,3 +135,9 @@ function closePopup() {
         popup.style.display = "none";
     }, 300);
 }
+
+document.querySelector("input[name='QUANTITY']").addEventListener("input", function () {
+    let quantity = parseInt(this.value) || 1;
+    let price = parseFloat(document.getElementById("priceTour").value);
+    document.getElementById("totalPrice").value = (quantity * price).toLocaleString() + " VNĐ";
+});

@@ -8,7 +8,7 @@ namespace BookingTourTravelBuzz.Data
 {
     public class ApplicationDbContext : IdentityDbContext<Customer>
     {
-        public ApplicationDbContext(DbContextOptions options) : base(options) { }       
+        public ApplicationDbContext(DbContextOptions options) : base(options) { }
 
         public DbSet<Tour> TOURS { get; set; } // Đảm bảo tên này trùng với model
         public object Tour { get; internal set; }

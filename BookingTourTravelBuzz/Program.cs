@@ -1,4 +1,4 @@
-using BookingTourTravelBuzz.Data;
+﻿using BookingTourTravelBuzz.Data;
 using BookingTourTravelBuzz.Models;
 using BookingTourTravelBuzz.Models.Guides;
 using BookingTourTravelBuzz.Models.Tours;
@@ -41,42 +41,42 @@ using (var scope = app.Services.CreateScope())
 }
 
 // Configure the HTTP request pipeline.
-if (!app.Environment.IsDevelopment())
+if (app.Environment.IsDevelopment())
+{
+    app.UseDeveloperExceptionPage();
+}
+else
 {
     app.UseExceptionHandler("/Home/Error");
-    // The default HSTS value is 30 days. You may want to change this for production scenarios, see https://aka.ms/aspnetcore-hsts.
     app.UseHsts();
 }
 app.UseStaticFiles();
 app.UseHttpsRedirection();
 app.UseRouting();
-
+app.UseAuthentication();
 app.UseAuthorization();
 
 app.MapStaticAssets();
 
 app.UseEndpoints(endpoints =>
 {
-    endpoints.MapControllerRoute(
-      name: "areas",
-      pattern: "{area:exists}/{controller=TourManager}/{action=Domestic}/{id?}"
-    );
-});
+    // Route cho area Customer
+    endpoints.MapAreaControllerRoute(
+        name: "CustomerArea",
+        areaName: "Customer",
+        pattern: "Customer/{controller=Customer}/{action=Profile}/{id?}");
 
-app.UseEndpoints(endpoints =>
-{
+    // Route cho các areas khác
     endpoints.MapControllerRoute(
         name: "areas",
-        pattern: "{area:exists}/{controller=Customer}/{action=Profile}/{id?}"
-    );
+        pattern: "{area:exists}/{controller=TourManager}/{action=Domestic}/{id?}");
 
-    endpoints.MapDefaultControllerRoute();
+    // Route mặc định
+    endpoints.MapControllerRoute(
+        name: "default",
+        pattern: "{controller=Home}/{action=Home}/{id?}")
+        .WithStaticAssets();
 });
-
-app.MapControllerRoute(
-    name: "default",
-    pattern: "{controller=Home}/{action=Home}/{id?}")
-    .WithStaticAssets();
 
 app.Run();
 
