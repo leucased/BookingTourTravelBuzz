@@ -26,7 +26,7 @@ namespace BookingTourTravelBuzz.Models.Guides
 
         public string GetStatus()
         {
-            return STATUS_GUIDE == 0 ? "Nam" : "Nữ";
+            return STATUS_GUIDE == 0 ? "Đang chờ" : "Đang hoạt động";
         }
 
         public string StatusGuide => GetStatus();

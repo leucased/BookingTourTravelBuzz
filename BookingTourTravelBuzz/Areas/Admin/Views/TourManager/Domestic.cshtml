@@ -1,4 +1,5 @@
-﻿@model IEnumerable<Tour>
+﻿@addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
+@model IEnumerable<Tour>
 
 @{
     ViewBag.Title = "Danh sách Tour";
@@ -6,7 +7,7 @@
 
 <h2>Danh sách Tour</h2>
 
-<a href="Admin/Tour/Create" class="btn btn-success mb-3">Thêm Tour</a>
+<a asp-area="Admin" asp-controller="Tour" asp-action="Create" class="btn btn-success mb-3">Thêm Tour</a>
 
 <table class="table table-bordered">
     <thead>
